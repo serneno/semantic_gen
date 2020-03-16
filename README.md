@@ -16,6 +16,6 @@ $make
 
 2. Run the main class, SemanticGen.java, followed by the input dataset file
 
-$java SemanticGen <file-name>
+$java SemanticGen \<file-name\>
 
 ## Dependencies
