@@ -1,3 +1,4 @@
+# Define makefile variable for the java compiler
 JAVA = javac
 
 all: java
