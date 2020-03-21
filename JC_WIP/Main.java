@@ -1,5 +1,5 @@
 import java.io.IOException;
-
+import java.io.FileWriter;
 public class Main {
 	public static final boolean UPDATE_DATA = false;
 	public static final boolean CLEAN_DATA = false;
@@ -23,10 +23,17 @@ public class Main {
 		//testQuery2(data);
 		
 		String rdf = RDFizer.rdfize(data);
+		try {
+			FileWriter file = new FileWriter("test.rdf");
+			file.write(rdf);
+			file.close();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
 		
 		//Validator: https://www.w3.org/RDF/Validator/
 		
-		System.out.println(rdf);
+		//System.out.println(rdf);
 	}
 	
 	static long sum;

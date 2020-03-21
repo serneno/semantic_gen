@@ -102,13 +102,13 @@ public class RDFizer {
 	
 	static void applyRDFSDomain(StringBuilder sb, String name, String domain) {
 		sb.append("<rdf:Description rdf:about=\"#").append(name).append("\">\n")
-		.append("  <rdfs:domain rdfs:resouce=\"#").append(domain).append("\"/>\n")
+		.append("  <rdfs:domain rdfs:resource=\"#").append(domain).append("\"/>\n")
 		.append("</rdf:Description>\n");
 	}
 	
 	static void applyRDFSRange(StringBuilder sb, String name, String range, boolean primative) {
 		sb.append("<rdf:Description rdf:about=\"#").append(name).append("\">\n")
-		.append("  <rdfs:range rdfs:resouce=\"").append(primative?"":"#").append(range).append("\"/>\n")
+		.append("  <rdfs:range rdfs:resource=\"").append(primative?"":"#").append(range).append("\"/>\n")
 		.append("</rdf:Description>\n");
 	}
 }
