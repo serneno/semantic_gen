@@ -39,8 +39,10 @@ public class QuerryData {
 			boolean inquotes = false;
 			
 			for(int i = 0; i < data.length; ++i) {
-				if (data[i] == '"') inquotes = !inquotes;
-				else if (inquotes && data[i] == ',') data[i] = ';';
+				if (data[i] == ' ' || data[i] == '*' || data[i] == '(' || data[i] == ')' || data[i] == '\'') { data[i] = '_'; }
+				
+				if (data[i] == '"') { inquotes = !inquotes; data[i] = '_'; }
+				else if (inquotes && data[i] == ',') data[i] = '_';
 			}
 						
 			Files.write(new File(filename).toPath(), data, StandardOpenOption.WRITE);

@@ -13,10 +13,6 @@ public class Main {
 	public static final String DEATH_DATA_PATH = "deaths.csv";
 	public static final String DATA_PATHS[] = {CONFIRMED_DATA_PATH, RECOVERED_DATA_PATH, DEATH_DATA_PATH};
 	
-	static long sum = 0;
-	static long maxDeaths = 0;
-	static String badPlace = null;
-	
 	public static void main(String...args) throws IOException {
 		QuerryData.updateData();
 		
@@ -24,12 +20,19 @@ public class Main {
 		
 		//testQuery(data);
 		
+		//testQuery2(data);
+		
 		String rdf = RDFizer.rdfize(data);
+		
+		//Validator: https://www.w3.org/RDF/Validator/
 		
 		System.out.println(rdf);
 	}
 	
-	void testQuery(ParsedCovid19Data data) {
+	static long sum;
+	static long maxDeaths;
+	static String badPlace;
+	static void testQuery(ParsedCovid19Data data) {
 		data.countries.forEach((x, country) -> {
 			sum = 0;
 			
@@ -43,5 +46,26 @@ public class Main {
 		});
 		
 		System.out.println(badPlace+" , with " +maxDeaths);
+	}
+	
+	static long totalConfirmed;
+	static long totalRecovered;
+	static long totalDead;
+	static void testQuery2(ParsedCovid19Data data) {
+		data.countries.forEach((x, country) -> {
+			sum = 0;
+			
+			country.provinces.forEach((prov, x2) -> {
+				prov.covid19cases.forEach((c4se) -> {
+					totalConfirmed += c4se.confirmed;
+					totalRecovered += c4se.recovered;
+					totalDead += c4se.death;
+				});
+			});
+			
+			if (sum > maxDeaths) { maxDeaths = sum; badPlace = country.name; }
+		});
+		
+		System.out.println(totalConfirmed+", "+totalRecovered+", "+totalDead);
 	}
 }
