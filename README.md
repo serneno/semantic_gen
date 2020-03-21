@@ -18,15 +18,15 @@ Assuming a unix environment:
 
 ```$java SemanticGen <file-name>```
 
-In a windows environment:
+In a windows environment (Jena implementation):
 
 1. Compile all files and including the jena library in the classpath
 
 ```javac -cp "./lib/*" *.java```
 
-2. Run the main class, SemanticGen.java, followed by the input dataset file
+2. Run the main class, Main.java (In JC_WIP)
 
-```java -cp . SemanticGen <file-name>```
+```java -cp "./lib/*" Main```
 
 ## Dependencies
 Jena API (For creating RDF)
