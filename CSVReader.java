@@ -40,4 +40,17 @@ public class CSVReader {
     public ArrayList<String[]> getData() {
         return data;
     }
+
+    public void print() {
+        for(String attr : attributeNames) {
+            System.out.print(attr + " ");
+        }
+        System.out.println();
+        for(String[] s : data) {
+            for(int i = 0; i < s.length; i++) {
+                System.out.print(s[i] + " ");
+            }
+            System.out.println();
+        }
+    }
 }

@@ -26,7 +26,7 @@ In a windows environment:
 
 2. Run the main class, SemanticGen.java, followed by the input dataset file
 
-```java SemanticGen <file-name>```
+```java -cp . SemanticGen <file-name>```
 
 ## Dependencies
 Jena API (For creating RDF)
