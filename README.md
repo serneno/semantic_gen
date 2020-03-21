@@ -26,7 +26,7 @@ In a windows environment (Jena implementation):
 
 2. Run the main class, Main.java (In JC_WIP)
 
-```java -cp "./lib/*" Main```
+```java -cp "./lib/*";.; Main```
 
 ## Dependencies
 Jena API (For creating RDF)

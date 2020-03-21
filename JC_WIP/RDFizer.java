@@ -5,7 +5,7 @@ import org.apache.jena.ontology.OntModel;
 import org.apache.jena.ontology.OntModelSpec;
 import org.apache.jena.ontology.OntProperty;
 import org.apache.jena.rdf.model.ModelFactory;
-import java.io.FileWriter;
+import java.io.FileOutputStream;
 import java.io.IOException;
 public class RDFizer {
 
@@ -72,7 +72,7 @@ public class RDFizer {
         hasCountryProperty.addRange(countryClass);
         hasCovidProperty.addRange(caseClass);
         try {
-			m.write(System.out, "RDF/XML");
+			m.write(new FileOutputStream("test.rdf"), "RDF/XML");
 
 		} catch (IOException e) {
 			e.printStackTrace();

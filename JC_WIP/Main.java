@@ -23,13 +23,6 @@ public class Main {
 		//testQuery2(data);
 		
 		String rdf = RDFizer.rdfize(data);
-		try {
-			FileWriter file = new FileWriter("test.rdf");
-			file.write(rdf);
-			file.close();
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
 		
 		//Validator: https://www.w3.org/RDF/Validator/
 		
