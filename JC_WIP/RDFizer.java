@@ -1,22 +1,22 @@
 
+
+import org.apache.jena.ontology.OntClass;
+import org.apache.jena.ontology.OntModel;
+import org.apache.jena.ontology.OntModelSpec;
+import org.apache.jena.ontology.OntProperty;
+import org.apache.jena.rdf.model.ModelFactory;
+
 public class RDFizer {
 
 	public static String rdfize(ParsedCovid19Data data) {
 		StringBuilder result = new StringBuilder();
+		//result.append("<?xml version=\"1.0\"?>\n");
 		
-		result.append("<?xml version=\"1.0\"?>\n")
-			.append("\n")
-			.append("<rdf:RDF\n")
-			.append("xmlns:xs=\"http://www.w3.org/2001/XMLSchema\"\n")
-			.append("xmlns:rdf = \"http://www.w3.org/1999/02/22-rdf-syntax-ns#\"\n")
-			.append("xmlns:rdfs = \"http://www.w3.org/2000/01/rdf-schema#\">\n")
-			.append("\n");
+		applyRDFS();
 		
-		applyRDFS(result);
+		//processCovidData(result, data);
 		
-		processCovidData(result, data);
-		
-		result.append("\n\n</rdf:RDF>");
+		//result.append("\n\n</rdf:RDF>");
 		
 		return result.toString();
 	}
@@ -25,6 +25,55 @@ public class RDFizer {
 	static String subclasses[] = {"Country", "Region"};
 	static String properties[] = {"numberConfirmedCases", "hasRegion", "hasCountry", "hasCovid", "date"};
 	static String subproperties[] = {"survialStatusUnknown", "Recovered", "Death"};
+	
+	static void applyRDFS() {
+		OntModel m = ModelFactory.createOntologyModel(OntModelSpec.RDFS_MEM );
+        String NS = "http://example.com/test#";
+
+        OntClass locationClass = m.createClass(NS + classes[0]);
+        OntClass dayClass = m.createClass(NS + classes[1]);
+        OntClass caseClass = m.createClass(NS + classes[2]);
+        OntClass countryClass = m.createClass(NS + subclasses[0]);
+        OntClass regionClass = m.createClass(NS + subclasses[1]);
+        
+        OntClass nonZeroClass = m.createClass("xs:nonNegativeInteger");
+        OntClass dateClass = m.createClass("xs:date");
+
+        locationClass.addSubClass(countryClass);
+        locationClass.addSubClass(regionClass);
+
+        OntProperty numConfirmedCasesProperty = m.createOntProperty(NS + properties[0]);
+        OntProperty hasRegionProperty = m.createOntProperty(NS + properties[1]);
+        OntProperty hasCountryProperty = m.createOntProperty(NS + properties[2]);
+        OntProperty hasCovidProperty = m.createOntProperty(NS + properties[3]);
+        OntProperty dateProperty = m.createOntProperty(NS + properties[4]);
+        OntProperty survivalStatusUnknownProperty = m.createOntProperty(NS + subproperties[0]);
+        OntProperty recoveredProperty = m.createOntProperty(NS + subproperties[1]);
+        OntProperty deathProperty = m.createOntProperty(NS + subproperties[2]);
+           
+        numConfirmedCasesProperty.addSubProperty(survivalStatusUnknownProperty);
+        numConfirmedCasesProperty.addSubProperty(recoveredProperty);
+        numConfirmedCasesProperty.addSubProperty(deathProperty);
+     
+        
+        numConfirmedCasesProperty.addDomain(caseClass);
+        dateProperty.addDomain(dayClass);
+        
+        /**
+         * applyRDFSRange(sb, properties[0], "xs:nonNegativeInteger", true);
+			// ^ Implies same for sub-properties
+		applyRDFSRange(sb, properties[4], "xs:date", true);
+         *  NOT SURE I WROTE THESE 2 RIGHT.......................
+         */
+        numConfirmedCasesProperty.addRange(nonZeroClass);
+        dateProperty.addRange(dateClass);
+        hasRegionProperty.addRange(regionClass);
+        hasCountryProperty.addRange(countryClass);
+        hasCovidProperty.addRange(caseClass);
+        
+        m.write(System.out, "RDF/XML");
+	}
+	/**
 	static void applyRDFS(StringBuilder sb) {
 		for(String cl4ss : classes) { makeRDFSClass(sb, cl4ss); }
 		sb.append("\n");
@@ -111,7 +160,14 @@ public class RDFizer {
 		.append("  <rdfs:range rdfs:resource=\"").append(primative?"":"#").append(range).append("\"/>\n")
 		.append("</rdf:Description>\n");
 	}
+	
+	*/
 }
+
+
+
+
+
 
 
 
