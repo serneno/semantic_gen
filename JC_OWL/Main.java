@@ -1,3 +1,27 @@
+Skip to content
+Search or jump to…
+
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@mvtran 
+Learn Git and GitHub without any code!
+Using the Hello World guide, you’ll start a branch, write comments, and open a pull request.
+
+
+serneno
+/
+semantic_gen
+4
+00
+ Code Issues 0 Pull requests 0 Actions Projects 0 Wiki Security Insights
+semantic_gen/JC_OWL/Main.java
+@Josue-Crandall Josue-Crandall we owl now boys
+7033dbd 4 hours ago
+86 lines (66 sloc)  3.59 KB
+  
 import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;

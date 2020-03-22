@@ -3,14 +3,18 @@
  */
 public class SemanticGen {
 
-	public static void main(String[] args) {
-		if (args.length > 0) {
-			CSVReader csvr = new CSVReader(args[0]);
-			csvr.csvParse();
-			//csvr.print();
-			//csvr.exportRDF();
-			System.out.println("Done.");
-		}
+	public static void main(String...args) {
+		System.out.println("Running the Semantic Generator.\n");
+
+		System.out.println("Dataset 1: 2016 Deaths in 122 US Cities");
+
+		DeathsDatasetConverter deathsConverter = new DeathsDatasetConverter();
+		deathsConverter.run();
+
+		System.out.println("Dataset 2: Unemployment Rate by Age Groups");
+
+
+
 	}
 
 }
