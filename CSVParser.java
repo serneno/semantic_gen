@@ -6,13 +6,13 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 
-public class OriginalParser {
+public class CSVParser {
     String fileName;                    // file name
     private String[] attributeNames;    // attribute names
     private ArrayList<String[]> data;   // stores individual data
 
 
-    public OriginalParser(String file) {
+    public CSVParser(String file) {
         fileName = file;
         attributeNames = null;
         data = new ArrayList<String[]>();

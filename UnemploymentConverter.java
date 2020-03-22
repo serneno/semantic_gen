@@ -5,10 +5,10 @@ import org.apache.jena.vocabulary.*;
 
 public class UnemploymentConverter {
 	public static void main(String args[]) {
-		OriginalParser reader;
+		CSVParser reader;
 		int count = 0;
-		String file = "Unemployment_Rate_by_Age_Groups.csv";
-		reader = new OriginalParser(file);
+		String file = "./datasets/Unemployment_Rate_by_Age_Groups.csv";
+		reader = new CSVParser(file);
 		reader.csvParse();
 
 		Model model = ModelFactory.createDefaultModel();
@@ -57,7 +57,7 @@ public class UnemploymentConverter {
 
 		}
 		try {
-			model.write(new FileOutputStream("unemployment.rdf"), "RDF/XML");
+			model.write(new FileOutputStream("./outputs/unemployment.rdf"), "RDF/XML");
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

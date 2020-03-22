@@ -15,7 +15,7 @@ public class XMLParser {
     public static void main(String[] args) {
 
         try {
-           File inputFile = new File("deaths_cities_2016.xml");
+           File inputFile = new File("./datasets/deaths_cities_2016.xml");
            DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
            DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
            Document doc = dBuilder.parse(inputFile);
@@ -104,7 +104,7 @@ public class XMLParser {
                 
               }
            }
-           model.write(new FileOutputStream("test2.rdf"), "RDF/XML");
+           model.write(new FileOutputStream("./outputs/deaths_cities_2016.rdf"), "RDF/XML");
         } catch (Exception e) {
            e.printStackTrace();
         }
