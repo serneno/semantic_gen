@@ -24,9 +24,9 @@ In a windows environment (Jena implementation):
 
 ```javac -cp "./lib/*" *.java```
 
-2. Run the main class, Main.java (In JC_WIP)
+2. Run the main class
 
-```java -cp "./lib/*";.; Main```
+```java -cp "./lib/*";.; SemanticGen```
 
 ## Dependencies
 Jena API (For creating RDF)
