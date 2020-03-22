@@ -18,7 +18,13 @@ Assuming a unix environment:
 
 ```$java SemanticGen <file-name>```
 
-In a windows environment (Jena implementation):
+In a Windows environment:
+
+1. Run the batch script "semantic_gen.bat" in command prompt
+
+```>semantic_gen.bat```
+
+If the above does not work, you may have to compile and run manually:
 
 1. Compile all files and including the jena library in the classpath
 
