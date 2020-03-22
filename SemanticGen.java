@@ -4,7 +4,7 @@
 public class SemanticGen {
 
 	public static void main(String...args) {
-		System.out.println("Running the Semantic Generator.\n");
+		System.out.println("Running the Semantic Generator...\n");
 
 		System.out.println("Dataset 1: 2016 Deaths in 122 US Cities");
 
@@ -16,6 +16,7 @@ public class SemanticGen {
 		UnemploymentDatasetConverter unemploymentConverter = new UnemploymentDatasetConverter();
 		unemploymentConverter.run();
 
+		System.out.println("Dataset 3: ");
 	}
 
 }
