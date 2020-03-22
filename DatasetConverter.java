@@ -15,7 +15,7 @@ public abstract class DatasetConverter {
     public static final String DEATHS_2016_DATASET_OUTPUT_PATH = OUTPUT_ROOT + "deaths_cities_2016.rdf";
 
     public static final String UNEMPLOYMENT_DATASET_INPUT_PATH = INPUT_ROOT + "Unemployment_Rate_by_Age_Groups.csv";
-    public static final String UNEMPLOYMENT_DATASET_OUTPUT_PATH = OUTPUT_ROOT + "Unemployment_Rate_by_Age_Groups.csv";
+    public static final String UNEMPLOYMENT_DATASET_OUTPUT_PATH = OUTPUT_ROOT + "Unemployment_Rate_by_Age_Groups.rdf";
 
     public Model model;  // the model that will be built upon
 
