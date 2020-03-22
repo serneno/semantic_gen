@@ -4,10 +4,13 @@
 public class SemanticGen {
 
 	public static void main(String[] args) {
-		CSVReader csvr = new CSVReader(args[0]);
-		csvr.csvParse();
-		csvr.print();
-		System.out.println("Done.");
+		if (args.length > 0) {
+			CSVReader csvr = new CSVReader(args[0]);
+			csvr.csvParse();
+			//csvr.print();
+			//csvr.exportRDF();
+			System.out.println("Done.");
+		}
 	}
 
 }
