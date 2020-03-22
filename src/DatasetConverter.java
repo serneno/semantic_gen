@@ -30,7 +30,7 @@ public abstract class DatasetConverter {
         try {
             System.out.println("Writing " + datasetSubject + " dataset into rdf...");
             model.write(new FileOutputStream(outputFile), "RDF/XML");
-            System.out.println("Done writing " + datasetSubject + " dataset into '" + outputFile + "'\n");
+            System.out.println("Done! Output file: '" + outputFile + "'\n");
         } catch (Exception e) {
             System.out.println("Error outputting data into rdf. " + e + ": " + e.getMessage());
         }

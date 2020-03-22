@@ -16,7 +16,9 @@ public class SemanticGen {
 		UnemploymentDatasetConverter unemploymentConverter = new UnemploymentDatasetConverter();
 		unemploymentConverter.run();
 
-		System.out.println("Dataset 3: ");
+		System.out.println("Dataset 3: COVID-19 deaths, recoveries, and confirmed cases");
+
+		
 	}
 
 }
