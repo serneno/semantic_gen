@@ -10,6 +10,7 @@ public class ParsedCovid19Data {
 	public HashMap<String, Country> countries = new HashMap<>();
 	public HashMap<String, Province> provinces = new HashMap<>();
 	public TreeMap<String, Date> dates = new TreeMap<>();
+	public ArrayList<Covid19Case> cases = new ArrayList<>();
 	
 	protected ArrayList<Date> indexedDates = new ArrayList<>();
 	
@@ -40,11 +41,11 @@ public class ParsedCovid19Data {
 		protected ArrayList<Covid19Case> covid19cases = new ArrayList<>();
 		public Date(String name) { super(name); }
 	}
-	public class Covid19Case {
+	public class Covid19Case extends HasName {
 		Date date;
 		Province province;
 		public long confirmed = 0, recovered = 0, death = 0;
-		public Covid19Case(Date date, Province province) { this.date = date; this.province = province; }
+		public Covid19Case(String name, Date date, Province province) { super(name); this.date = date; this.province = province; }
 	}
 
 	void parseDates() throws FileNotFoundException { 
@@ -135,7 +136,7 @@ public class ParsedCovid19Data {
 						{							
 							Date date = indexedDates.get(dateIndex++);
 														
-							Covid19Case covid19Case = new Covid19Case(date, province);
+							Covid19Case covid19Case = new Covid19Case(String.valueOf(cases.size()), date, province);
 							province.covid19cases.add(covid19Case);
 							date.covid19cases.add(covid19Case);
 						
@@ -158,6 +159,8 @@ public class ParsedCovid19Data {
 								covid19Case.death += value;
 								break;
 							}
+							
+							cases.add(covid19Case);
 						}
 					}
 				}
