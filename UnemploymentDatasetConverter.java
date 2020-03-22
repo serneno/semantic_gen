@@ -1,19 +1,53 @@
 import java.io.*;
+import java.util.ArrayList;
 
 import org.apache.jena.rdf.model.*;
 import org.apache.jena.vocabulary.*;
 
-public class UnemploymentDatasetConverter {
+/*
+
+Class that reads in a CSV dataset representing unemployment rates by age group in the
+US and outputs it into an RDF format.
+
+*/
+public class UnemploymentDatasetConverter extends DatasetConverter{
+	private String[] attributeNames;  // the attributes in the csv file from the first row
+	private ArrayList<String[]> data;  // stores individual data based on the attributes
+
+	/* Constructor */
+	public UnemploymentDatasetConverter() {
+		attributeNames = null;
+		data = new ArrayList<String[]>();
+	}
+
+	public void parseInputFile(final String inputFile) {
+		String currLine;    // current line in file
+        try {
+            BufferedReader bReader = new BufferedReader(new FileReader(inputFile));
+            attributeNames = bReader.readLine().split(",");
+
+            // Stores each line in ArrayList data
+            while((currLine = bReader.readLine()) != null) {
+                String[] attributes = currLine.split(",");
+                data.add(attributes);
+            }
+            bReader.close();
+        } 
+        catch (IOException e) {
+            System.out.println("Error. " + e + ": " + e.getMessage());
+        }
+	}
 
 	public void run() {
-		CSVParser reader;
-		int count = 0;
-		String file = "Unemployment_Rate_by_Age_Groups.csv";
-		reader = new CSVParser(file);
-		reader.csvParse();
+		parseInputFile(UNEMPLOYMENT_DATASET_INPUT_PATH);
+        buildRdfModel();
+        outputToRdf(UNEMPLOYMENT_DATASET_OUTPUT_PATH, "unemployment");
+	}
 
-		Model model = ModelFactory.createDefaultModel();
-		for (int i = 0; i < reader.getData().size(); i++) {
+	private void buildRdfModel() {
+		model = ModelFactory.createDefaultModel();
+
+		for (int i = 0; i < getData().size(); i++) {
 			String URI = "https://data.edd.ca.gov/api/views/bcij-5wym/rows.csv?accessType=DOWNLOAD";
 			Property areaType = model.createProperty(URI + "AreaType");
 			Property areaName = model.createProperty(URI + "AreaName");
@@ -27,20 +61,20 @@ public class UnemploymentDatasetConverter {
 			Property age45to54 = model.createProperty(URI + "FortyFiveToFiftyFour");
 			Property age55to64 = model.createProperty(URI + "FiftyFivetoSixtyFour");
 			Property age65Plus = model.createProperty(URI + "SixtyFivePlus");
-			String areaTypeValue = reader.getData().get(i)[0];
+			String areaTypeValue = getData().get(i)[0];
 
-			String areaNameValue = reader.getData().get(i)[1];
-			String dateValue = reader.getData().get(i)[2];
-			String yearValue = reader.getData().get(i)[3];
+			String areaNameValue = getData().get(i)[1];
+			String dateValue = getData().get(i)[2];
+			String yearValue = getData().get(i)[3];
 
-			String monthValue = reader.getData().get(i)[4];
-			String age16to19Value = reader.getData().get(i)[5];
-			String age20to24Value = reader.getData().get(i)[6];
-			String age25to34Value = reader.getData().get(i)[7];
-			String age35to44Value = reader.getData().get(i)[8];
-			String age45to54Value = reader.getData().get(i)[9];
-			String age55to64Value = reader.getData().get(i)[10];
-			String age65PlusValue = reader.getData().get(i)[11];
+			String monthValue = getData().get(i)[4];
+			String age16to19Value = getData().get(i)[5];
+			String age20to24Value = getData().get(i)[6];
+			String age25to34Value = getData().get(i)[7];
+			String age35to44Value = getData().get(i)[8];
+			String age45to54Value = getData().get(i)[9];
+			String age55to64Value = getData().get(i)[10];
+			String age65PlusValue = getData().get(i)[11];
 			// placeholder till i figure out what the correct resource should be
 			Resource timeline = model.createResource("https://data.edd.ca.gov" + i);
 			timeline.addProperty(areaType, areaTypeValue);
@@ -55,14 +89,14 @@ public class UnemploymentDatasetConverter {
 			timeline.addProperty(age45to54, age45to54Value);
 			timeline.addProperty(age55to64, age55to64Value);
 			timeline.addProperty(age65Plus, age65PlusValue);
-
 		}
-		try {
-			model.write(new FileOutputStream("unemployment.rdf"), "RDF/XML");
-		} catch (FileNotFoundException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+	}
 
+	private String[] getAttributes() {
+		return attributeNames;
+	}
+
+	private ArrayList<String[]> getData() {
+		return data;
 	}
 }

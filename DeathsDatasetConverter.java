@@ -25,9 +25,10 @@ it into an RDF format.
 */
 public class DeathsDatasetConverter extends DatasetConverter {
     private Document doc;  // the document that is getting built for the output
-    private Model model;  // the RDF model that will be built upon
 
     private static final String NS = "https://data.cdc.gov/resource/rpjd-ejph#";  // the URI
+
+    
 
     public void parseInputFile(final String inputFile) {
         try {
@@ -45,7 +46,13 @@ public class DeathsDatasetConverter extends DatasetConverter {
         }
     }
 
-    public void buildRdfModel() {
+    public void run () {
+        parseInputFile(DEATHS_2016_DATASET_INPUT_PATH);
+        buildRdfModel();
+        outputToRdf(DEATHS_2016_DATASET_OUTPUT_PATH, "deaths");
+     }
+
+     private void buildRdfModel() {
         // Create an empty model
         model = ModelFactory.createDefaultModel();
 
@@ -130,19 +137,4 @@ public class DeathsDatasetConverter extends DatasetConverter {
            }
     }
 
-    public void outputToFile(final String outputFile) {
-        try {
-            System.out.println("Writing deaths dataset into rdf...");
-            model.write(new FileOutputStream(outputFile), "RDF/XML");
-            System.out.println("Done! Deaths dataset written into ''" + outputFile + "'\n");
-        } catch (Exception e) {
-            System.out.println("Error in writing output rdf. " + e + ": " + e.getMessage());
-        }
-    }
-
-    public void run () {
-        parseInputFile(DEATHS_2016_DATASET_INPUT_PATH);
-        buildRdfModel();
-        outputToFile(DEATHS_2016_DATASET_OUTPUT_PATH);
-     }
 }
