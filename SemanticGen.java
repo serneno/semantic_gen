@@ -13,7 +13,8 @@ public class SemanticGen {
 
 		System.out.println("Dataset 2: Unemployment Rate by Age Groups");
 
-
+		UnemploymentDatasetConverter unemploymentConverter = new UnemploymentDatasetConverter();
+		unemploymentConverter.run();
 
 	}
 

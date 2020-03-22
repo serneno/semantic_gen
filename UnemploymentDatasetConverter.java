@@ -5,11 +5,11 @@ import org.apache.jena.vocabulary.*;
 
 public class UnemploymentDatasetConverter {
 
-	public void run(String args[]) {
-		OriginalParser reader;
+	public void run() {
+		CSVParser reader;
 		int count = 0;
 		String file = "Unemployment_Rate_by_Age_Groups.csv";
-		reader = new OriginalParser(file);
+		reader = new CSVParser(file);
 		reader.csvParse();
 
 		Model model = ModelFactory.createDefaultModel();
