@@ -64,7 +64,7 @@ public class OWLinator {
 		
 		textSection[0].append("    <owl:NamedIndividual rdf:about=\"http://www.semanticweb.org/user/ontologies/2020/CovidOntology/1.0.0#Day_").append(day.name).append("\">\r\n");
 		textSection[0].append("        <rdf:type rdf:resource=\"http://www.semanticweb.org/user/ontologies/2020/CovidOntology/1.0.0#Day\"/>\r\n");
-		textSection[0].append("        <date xml:lang=\"en\">").append(toXSDDateTime(day.name)).append("</date>\r\n");
+		textSection[0].append("        <date rdf:datatype=\"http://www.w3.org/2001/XMLSchema#dateTime\" xml:lang=\"en\">").append(toXSDDateTime(day.name)).append("</date>\r\n");
 		day.covid19cases.forEach(c4se -> {
 		textSection[0].append("        <hasCase rdf:resource=\"http://www.semanticweb.org/user/ontologies/2020/CovidOntology/1.0.0#Case_").append(c4se.name).append("\"/>\r\n");
 		});
@@ -80,9 +80,9 @@ public class OWLinator {
 		textSection[0].append("        <rdf:type rdf:resource=\"http://www.semanticweb.org/user/ontologies/2020/CovidOntology/1.0.0#Case\"/>\r\n");
 		textSection[0].append("        <hasRegion rdf:resource=\"http://www.semanticweb.org/user/ontologies/2020/CovidOntology/1.0.0#Region_").append(c4se.province.name).append("\"/>\r\n");
 		textSection[0].append("        <hasDay rdf:resource=\"http://www.semanticweb.org/user/ontologies/2020/CovidOntology/1.0.0#Day_").append(c4se.date.name).append("\"/>\r\n");
-		//textSection[0].append("        <death xml:lang=\"en\">").append(c4se.death).append("</death>\r\n");
-		//textSection[0].append("        <recovered xml:lang=\"en\">").append(c4se.recovered).append("</recovered>\r\n");
-		//textSection[0].append("        <unknownSurvival xml:lang=\"en\">").append(c4se.confirmed - c4se.recovered - c4se.death).append("</unknownSurvival>\r\n");
+		textSection[0].append("        <death rdf:datatype=\"http://www.w3.org/2001/XMLSchema#nonNegativeInteger\" xml:lang=\"en\">").append(c4se.death).append("</death>\r\n");
+		textSection[0].append("        <recovered rdf:datatype=\"http://www.w3.org/2001/XMLSchema#nonNegativeInteger\" xml:lang=\"en\">").append(c4se.recovered).append("</recovered>\r\n");
+		textSection[0].append("        <unknownSurvival rdf:datatype=\"http://www.w3.org/2001/XMLSchema#nonNegativeInteger\" xml:lang=\"en\">").append(c4se.confirmed - c4se.recovered - c4se.death).append("</unknownSurvival>\r\n");
 		textSection[0].append("    </owl:NamedIndividual>\r\n");
 		
 		setDistinct(textSection[4], "Case_", c4se.name);
@@ -232,17 +232,10 @@ public class OWLinator {
 			"    <owl:DatatypeProperty rdf:about=\"http://www.semanticweb.org/user/ontologies/2020/CovidOntology/1.0.0#date\">\r\n" + 
 			"        <rdfs:subPropertyOf rdf:resource=\"http://www.w3.org/2002/07/owl#topDataProperty\"/>\r\n" + 
 			"        <rdfs:domain rdf:resource=\"http://www.semanticweb.org/user/ontologies/2020/CovidOntology/1.0.0#Day\"/>\r\n" + 
-			
-			
-			// String did not help ...
-			//"        <rdfs:range rdf:resource=\"http://www.w3.org/2001/XMLSchema#string\"/>\r\n"+
-			
 			"        <rdfs:range rdf:resource=\"http://www.w3.org/2001/XMLSchema#dateTime\"/>\r\n" + 
-			
-			
-			
 			"        <owl:propertyDisjointWith rdf:resource=\"http://www.semanticweb.org/user/ontologies/2020/CovidOntology/1.0.0#numberConfirmedCases\"/>\r\n" + 
-			"        <rdfs:comment>This was originally xsd:dateTime. However the reasoner seems to flaged seemingly random days for reasons I do not understand and thus it is now a xsd:string.</rdfs:comment>\r\n" + 
+			"        <rdfs:comment>The literal calender day.\r\n" + 
+			"The time in all values is 00:00:00. This is not meaningful, protege just prefers dateTime rather than simply date.</rdfs:comment>\r\n" + 
 			"    </owl:DatatypeProperty>\r\n" + 
 			"    \r\n" + 
 			"\r\n" + 
@@ -251,6 +244,7 @@ public class OWLinator {
 			"\r\n" + 
 			"    <owl:DatatypeProperty rdf:about=\"http://www.semanticweb.org/user/ontologies/2020/CovidOntology/1.0.0#death\">\r\n" + 
 			"        <rdfs:subPropertyOf rdf:resource=\"http://www.semanticweb.org/user/ontologies/2020/CovidOntology/1.0.0#numberConfirmedCases\"/>\r\n" + 
+			"        <rdfs:comment>Number of deaths from Covid19 infection during a given region/day.</rdfs:comment>\r\n" + 
 			"    </owl:DatatypeProperty>\r\n" + 
 			"    \r\n" + 
 			"\r\n" + 
@@ -260,9 +254,7 @@ public class OWLinator {
 			"    <owl:DatatypeProperty rdf:about=\"http://www.semanticweb.org/user/ontologies/2020/CovidOntology/1.0.0#numberConfirmedCases\">\r\n" + 
 			"        <rdfs:domain rdf:resource=\"http://www.semanticweb.org/user/ontologies/2020/CovidOntology/1.0.0#Case\"/>\r\n" + 
 			"        <rdfs:range rdf:resource=\"http://www.w3.org/2001/XMLSchema#nonNegativeInteger\"/>\r\n" + 
-			"        <rdfs:comment>Orginally xsd:nonNegativeInteger, However the reasoner flagged the value 0.\r\n" + 
-			"Thus this was changed to xsd:integer. This flagged for the value of 0.\r\n" + 
-			"Thusly this was changed to xsd:string.</rdfs:comment>\r\n" + 
+			"        <rdfs:comment>Total number of confirmed cases.</rdfs:comment>\r\n" + 
 			"    </owl:DatatypeProperty>\r\n" + 
 			"    \r\n" + 
 			"\r\n" + 
@@ -271,6 +263,7 @@ public class OWLinator {
 			"\r\n" + 
 			"    <owl:DatatypeProperty rdf:about=\"http://www.semanticweb.org/user/ontologies/2020/CovidOntology/1.0.0#recovered\">\r\n" + 
 			"        <rdfs:subPropertyOf rdf:resource=\"http://www.semanticweb.org/user/ontologies/2020/CovidOntology/1.0.0#numberConfirmedCases\"/>\r\n" + 
+			"        <rdfs:comment>Number of people who had Covid but are known to have survived in a given Region / Day.</rdfs:comment>\r\n" + 
 			"    </owl:DatatypeProperty>\r\n" + 
 			"    \r\n" + 
 			"\r\n" + 
@@ -279,6 +272,7 @@ public class OWLinator {
 			"\r\n" + 
 			"    <owl:DatatypeProperty rdf:about=\"http://www.semanticweb.org/user/ontologies/2020/CovidOntology/1.0.0#unknownSurvival\">\r\n" + 
 			"        <rdfs:subPropertyOf rdf:resource=\"http://www.semanticweb.org/user/ontologies/2020/CovidOntology/1.0.0#numberConfirmedCases\"/>\r\n" + 
+			"        <rdfs:comment>Most cases, where there is a confirmed infection with Covid19 however the outcome is not well documented.</rdfs:comment>\r\n" + 
 			"    </owl:DatatypeProperty>\r\n" + 
 			"    \r\n" + 
 			"\r\n" + 
@@ -344,9 +338,10 @@ public class OWLinator {
 			"    ///////////////////////////////////////////////////////////////////////////////////////\r\n" + 
 			"     -->\r\n" + 
 			"\r\n" + 
-			"    ";
+			"    \r\n" + 
+			"";
 	
-	private static final String STATIC_BODY2 = "   <!-- http://www.semanticweb.org/user/ontologies/2020/CovidOntology/1.0.0#Australia -->\r\n" + 
+	private static final String STATIC_BODY2 = " <!-- http://www.semanticweb.org/user/ontologies/2020/CovidOntology/1.0.0#Australia -->\r\n" + 
 			"\r\n" + 
 			"    <owl:NamedIndividual rdf:about=\"http://www.semanticweb.org/user/ontologies/2020/CovidOntology/1.0.0#Australia\">\r\n" + 
 			"        <rdf:type rdf:resource=\"http://www.semanticweb.org/user/ontologies/2020/CovidOntology/1.0.0#Country\"/>\r\n" + 
@@ -426,14 +421,12 @@ public class OWLinator {
 			"        </owl:members>\r\n" + 
 			"    </rdf:Description>";
 	
-	private static final String STATIC_BODY3 = "\r\n" + 
-			"\r\n" + 
-			"\r\n" + 
-			"</rdf:RDF>\r\n" + 
+	private static final String STATIC_BODY3 = "</rdf:RDF>\r\n" + 
 			"\r\n" + 
 			"\r\n" + 
 			"\r\n" + 
-			"<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->";
+			"<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->\r\n" + 
+			"";
 }
 
 
