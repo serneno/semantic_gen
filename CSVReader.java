@@ -19,7 +19,9 @@ public class CSVReader {
         try {
             BufferedReader bReader = new BufferedReader(new FileReader(fileName));
             // Attribute Names
-            attributeNames = bReader.readLine().split(",");
+            String attributeList = bReader.readLine();
+            attributeList = attributeList.replaceAll(" ", "_").toLowerCase();
+            attributeNames = attributeList.split(",");
 
             // Stores each line in ArrayList data
             while((currLine = bReader.readLine()) != null) {
