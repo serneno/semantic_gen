@@ -40,8 +40,8 @@ public class UnemploymentDatasetConverter extends DatasetConverter{
 
 	public void run() {
 		parseInputFile(UNEMPLOYMENT_DATASET_INPUT_PATH);
-        buildRdfModel();
-        outputToRdf(UNEMPLOYMENT_DATASET_OUTPUT_PATH, "unemployment");
+		buildRdfModel();
+		outputToRdf(UNEMPLOYMENT_DATASET_OUTPUT_PATH, "unemployment");
 	}
 
 	private void buildRdfModel() {
