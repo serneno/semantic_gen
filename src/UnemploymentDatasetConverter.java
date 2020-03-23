@@ -53,16 +53,26 @@ public class UnemploymentDatasetConverter extends DatasetToRdfConverter {
 			Property date = model.createProperty(Constants.UNEMPLOYMENT_URI  + "Date");
 			Property year = model.createProperty(Constants.UNEMPLOYMENT_URI  + "Year");
 			Property month = model.createProperty(Constants.UNEMPLOYMENT_URI  + "Month");
-			Property seasonalAdj = model.createProperty(Constants.UNEMPLOYMENT_URI  + "SeasonAdjustment");
-			Property nonSeasonalAdj = model.createProperty(Constants.UNEMPLOYMENT_URI  + "NonSeasonalAdjustment");
-
+			Property age16to19 = model.createProperty(Constants.UNEMPLOYMENT_URI + "SixteenToNineteen");
+			Property age20to24 = model.createProperty(Constants.UNEMPLOYMENT_URI + "TwentyToTwentyFour");
+			Property age25to34 = model.createProperty(Constants.UNEMPLOYMENT_URI + "TwentyFivetoThirtyFour");
+			Property age35to44 = model.createProperty(Constants.UNEMPLOYMENT_URI + "ThirtyFiveToFortyFour");
+			Property age45to54 = model.createProperty(Constants.UNEMPLOYMENT_URI + "FortyFiveToFiftyFour");
+			Property age55to64 = model.createProperty(Constants.UNEMPLOYMENT_URI + "FiftyFivetoSixtyFour");
+			Property age65Plus = model.createProperty(Constants.UNEMPLOYMENT_URI + "SixtyFivePlus");
+			
 			String areaTypeValue = getData().get(i)[0];
 			String areaNameValue = getData().get(i)[1];
 			String dateValue = getData().get(i)[2];
 			String yearValue = getData().get(i)[3];
 			String monthValue = getData().get(i)[4];
-			String seasonalAdjValue = getData().get(i)[5];
-			String nonSeasonalAdjValue = getData().get(i)[6];
+			String age16to19Value = getData().get(i)[5];
+			String age20to24Value = getData().get(i)[6];
+			String age25to34Value = getData().get(i)[7];
+			String age35to44Value = getData().get(i)[8];
+			String age45to54Value = getData().get(i)[9];
+			String age55to64Value = getData().get(i)[10];
+			String age65PlusValue = getData().get(i)[11];
 
 			Resource timeline = model.createResource("https://data.edd.ca.gov" + i);
 			timeline.addProperty(areaType, areaTypeValue);
@@ -70,8 +80,13 @@ public class UnemploymentDatasetConverter extends DatasetToRdfConverter {
 			timeline.addProperty(date, dateValue);
 			timeline.addProperty(year, yearValue);
 			timeline.addProperty(month, monthValue);
-			timeline.addProperty(seasonalAdj, seasonalAdjValue);
-			timeline.addProperty(nonSeasonalAdj, nonSeasonalAdjValue);
+			timeline.addProperty(age16to19, age16to19Value);
+			timeline.addProperty(age20to24, age20to24Value);
+			timeline.addProperty(age25to34, age25to34Value);
+			timeline.addProperty(age35to44, age35to44Value);
+			timeline.addProperty(age45to54, age45to54Value);
+			timeline.addProperty(age55to64, age55to64Value);
+			timeline.addProperty(age65Plus, age65PlusValue);
 		}
 	}
 
