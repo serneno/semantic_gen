@@ -20,7 +20,7 @@ If permission is denied, grant yourself permission:
 If none of the above work, then you may manually compile and run as follows:
 
 ```
-$make java
+$javac -cp "./jena_lib/*" -d bin -sourcepath src src/*.java
 $java -cp "./jena_lib/*":bin: SemanticGen
 ```
 
