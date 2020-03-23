@@ -11,31 +11,31 @@
 **Linux Environment**
 1. Run the bash script "semantic_gen.sh"
 
-```$./semantic_gen.sh```
+```./semantic_gen.sh```
 
-If permission is denied, grant yourself permission:
+2. If permission is denied, grant yourself permission:
 
-```$chmod +x semantic_gen```
+```chmod +x semantic_gen```
 
-If none of the above work, then you may manually compile and run as follows:
+3. If none of the above work, then you may manually compile and run as follows:
 
 ```
-$javac -cp "./jena_lib/*" -d bin -sourcepath src src/*.java
-$java -cp "./jena_lib/*":bin: SemanticGen
+javac -cp "./jena_lib/*" -d bin -sourcepath src src/*.java
+java -cp "./jena_lib/*":bin: SemanticGen
 ```
 
 **Windows Environment**
 
 1. Run the batch script "semantic_gen.bat" in command prompt
 
-```>semantic_gen.bat```
+```semantic_gen.bat```
 
-If the above does not work, then you may manually compile and run as follows:
+2. If the above does not work, then you may manually compile and run as follows:
 
 ```
->javac -cp "./jena_lib/*" -d bin -sourcepath src src/*.java
->java -cp "./jena_lib/*";bin; SemanticGen
+javac -cp "./jena_lib/*" -d bin -sourcepath src src/*.java
+java -cp "./jena_lib/*";bin; SemanticGen
 ```
 
 ## Dependencies
-Jena API (For creating RDF)
+Jena API (For creating RDF/OWL, located in the jena_lib folder)
