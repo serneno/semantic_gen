@@ -32,8 +32,10 @@ $java -cp "./jena_lib/*":bin: SemanticGen
 
 If the above does not work, then you may manually compile and run as follows:
 
-```>javac -cp "./lib/*" *.java```
-```>java -cp "./lib/*";.; SemanticGen```
+```
+>javac -cp "./lib/*" *.java
+>java -cp "./lib/*";.; SemanticGen
+```
 
 ## Dependencies
 Jena API (For creating RDF)
