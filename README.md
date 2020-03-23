@@ -33,8 +33,8 @@ $java -cp "./jena_lib/*":bin: SemanticGen
 If the above does not work, then you may manually compile and run as follows:
 
 ```
->javac -cp "./lib/*" *.java
->java -cp "./lib/*";.; SemanticGen
+>javac -cp "./jena_lib/*" -d bin -sourcepath src src/*.java
+>java -cp "./jena_lib/*";bin; SemanticGen
 ```
 
 ## Dependencies
