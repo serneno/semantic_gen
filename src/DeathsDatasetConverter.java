@@ -23,12 +23,8 @@ Class that reads in an XML dataset representing 2016 deaths in 122 US Cities and
 it into an RDF format.
 
 */
-public class DeathsDatasetConverter extends DatasetConverter {
+public class DeathsDatasetConverter extends DatasetToRdfConverter {
     private Document doc;  // the document that is getting built for the output
-
-    private static final String NS = "https://data.cdc.gov/resource/rpjd-ejph#";  // the URI
-
-    
 
     public void parseInputFile(final String inputFile) {
         try {
@@ -47,9 +43,9 @@ public class DeathsDatasetConverter extends DatasetConverter {
     }
 
     public void run () {
-        parseInputFile(DEATHS_2016_DATASET_INPUT_PATH);
+        parseInputFile(Constants.DEATHS_2016_DATASET_INPUT_PATH);
         buildRdfModel();
-        outputToRdf(DEATHS_2016_DATASET_OUTPUT_PATH, "deaths");
+        outputToRdf(Constants.DEATHS_2016_DATASET_OUTPUT_PATH, "deaths");
      }
 
      private void buildRdfModel() {
@@ -57,17 +53,17 @@ public class DeathsDatasetConverter extends DatasetConverter {
         model = ModelFactory.createDefaultModel();
 
         // Properties describing each city's statistics
-        Property rArea = model.createProperty(NS + "reporting_area");
-        Property mmwrYear = model.createProperty(NS + "mmwr_year");
-        Property mmwrWeek = model.createProperty(NS + "mmwr_week");
-        Property aAges = model.createProperty(NS + "all_causes_by_age_years_all_ages");
-        Property a65 = model.createProperty(NS + "all_causes_by_age_years_65");
-        Property a45_64 = model.createProperty(NS + "all_causes_by_age_years_45_64");
-        Property a25_44 = model.createProperty(NS + "all_causes_by_age_years_25_44");
-        Property a1_24 = model.createProperty(NS + "all_causes_by_age_years_1_24");
-        Property lessT1 = model.createProperty(NS + "all_causes_by_age_years_lt_1");
-        Property piTot = model.createProperty(NS + "all_causes_by_age_years_p_i_total");
-        Property loc = model.createProperty(NS + "location_1");
+        Property rArea = model.createProperty(Constants.DEATHS_URI + "reporting_area");
+        Property mmwrYear = model.createProperty(Constants.DEATHS_URI + "mmwr_year");
+        Property mmwrWeek = model.createProperty(Constants.DEATHS_URI + "mmwr_week");
+        Property aAges = model.createProperty(Constants.DEATHS_URI + "all_causes_by_age_years_all_ages");
+        Property a65 = model.createProperty(Constants.DEATHS_URI + "all_causes_by_age_years_65");
+        Property a45_64 = model.createProperty(Constants.DEATHS_URI + "all_causes_by_age_years_45_64");
+        Property a25_44 = model.createProperty(Constants.DEATHS_URI + "all_causes_by_age_years_25_44");
+        Property a1_24 = model.createProperty(Constants.DEATHS_URI + "all_causes_by_age_years_1_24");
+        Property lessT1 = model.createProperty(Constants.DEATHS_URI + "all_causes_by_age_years_lt_1");
+        Property piTot = model.createProperty(Constants.DEATHS_URI + "all_causes_by_age_years_p_i_total");
+        Property loc = model.createProperty(Constants.DEATHS_URI + "location_1");
 
         // Gather each data piece, denoted by the xml attribute "row"
         NodeList dataList = doc.getElementsByTagName("row");

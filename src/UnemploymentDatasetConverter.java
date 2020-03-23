@@ -10,7 +10,7 @@ Class that reads in a CSV dataset representing unemployment rates by age group i
 US and outputs it into an RDF format.
 
 */
-public class UnemploymentDatasetConverter extends DatasetConverter{
+public class UnemploymentDatasetConverter extends DatasetToRdfConverter {
 	private String[] attributeNames;  // the attributes in the csv file from the first row
 	private ArrayList<String[]> data;  // stores individual data based on the attributes
 
@@ -39,23 +39,22 @@ public class UnemploymentDatasetConverter extends DatasetConverter{
 	}
 
 	public void run() {
-		parseInputFile(UNEMPLOYMENT_DATASET_INPUT_PATH);
+		parseInputFile(Constants.UNEMPLOYMENT_DATASET_INPUT_PATH);
 		buildRdfModel();
-		outputToRdf(UNEMPLOYMENT_DATASET_OUTPUT_PATH, "unemployment");
+		outputToRdf(Constants.UNEMPLOYMENT_DATASET_OUTPUT_PATH, "unemployment");
 	}
 
 	private void buildRdfModel() {
 		model = ModelFactory.createDefaultModel();
 
 		for (int i = 0; i < getData().size(); i++) {
-			String URI = "https://data.edd.ca.gov/api/views/bcij-5wym/rows.csv?accessType=DOWNLOAD";
-			Property areaType = model.createProperty(URI + "AreaType");
-			Property areaName = model.createProperty(URI + "AreaName");
-			Property date = model.createProperty(URI + "Date");
-			Property year = model.createProperty(URI + "Year");
-			Property month = model.createProperty(URI + "Month");
-			Property seasonalAdj = model.createProperty(URI + "SeasonAdjustment");
-			Property nonSeasonalAdj = model.createProperty(URI + "NonSeasonalAdjustment");
+			Property areaType = model.createProperty(Constants.UNEMPLOYMENT_URI  + "AreaType");
+			Property areaName = model.createProperty(Constants.UNEMPLOYMENT_URI  + "AreaName");
+			Property date = model.createProperty(Constants.UNEMPLOYMENT_URI  + "Date");
+			Property year = model.createProperty(Constants.UNEMPLOYMENT_URI  + "Year");
+			Property month = model.createProperty(Constants.UNEMPLOYMENT_URI  + "Month");
+			Property seasonalAdj = model.createProperty(Constants.UNEMPLOYMENT_URI  + "SeasonAdjustment");
+			Property nonSeasonalAdj = model.createProperty(Constants.UNEMPLOYMENT_URI  + "NonSeasonalAdjustment");
 
 			String areaTypeValue = getData().get(i)[0];
 			String areaNameValue = getData().get(i)[1];
@@ -65,7 +64,6 @@ public class UnemploymentDatasetConverter extends DatasetConverter{
 			String seasonalAdjValue = getData().get(i)[5];
 			String nonSeasonalAdjValue = getData().get(i)[6];
 
-			// placeholder till i figure out what the correct resource should be
 			Resource timeline = model.createResource("https://data.edd.ca.gov" + i);
 			timeline.addProperty(areaType, areaTypeValue);
 			timeline.addProperty(areaName, areaNameValue);
