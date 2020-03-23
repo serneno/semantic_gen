@@ -1,8 +1,11 @@
-# Define makefile variable for the java compiler
 JAVA = javac
-FLAGS = -cp "./lib/*" -d bin
+FLAGS = -cp "./jena_lib/*" 
+OUTPUT = -d bin
+SOURCE = -sourcepath src src/*.java
 
-all: java
+java: 
+	$(JAVA) $(FLAGS) $(OUTPUT) $(SOURCE)
 
-java: SemanticGen.java CSVReader.java
-	$(JAVA) $(FLAGS) *.java
+.PHONY: clean
+clean:
+	rm bin/*.class
