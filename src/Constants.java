@@ -10,6 +10,10 @@ public final class Constants {
     public static final String UNEMPLOYMENT_DATASET_OUTPUT_PATH = OUTPUT_ROOT + "Unemployment_Rate_by_Age_Groups.rdf";
     public static final String UNEMPLOYMENT_URI = "https://data.edd.ca.gov/api/views/bcij-5wym/rows.csv?accessType=DOWNLOAD";
     
+    public static final String CDC_CORONAVIRUS_DATASET_INPUT_PATH = INPUT_ROOT + "Provisional_Death_Counts_for_Coronavirus_Disease__COVID-19.csv";
+    public static final String CDC_CORONAVIRUS_DATASET_OUTPUT_PATH = OUTPUT_ROOT + "Provisional_Death_Counts_for_Coronavirus_Disease__COVID-19.rdf";
+    public static final String CDC_CORONAVIRUS_URI = "https://data.cdc.gov/d/hc4f-j6nb\r\n";
+    
     // Live data sources for COVID-19 datasets
 	public static final String COVID19_CONFIRMED_URL = "https://data.humdata.org/hxlproxy/api/data-preview.csv?url=https%3A%2F%2Fraw.githubusercontent.com%2FCSSEGISandData%2FCOVID-19%2Fmaster%2Fcsse_covid_19_data%2Fcsse_covid_19_time_series%2Ftime_series_19-covid-Confirmed.csv&filename=time_series_2019-ncov-Confirmed.csv";
 	public static final String COVID19_RECOVERED_URL = "https://data.humdata.org/hxlproxy/api/data-preview.csv?url=https%3A%2F%2Fraw.githubusercontent.com%2FCSSEGISandData%2FCOVID-19%2Fmaster%2Fcsse_covid_19_data%2Fcsse_covid_19_time_series%2Ftime_series_19-covid-Recovered.csv&filename=time_series_2019-ncov-Recovered.csv";

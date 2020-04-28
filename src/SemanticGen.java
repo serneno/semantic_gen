@@ -23,6 +23,11 @@ public class SemanticGen {
 
 			Covid19DatasetConverter covid19Converter = new Covid19DatasetConverter();
 			covid19Converter.run();
+			
+			System.out.println("Dataset 4: Provisional_Death_Counts_for_Coronavirus_Disease__COVID-19");
+
+			CDCCoronavirusDatasetConverter cdcCoronaDatasetConverter = new CDCCoronavirusDatasetConverter();
+			cdcCoronaDatasetConverter.run();
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
