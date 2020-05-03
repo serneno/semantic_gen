@@ -1,1492 +1,1492 @@
 <rdf:RDF
     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-    xmlns:j.0="https://data.cdc.gov/d/hc4f-j6nb">
+    xmlns:covidRdf="https://data.cdc.gov/d/hc4f-j6nb">
   <rdf:Description rdf:about="https://data.edd.ca.gov29">
-    <j.0:PercentofExpectedDeaths>0.95</j.0:PercentofExpectedDeaths>
-    <j.0:PneumoniaInfluenzaAndCovidDeaths></j.0:PneumoniaInfluenzaAndCovidDeaths>
-    <j.0:AllPneumoniaDeaths>1063</j.0:AllPneumoniaDeaths>
-    <j.0:DeathsFromAllCauses>14940</j.0:DeathsFromAllCauses>
-    <j.0:EndWeek>04/25/2020</j.0:EndWeek>
-    <j.0:DataAsOf>04/27/2020</j.0:DataAsOf>
-    <j.0:DeathsWithPneumoniaAndCovid>101</j.0:DeathsWithPneumoniaAndCovid>
-    <j.0:AllCovidDeaths>193</j.0:AllCovidDeaths>
-    <j.0:State>Arizona</j.0:State>
-    <j.0:Group>By state</j.0:Group>
-    <j.0:AllInfluenzaDeaths>104</j.0:AllInfluenzaDeaths>
-    <j.0:Footnote></j.0:Footnote>
-    <j.0:StartWeek>02/01/2020</j.0:StartWeek>
-    <j.0:Indicator>Arizona</j.0:Indicator>
+    <covidRdf:PercentofExpectedDeaths>0.95</covidRdf:PercentofExpectedDeaths>
+    <covidRdf:PneumoniaInfluenzaAndCovidDeaths></covidRdf:PneumoniaInfluenzaAndCovidDeaths>
+    <covidRdf:AllPneumoniaDeaths>1063</covidRdf:AllPneumoniaDeaths>
+    <covidRdf:DeathsFromAllCauses>14940</covidRdf:DeathsFromAllCauses>
+    <covidRdf:EndWeek>04/25/2020</covidRdf:EndWeek>
+    <covidRdf:DataAsOf>04/27/2020</covidRdf:DataAsOf>
+    <covidRdf:DeathsWithPneumoniaAndCovid>101</covidRdf:DeathsWithPneumoniaAndCovid>
+    <covidRdf:AllCovidDeaths>193</covidRdf:AllCovidDeaths>
+    <covidRdf:State>Arizona</covidRdf:State>
+    <covidRdf:Group>By state</covidRdf:Group>
+    <covidRdf:AllInfluenzaDeaths>104</covidRdf:AllInfluenzaDeaths>
+    <covidRdf:Footnote></covidRdf:Footnote>
+    <covidRdf:StartWeek>02/01/2020</covidRdf:StartWeek>
+    <covidRdf:Indicator>Arizona</covidRdf:Indicator>
   </rdf:Description>
   <rdf:Description rdf:about="https://data.edd.ca.gov17">
-    <j.0:AllInfluenzaDeaths>39</j.0:AllInfluenzaDeaths>
-    <j.0:AllPneumoniaDeaths>35</j.0:AllPneumoniaDeaths>
-    <j.0:Group>By age</j.0:Group>
-    <j.0:DataAsOf>04/27/2020</j.0:DataAsOf>
-    <j.0:State>United States</j.0:State>
-    <j.0:PneumoniaInfluenzaAndCovidDeaths></j.0:PneumoniaInfluenzaAndCovidDeaths>
-    <j.0:DeathsWithPneumoniaAndCovid>0</j.0:DeathsWithPneumoniaAndCovid>
-    <j.0:Footnote></j.0:Footnote>
-    <j.0:Indicator>5â€“14 years</j.0:Indicator>
-    <j.0:DeathsFromAllCauses>1002</j.0:DeathsFromAllCauses>
-    <j.0:StartWeek>02/01/2020</j.0:StartWeek>
-    <j.0:PercentofExpectedDeaths>0.91</j.0:PercentofExpectedDeaths>
-    <j.0:AllCovidDeaths>1</j.0:AllCovidDeaths>
-    <j.0:EndWeek>04/25/2020</j.0:EndWeek>
+    <covidRdf:AllInfluenzaDeaths>39</covidRdf:AllInfluenzaDeaths>
+    <covidRdf:AllPneumoniaDeaths>35</covidRdf:AllPneumoniaDeaths>
+    <covidRdf:Group>By age</covidRdf:Group>
+    <covidRdf:DataAsOf>04/27/2020</covidRdf:DataAsOf>
+    <covidRdf:State>United States</covidRdf:State>
+    <covidRdf:PneumoniaInfluenzaAndCovidDeaths></covidRdf:PneumoniaInfluenzaAndCovidDeaths>
+    <covidRdf:DeathsWithPneumoniaAndCovid>0</covidRdf:DeathsWithPneumoniaAndCovid>
+    <covidRdf:Footnote></covidRdf:Footnote>
+    <covidRdf:Indicator>5â€“14 years</covidRdf:Indicator>
+    <covidRdf:DeathsFromAllCauses>1002</covidRdf:DeathsFromAllCauses>
+    <covidRdf:StartWeek>02/01/2020</covidRdf:StartWeek>
+    <covidRdf:PercentofExpectedDeaths>0.91</covidRdf:PercentofExpectedDeaths>
+    <covidRdf:AllCovidDeaths>1</covidRdf:AllCovidDeaths>
+    <covidRdf:EndWeek>04/25/2020</covidRdf:EndWeek>
   </rdf:Description>
   <rdf:Description rdf:about="https://data.edd.ca.gov49">
-    <j.0:StartWeek>02/01/2020</j.0:StartWeek>
-    <j.0:DeathsWithPneumoniaAndCovid>695</j.0:DeathsWithPneumoniaAndCovid>
-    <j.0:Group>By state</j.0:Group>
-    <j.0:Footnote></j.0:Footnote>
-    <j.0:PercentofExpectedDeaths>1</j.0:PercentofExpectedDeaths>
-    <j.0:State>Michigan</j.0:State>
-    <j.0:PneumoniaInfluenzaAndCovidDeaths></j.0:PneumoniaInfluenzaAndCovidDeaths>
-    <j.0:DeathsFromAllCauses>25336</j.0:DeathsFromAllCauses>
-    <j.0:AllCovidDeaths>1462</j.0:AllCovidDeaths>
-    <j.0:EndWeek>04/25/2020</j.0:EndWeek>
-    <j.0:DataAsOf>04/27/2020</j.0:DataAsOf>
-    <j.0:AllPneumoniaDeaths>2322</j.0:AllPneumoniaDeaths>
-    <j.0:AllInfluenzaDeaths>216</j.0:AllInfluenzaDeaths>
-    <j.0:Indicator>Michigan</j.0:Indicator>
+    <covidRdf:StartWeek>02/01/2020</covidRdf:StartWeek>
+    <covidRdf:DeathsWithPneumoniaAndCovid>695</covidRdf:DeathsWithPneumoniaAndCovid>
+    <covidRdf:Group>By state</covidRdf:Group>
+    <covidRdf:Footnote></covidRdf:Footnote>
+    <covidRdf:PercentofExpectedDeaths>1</covidRdf:PercentofExpectedDeaths>
+    <covidRdf:State>Michigan</covidRdf:State>
+    <covidRdf:PneumoniaInfluenzaAndCovidDeaths></covidRdf:PneumoniaInfluenzaAndCovidDeaths>
+    <covidRdf:DeathsFromAllCauses>25336</covidRdf:DeathsFromAllCauses>
+    <covidRdf:AllCovidDeaths>1462</covidRdf:AllCovidDeaths>
+    <covidRdf:EndWeek>04/25/2020</covidRdf:EndWeek>
+    <covidRdf:DataAsOf>04/27/2020</covidRdf:DataAsOf>
+    <covidRdf:AllPneumoniaDeaths>2322</covidRdf:AllPneumoniaDeaths>
+    <covidRdf:AllInfluenzaDeaths>216</covidRdf:AllInfluenzaDeaths>
+    <covidRdf:Indicator>Michigan</covidRdf:Indicator>
   </rdf:Description>
   <rdf:Description rdf:about="https://data.edd.ca.gov40">
-    <j.0:DeathsWithPneumoniaAndCovid>555</j.0:DeathsWithPneumoniaAndCovid>
-    <j.0:AllPneumoniaDeaths>2483</j.0:AllPneumoniaDeaths>
-    <j.0:Indicator>Illinois</j.0:Indicator>
-    <j.0:PneumoniaInfluenzaAndCovidDeaths></j.0:PneumoniaInfluenzaAndCovidDeaths>
-    <j.0:StartWeek>02/01/2020</j.0:StartWeek>
-    <j.0:PercentofExpectedDeaths>1.01</j.0:PercentofExpectedDeaths>
-    <j.0:DataAsOf>04/27/2020</j.0:DataAsOf>
-    <j.0:AllCovidDeaths>974</j.0:AllCovidDeaths>
-    <j.0:DeathsFromAllCauses>27879</j.0:DeathsFromAllCauses>
-    <j.0:Footnote></j.0:Footnote>
-    <j.0:State>Illinois</j.0:State>
-    <j.0:EndWeek>04/25/2020</j.0:EndWeek>
-    <j.0:Group>By state</j.0:Group>
-    <j.0:AllInfluenzaDeaths>169</j.0:AllInfluenzaDeaths>
+    <covidRdf:DeathsWithPneumoniaAndCovid>555</covidRdf:DeathsWithPneumoniaAndCovid>
+    <covidRdf:AllPneumoniaDeaths>2483</covidRdf:AllPneumoniaDeaths>
+    <covidRdf:Indicator>Illinois</covidRdf:Indicator>
+    <covidRdf:PneumoniaInfluenzaAndCovidDeaths></covidRdf:PneumoniaInfluenzaAndCovidDeaths>
+    <covidRdf:StartWeek>02/01/2020</covidRdf:StartWeek>
+    <covidRdf:PercentofExpectedDeaths>1.01</covidRdf:PercentofExpectedDeaths>
+    <covidRdf:DataAsOf>04/27/2020</covidRdf:DataAsOf>
+    <covidRdf:AllCovidDeaths>974</covidRdf:AllCovidDeaths>
+    <covidRdf:DeathsFromAllCauses>27879</covidRdf:DeathsFromAllCauses>
+    <covidRdf:Footnote></covidRdf:Footnote>
+    <covidRdf:State>Illinois</covidRdf:State>
+    <covidRdf:EndWeek>04/25/2020</covidRdf:EndWeek>
+    <covidRdf:Group>By state</covidRdf:Group>
+    <covidRdf:AllInfluenzaDeaths>169</covidRdf:AllInfluenzaDeaths>
   </rdf:Description>
   <rdf:Description rdf:about="https://data.edd.ca.gov84">
-    <j.0:AllPneumoniaDeaths>57480</j.0:AllPneumoniaDeaths>
-    <j.0:State>United States</j.0:State>
-    <j.0:PneumoniaInfluenzaAndCovidDeaths></j.0:PneumoniaInfluenzaAndCovidDeaths>
-    <j.0:DataAsOf>04/27/2020</j.0:DataAsOf>
-    <j.0:PercentofExpectedDeaths>0.91</j.0:PercentofExpectedDeaths>
-    <j.0:Footnote></j.0:Footnote>
-    <j.0:StartWeek>02/01/2020</j.0:StartWeek>
-    <j.0:DeathsFromAllCauses>673580</j.0:DeathsFromAllCauses>
-    <j.0:AllCovidDeaths>27674</j.0:AllCovidDeaths>
-    <j.0:Indicator>Total</j.0:Indicator>
-    <j.0:DeathsWithPneumoniaAndCovid>12398</j.0:DeathsWithPneumoniaAndCovid>
-    <j.0:AllInfluenzaDeaths>5668</j.0:AllInfluenzaDeaths>
-    <j.0:Group>By place of death</j.0:Group>
-    <j.0:EndWeek>04/25/2020</j.0:EndWeek>
+    <covidRdf:AllPneumoniaDeaths>57480</covidRdf:AllPneumoniaDeaths>
+    <covidRdf:State>United States</covidRdf:State>
+    <covidRdf:PneumoniaInfluenzaAndCovidDeaths></covidRdf:PneumoniaInfluenzaAndCovidDeaths>
+    <covidRdf:DataAsOf>04/27/2020</covidRdf:DataAsOf>
+    <covidRdf:PercentofExpectedDeaths>0.91</covidRdf:PercentofExpectedDeaths>
+    <covidRdf:Footnote></covidRdf:Footnote>
+    <covidRdf:StartWeek>02/01/2020</covidRdf:StartWeek>
+    <covidRdf:DeathsFromAllCauses>673580</covidRdf:DeathsFromAllCauses>
+    <covidRdf:AllCovidDeaths>27674</covidRdf:AllCovidDeaths>
+    <covidRdf:Indicator>Total</covidRdf:Indicator>
+    <covidRdf:DeathsWithPneumoniaAndCovid>12398</covidRdf:DeathsWithPneumoniaAndCovid>
+    <covidRdf:AllInfluenzaDeaths>5668</covidRdf:AllInfluenzaDeaths>
+    <covidRdf:Group>By place of death</covidRdf:Group>
+    <covidRdf:EndWeek>04/25/2020</covidRdf:EndWeek>
   </rdf:Description>
   <rdf:Description rdf:about="https://data.edd.ca.gov72">
-    <j.0:DataAsOf>04/27/2020</j.0:DataAsOf>
-    <j.0:PneumoniaInfluenzaAndCovidDeaths></j.0:PneumoniaInfluenzaAndCovidDeaths>
-    <j.0:StartWeek>02/01/2020</j.0:StartWeek>
-    <j.0:AllInfluenzaDeaths>38</j.0:AllInfluenzaDeaths>
-    <j.0:Footnote>One or more data cells have counts &lt;10 and have been suppressed in accordance with NCHS confidentiality standards.</j.0:Footnote>
-    <j.0:AllPneumoniaDeaths>267</j.0:AllPneumoniaDeaths>
-    <j.0:AllCovidDeaths>18</j.0:AllCovidDeaths>
-    <j.0:Group>By state</j.0:Group>
-    <j.0:State>Utah</j.0:State>
-    <j.0:Indicator>Utah</j.0:Indicator>
-    <j.0:DeathsFromAllCauses>4551</j.0:DeathsFromAllCauses>
-    <j.0:EndWeek>04/25/2020</j.0:EndWeek>
-    <j.0:DeathsWithPneumoniaAndCovid></j.0:DeathsWithPneumoniaAndCovid>
-    <j.0:PercentofExpectedDeaths>0.93</j.0:PercentofExpectedDeaths>
+    <covidRdf:DataAsOf>04/27/2020</covidRdf:DataAsOf>
+    <covidRdf:PneumoniaInfluenzaAndCovidDeaths></covidRdf:PneumoniaInfluenzaAndCovidDeaths>
+    <covidRdf:StartWeek>02/01/2020</covidRdf:StartWeek>
+    <covidRdf:AllInfluenzaDeaths>38</covidRdf:AllInfluenzaDeaths>
+    <covidRdf:Footnote>One or more data cells have counts &lt;10 and have been suppressed in accordance with NCHS confidentiality standards.</covidRdf:Footnote>
+    <covidRdf:AllPneumoniaDeaths>267</covidRdf:AllPneumoniaDeaths>
+    <covidRdf:AllCovidDeaths>18</covidRdf:AllCovidDeaths>
+    <covidRdf:Group>By state</covidRdf:Group>
+    <covidRdf:State>Utah</covidRdf:State>
+    <covidRdf:Indicator>Utah</covidRdf:Indicator>
+    <covidRdf:DeathsFromAllCauses>4551</covidRdf:DeathsFromAllCauses>
+    <covidRdf:EndWeek>04/25/2020</covidRdf:EndWeek>
+    <covidRdf:DeathsWithPneumoniaAndCovid></covidRdf:DeathsWithPneumoniaAndCovid>
+    <covidRdf:PercentofExpectedDeaths>0.93</covidRdf:PercentofExpectedDeaths>
   </rdf:Description>
   <rdf:Description rdf:about="https://data.edd.ca.gov60">
-    <j.0:DeathsWithPneumoniaAndCovid>3410</j.0:DeathsWithPneumoniaAndCovid>
-    <j.0:AllPneumoniaDeaths>5350</j.0:AllPneumoniaDeaths>
-    <j.0:Footnote></j.0:Footnote>
-    <j.0:StartWeek>02/01/2020</j.0:StartWeek>
-    <j.0:State>New York City</j.0:State>
-    <j.0:EndWeek>04/25/2020</j.0:EndWeek>
-    <j.0:DataAsOf>04/27/2020</j.0:DataAsOf>
-    <j.0:PercentofExpectedDeaths>2.01</j.0:PercentofExpectedDeaths>
-    <j.0:Indicator>New York City</j.0:Indicator>
-    <j.0:AllCovidDeaths>9401</j.0:AllCovidDeaths>
-    <j.0:PneumoniaInfluenzaAndCovidDeaths></j.0:PneumoniaInfluenzaAndCovidDeaths>
-    <j.0:DeathsFromAllCauses>28139</j.0:DeathsFromAllCauses>
-    <j.0:AllInfluenzaDeaths>792</j.0:AllInfluenzaDeaths>
-    <j.0:Group>By state</j.0:Group>
+    <covidRdf:DeathsWithPneumoniaAndCovid>3410</covidRdf:DeathsWithPneumoniaAndCovid>
+    <covidRdf:AllPneumoniaDeaths>5350</covidRdf:AllPneumoniaDeaths>
+    <covidRdf:Footnote></covidRdf:Footnote>
+    <covidRdf:StartWeek>02/01/2020</covidRdf:StartWeek>
+    <covidRdf:State>New York City</covidRdf:State>
+    <covidRdf:EndWeek>04/25/2020</covidRdf:EndWeek>
+    <covidRdf:DataAsOf>04/27/2020</covidRdf:DataAsOf>
+    <covidRdf:PercentofExpectedDeaths>2.01</covidRdf:PercentofExpectedDeaths>
+    <covidRdf:Indicator>New York City</covidRdf:Indicator>
+    <covidRdf:AllCovidDeaths>9401</covidRdf:AllCovidDeaths>
+    <covidRdf:PneumoniaInfluenzaAndCovidDeaths></covidRdf:PneumoniaInfluenzaAndCovidDeaths>
+    <covidRdf:DeathsFromAllCauses>28139</covidRdf:DeathsFromAllCauses>
+    <covidRdf:AllInfluenzaDeaths>792</covidRdf:AllInfluenzaDeaths>
+    <covidRdf:Group>By state</covidRdf:Group>
   </rdf:Description>
   <rdf:Description rdf:about="https://data.edd.ca.gov1">
-    <j.0:AllInfluenzaDeaths>467</j.0:AllInfluenzaDeaths>
-    <j.0:State>United States</j.0:State>
-    <j.0:DeathsFromAllCauses>57165</j.0:DeathsFromAllCauses>
-    <j.0:DataAsOf>04/27/2020</j.0:DataAsOf>
-    <j.0:Group>By week</j.0:Group>
-    <j.0:Indicator>Weekending</j.0:Indicator>
-    <j.0:AllCovidDeaths>0</j.0:AllCovidDeaths>
-    <j.0:PercentofExpectedDeaths>0.96</j.0:PercentofExpectedDeaths>
-    <j.0:Footnote></j.0:Footnote>
-    <j.0:StartWeek>02/01/2020</j.0:StartWeek>
-    <j.0:DeathsWithPneumoniaAndCovid>0</j.0:DeathsWithPneumoniaAndCovid>
-    <j.0:PneumoniaInfluenzaAndCovidDeaths>4148</j.0:PneumoniaInfluenzaAndCovidDeaths>
-    <j.0:EndWeek>02/01/2020</j.0:EndWeek>
-    <j.0:AllPneumoniaDeaths>3681</j.0:AllPneumoniaDeaths>
+    <covidRdf:AllInfluenzaDeaths>467</covidRdf:AllInfluenzaDeaths>
+    <covidRdf:State>United States</covidRdf:State>
+    <covidRdf:DeathsFromAllCauses>57165</covidRdf:DeathsFromAllCauses>
+    <covidRdf:DataAsOf>04/27/2020</covidRdf:DataAsOf>
+    <covidRdf:Group>By week</covidRdf:Group>
+    <covidRdf:Indicator>Weekending</covidRdf:Indicator>
+    <covidRdf:AllCovidDeaths>0</covidRdf:AllCovidDeaths>
+    <covidRdf:PercentofExpectedDeaths>0.96</covidRdf:PercentofExpectedDeaths>
+    <covidRdf:Footnote></covidRdf:Footnote>
+    <covidRdf:StartWeek>02/01/2020</covidRdf:StartWeek>
+    <covidRdf:DeathsWithPneumoniaAndCovid>0</covidRdf:DeathsWithPneumoniaAndCovid>
+    <covidRdf:PneumoniaInfluenzaAndCovidDeaths>4148</covidRdf:PneumoniaInfluenzaAndCovidDeaths>
+    <covidRdf:EndWeek>02/01/2020</covidRdf:EndWeek>
+    <covidRdf:AllPneumoniaDeaths>3681</covidRdf:AllPneumoniaDeaths>
   </rdf:Description>
   <rdf:Description rdf:about="https://data.edd.ca.gov92">
-    <j.0:EndWeek>04/25/2020</j.0:EndWeek>
-    <j.0:State>United States</j.0:State>
-    <j.0:DeathsWithPneumoniaAndCovid>2</j.0:DeathsWithPneumoniaAndCovid>
-    <j.0:DataAsOf>04/27/2020</j.0:DataAsOf>
-    <j.0:AllPneumoniaDeaths>14</j.0:AllPneumoniaDeaths>
-    <j.0:AllInfluenzaDeaths>0</j.0:AllInfluenzaDeaths>
-    <j.0:PneumoniaInfluenzaAndCovidDeaths></j.0:PneumoniaInfluenzaAndCovidDeaths>
-    <j.0:Indicator>Place of death unknown</j.0:Indicator>
-    <j.0:StartWeek>02/01/2020</j.0:StartWeek>
-    <j.0:Group>By place of death</j.0:Group>
-    <j.0:AllCovidDeaths>5</j.0:AllCovidDeaths>
-    <j.0:PercentofExpectedDeaths>0.91</j.0:PercentofExpectedDeaths>
-    <j.0:DeathsFromAllCauses>124</j.0:DeathsFromAllCauses>
-    <j.0:Footnote></j.0:Footnote>
+    <covidRdf:EndWeek>04/25/2020</covidRdf:EndWeek>
+    <covidRdf:State>United States</covidRdf:State>
+    <covidRdf:DeathsWithPneumoniaAndCovid>2</covidRdf:DeathsWithPneumoniaAndCovid>
+    <covidRdf:DataAsOf>04/27/2020</covidRdf:DataAsOf>
+    <covidRdf:AllPneumoniaDeaths>14</covidRdf:AllPneumoniaDeaths>
+    <covidRdf:AllInfluenzaDeaths>0</covidRdf:AllInfluenzaDeaths>
+    <covidRdf:PneumoniaInfluenzaAndCovidDeaths></covidRdf:PneumoniaInfluenzaAndCovidDeaths>
+    <covidRdf:Indicator>Place of death unknown</covidRdf:Indicator>
+    <covidRdf:StartWeek>02/01/2020</covidRdf:StartWeek>
+    <covidRdf:Group>By place of death</covidRdf:Group>
+    <covidRdf:AllCovidDeaths>5</covidRdf:AllCovidDeaths>
+    <covidRdf:PercentofExpectedDeaths>0.91</covidRdf:PercentofExpectedDeaths>
+    <covidRdf:DeathsFromAllCauses>124</covidRdf:DeathsFromAllCauses>
+    <covidRdf:Footnote></covidRdf:Footnote>
   </rdf:Description>
   <rdf:Description rdf:about="https://data.edd.ca.gov80">
-    <j.0:PneumoniaInfluenzaAndCovidDeaths></j.0:PneumoniaInfluenzaAndCovidDeaths>
-    <j.0:DataAsOf>04/27/2020</j.0:DataAsOf>
-    <j.0:AllPneumoniaDeaths>57480</j.0:AllPneumoniaDeaths>
-    <j.0:State>United States</j.0:State>
-    <j.0:StartWeek>02/01/2020</j.0:StartWeek>
-    <j.0:DeathsWithPneumoniaAndCovid>12398</j.0:DeathsWithPneumoniaAndCovid>
-    <j.0:DeathsFromAllCauses>673580</j.0:DeathsFromAllCauses>
-    <j.0:AllInfluenzaDeaths>5668</j.0:AllInfluenzaDeaths>
-    <j.0:PercentofExpectedDeaths>0.91</j.0:PercentofExpectedDeaths>
-    <j.0:Indicator>Total deaths</j.0:Indicator>
-    <j.0:Footnote></j.0:Footnote>
-    <j.0:AllCovidDeaths>27674</j.0:AllCovidDeaths>
-    <j.0:EndWeek>04/25/2020</j.0:EndWeek>
-    <j.0:Group>By sex</j.0:Group>
+    <covidRdf:PneumoniaInfluenzaAndCovidDeaths></covidRdf:PneumoniaInfluenzaAndCovidDeaths>
+    <covidRdf:DataAsOf>04/27/2020</covidRdf:DataAsOf>
+    <covidRdf:AllPneumoniaDeaths>57480</covidRdf:AllPneumoniaDeaths>
+    <covidRdf:State>United States</covidRdf:State>
+    <covidRdf:StartWeek>02/01/2020</covidRdf:StartWeek>
+    <covidRdf:DeathsWithPneumoniaAndCovid>12398</covidRdf:DeathsWithPneumoniaAndCovid>
+    <covidRdf:DeathsFromAllCauses>673580</covidRdf:DeathsFromAllCauses>
+    <covidRdf:AllInfluenzaDeaths>5668</covidRdf:AllInfluenzaDeaths>
+    <covidRdf:PercentofExpectedDeaths>0.91</covidRdf:PercentofExpectedDeaths>
+    <covidRdf:Indicator>Total deaths</covidRdf:Indicator>
+    <covidRdf:Footnote></covidRdf:Footnote>
+    <covidRdf:AllCovidDeaths>27674</covidRdf:AllCovidDeaths>
+    <covidRdf:EndWeek>04/25/2020</covidRdf:EndWeek>
+    <covidRdf:Group>By sex</covidRdf:Group>
   </rdf:Description>
   <rdf:Description rdf:about="https://data.edd.ca.gov48">
-    <j.0:EndWeek>04/25/2020</j.0:EndWeek>
-    <j.0:DataAsOf>04/27/2020</j.0:DataAsOf>
-    <j.0:Footnote></j.0:Footnote>
-    <j.0:PercentofExpectedDeaths>1.01</j.0:PercentofExpectedDeaths>
-    <j.0:Group>By state</j.0:Group>
-    <j.0:DeathsFromAllCauses>15900</j.0:DeathsFromAllCauses>
-    <j.0:State>Massachusetts</j.0:State>
-    <j.0:PneumoniaInfluenzaAndCovidDeaths></j.0:PneumoniaInfluenzaAndCovidDeaths>
-    <j.0:StartWeek>02/01/2020</j.0:StartWeek>
-    <j.0:AllInfluenzaDeaths>148</j.0:AllInfluenzaDeaths>
-    <j.0:AllCovidDeaths>1023</j.0:AllCovidDeaths>
-    <j.0:AllPneumoniaDeaths>1681</j.0:AllPneumoniaDeaths>
-    <j.0:Indicator>Massachusetts</j.0:Indicator>
-    <j.0:DeathsWithPneumoniaAndCovid>407</j.0:DeathsWithPneumoniaAndCovid>
+    <covidRdf:EndWeek>04/25/2020</covidRdf:EndWeek>
+    <covidRdf:DataAsOf>04/27/2020</covidRdf:DataAsOf>
+    <covidRdf:Footnote></covidRdf:Footnote>
+    <covidRdf:PercentofExpectedDeaths>1.01</covidRdf:PercentofExpectedDeaths>
+    <covidRdf:Group>By state</covidRdf:Group>
+    <covidRdf:DeathsFromAllCauses>15900</covidRdf:DeathsFromAllCauses>
+    <covidRdf:State>Massachusetts</covidRdf:State>
+    <covidRdf:PneumoniaInfluenzaAndCovidDeaths></covidRdf:PneumoniaInfluenzaAndCovidDeaths>
+    <covidRdf:StartWeek>02/01/2020</covidRdf:StartWeek>
+    <covidRdf:AllInfluenzaDeaths>148</covidRdf:AllInfluenzaDeaths>
+    <covidRdf:AllCovidDeaths>1023</covidRdf:AllCovidDeaths>
+    <covidRdf:AllPneumoniaDeaths>1681</covidRdf:AllPneumoniaDeaths>
+    <covidRdf:Indicator>Massachusetts</covidRdf:Indicator>
+    <covidRdf:DeathsWithPneumoniaAndCovid>407</covidRdf:DeathsWithPneumoniaAndCovid>
   </rdf:Description>
   <rdf:Description rdf:about="https://data.edd.ca.gov36">
-    <j.0:State>Florida</j.0:State>
-    <j.0:Group>By state</j.0:Group>
-    <j.0:Footnote></j.0:Footnote>
-    <j.0:DeathsWithPneumoniaAndCovid>371</j.0:DeathsWithPneumoniaAndCovid>
-    <j.0:EndWeek>04/25/2020</j.0:EndWeek>
-    <j.0:DataAsOf>04/27/2020</j.0:DataAsOf>
-    <j.0:Indicator>Florida</j.0:Indicator>
-    <j.0:PneumoniaInfluenzaAndCovidDeaths></j.0:PneumoniaInfluenzaAndCovidDeaths>
-    <j.0:AllPneumoniaDeaths>3700</j.0:AllPneumoniaDeaths>
-    <j.0:AllInfluenzaDeaths>277</j.0:AllInfluenzaDeaths>
-    <j.0:StartWeek>02/01/2020</j.0:StartWeek>
-    <j.0:PercentofExpectedDeaths>0.94</j.0:PercentofExpectedDeaths>
-    <j.0:DeathsFromAllCauses>51716</j.0:DeathsFromAllCauses>
-    <j.0:AllCovidDeaths>677</j.0:AllCovidDeaths>
+    <covidRdf:State>Florida</covidRdf:State>
+    <covidRdf:Group>By state</covidRdf:Group>
+    <covidRdf:Footnote></covidRdf:Footnote>
+    <covidRdf:DeathsWithPneumoniaAndCovid>371</covidRdf:DeathsWithPneumoniaAndCovid>
+    <covidRdf:EndWeek>04/25/2020</covidRdf:EndWeek>
+    <covidRdf:DataAsOf>04/27/2020</covidRdf:DataAsOf>
+    <covidRdf:Indicator>Florida</covidRdf:Indicator>
+    <covidRdf:PneumoniaInfluenzaAndCovidDeaths></covidRdf:PneumoniaInfluenzaAndCovidDeaths>
+    <covidRdf:AllPneumoniaDeaths>3700</covidRdf:AllPneumoniaDeaths>
+    <covidRdf:AllInfluenzaDeaths>277</covidRdf:AllInfluenzaDeaths>
+    <covidRdf:StartWeek>02/01/2020</covidRdf:StartWeek>
+    <covidRdf:PercentofExpectedDeaths>0.94</covidRdf:PercentofExpectedDeaths>
+    <covidRdf:DeathsFromAllCauses>51716</covidRdf:DeathsFromAllCauses>
+    <covidRdf:AllCovidDeaths>677</covidRdf:AllCovidDeaths>
   </rdf:Description>
   <rdf:Description rdf:about="https://data.edd.ca.gov68">
-    <j.0:Group>By state</j.0:Group>
-    <j.0:DataAsOf>04/27/2020</j.0:DataAsOf>
-    <j.0:Footnote></j.0:Footnote>
-    <j.0:EndWeek>04/25/2020</j.0:EndWeek>
-    <j.0:PercentofExpectedDeaths>0.97</j.0:PercentofExpectedDeaths>
-    <j.0:DeathsWithPneumoniaAndCovid>48</j.0:DeathsWithPneumoniaAndCovid>
-    <j.0:PneumoniaInfluenzaAndCovidDeaths></j.0:PneumoniaInfluenzaAndCovidDeaths>
-    <j.0:AllInfluenzaDeaths>91</j.0:AllInfluenzaDeaths>
-    <j.0:AllPneumoniaDeaths>738</j.0:AllPneumoniaDeaths>
-    <j.0:State>South Carolina</j.0:State>
-    <j.0:AllCovidDeaths>121</j.0:AllCovidDeaths>
-    <j.0:DeathsFromAllCauses>12313</j.0:DeathsFromAllCauses>
-    <j.0:StartWeek>02/01/2020</j.0:StartWeek>
-    <j.0:Indicator>South Carolina</j.0:Indicator>
+    <covidRdf:Group>By state</covidRdf:Group>
+    <covidRdf:DataAsOf>04/27/2020</covidRdf:DataAsOf>
+    <covidRdf:Footnote></covidRdf:Footnote>
+    <covidRdf:EndWeek>04/25/2020</covidRdf:EndWeek>
+    <covidRdf:PercentofExpectedDeaths>0.97</covidRdf:PercentofExpectedDeaths>
+    <covidRdf:DeathsWithPneumoniaAndCovid>48</covidRdf:DeathsWithPneumoniaAndCovid>
+    <covidRdf:PneumoniaInfluenzaAndCovidDeaths></covidRdf:PneumoniaInfluenzaAndCovidDeaths>
+    <covidRdf:AllInfluenzaDeaths>91</covidRdf:AllInfluenzaDeaths>
+    <covidRdf:AllPneumoniaDeaths>738</covidRdf:AllPneumoniaDeaths>
+    <covidRdf:State>South Carolina</covidRdf:State>
+    <covidRdf:AllCovidDeaths>121</covidRdf:AllCovidDeaths>
+    <covidRdf:DeathsFromAllCauses>12313</covidRdf:DeathsFromAllCauses>
+    <covidRdf:StartWeek>02/01/2020</covidRdf:StartWeek>
+    <covidRdf:Indicator>South Carolina</covidRdf:Indicator>
   </rdf:Description>
   <rdf:Description rdf:about="https://data.edd.ca.gov24">
-    <j.0:PneumoniaInfluenzaAndCovidDeaths></j.0:PneumoniaInfluenzaAndCovidDeaths>
-    <j.0:AllPneumoniaDeaths>15897</j.0:AllPneumoniaDeaths>
-    <j.0:State>United States</j.0:State>
-    <j.0:AllCovidDeaths>7585</j.0:AllCovidDeaths>
-    <j.0:StartWeek>02/01/2020</j.0:StartWeek>
-    <j.0:EndWeek>04/25/2020</j.0:EndWeek>
-    <j.0:PercentofExpectedDeaths>0.91</j.0:PercentofExpectedDeaths>
-    <j.0:DataAsOf>04/27/2020</j.0:DataAsOf>
-    <j.0:DeathsFromAllCauses>166687</j.0:DeathsFromAllCauses>
-    <j.0:Indicator>75â€“84 years</j.0:Indicator>
-    <j.0:AllInfluenzaDeaths>1259</j.0:AllInfluenzaDeaths>
-    <j.0:Footnote></j.0:Footnote>
-    <j.0:Group>By age</j.0:Group>
-    <j.0:DeathsWithPneumoniaAndCovid>3512</j.0:DeathsWithPneumoniaAndCovid>
+    <covidRdf:PneumoniaInfluenzaAndCovidDeaths></covidRdf:PneumoniaInfluenzaAndCovidDeaths>
+    <covidRdf:AllPneumoniaDeaths>15897</covidRdf:AllPneumoniaDeaths>
+    <covidRdf:State>United States</covidRdf:State>
+    <covidRdf:AllCovidDeaths>7585</covidRdf:AllCovidDeaths>
+    <covidRdf:StartWeek>02/01/2020</covidRdf:StartWeek>
+    <covidRdf:EndWeek>04/25/2020</covidRdf:EndWeek>
+    <covidRdf:PercentofExpectedDeaths>0.91</covidRdf:PercentofExpectedDeaths>
+    <covidRdf:DataAsOf>04/27/2020</covidRdf:DataAsOf>
+    <covidRdf:DeathsFromAllCauses>166687</covidRdf:DeathsFromAllCauses>
+    <covidRdf:Indicator>75â€“84 years</covidRdf:Indicator>
+    <covidRdf:AllInfluenzaDeaths>1259</covidRdf:AllInfluenzaDeaths>
+    <covidRdf:Footnote></covidRdf:Footnote>
+    <covidRdf:Group>By age</covidRdf:Group>
+    <covidRdf:DeathsWithPneumoniaAndCovid>3512</covidRdf:DeathsWithPneumoniaAndCovid>
   </rdf:Description>
   <rdf:Description rdf:about="https://data.edd.ca.gov9">
-    <j.0:EndWeek>03/28/2020</j.0:EndWeek>
-    <j.0:Footnote></j.0:Footnote>
-    <j.0:State>United States</j.0:State>
-    <j.0:PneumoniaInfluenzaAndCovidDeaths>7266</j.0:PneumoniaInfluenzaAndCovidDeaths>
-    <j.0:AllPneumoniaDeaths>5518</j.0:AllPneumoniaDeaths>
-    <j.0:StartWeek>03/28/2020</j.0:StartWeek>
-    <j.0:DeathsWithPneumoniaAndCovid>1198</j.0:DeathsWithPneumoniaAndCovid>
-    <j.0:AllCovidDeaths>2596</j.0:AllCovidDeaths>
-    <j.0:DataAsOf>04/27/2020</j.0:DataAsOf>
-    <j.0:Indicator>Weekending</j.0:Indicator>
-    <j.0:DeathsFromAllCauses>56567</j.0:DeathsFromAllCauses>
-    <j.0:AllInfluenzaDeaths>395</j.0:AllInfluenzaDeaths>
-    <j.0:PercentofExpectedDeaths>1.01</j.0:PercentofExpectedDeaths>
-    <j.0:Group>By week</j.0:Group>
+    <covidRdf:EndWeek>03/28/2020</covidRdf:EndWeek>
+    <covidRdf:Footnote></covidRdf:Footnote>
+    <covidRdf:State>United States</covidRdf:State>
+    <covidRdf:PneumoniaInfluenzaAndCovidDeaths>7266</covidRdf:PneumoniaInfluenzaAndCovidDeaths>
+    <covidRdf:AllPneumoniaDeaths>5518</covidRdf:AllPneumoniaDeaths>
+    <covidRdf:StartWeek>03/28/2020</covidRdf:StartWeek>
+    <covidRdf:DeathsWithPneumoniaAndCovid>1198</covidRdf:DeathsWithPneumoniaAndCovid>
+    <covidRdf:AllCovidDeaths>2596</covidRdf:AllCovidDeaths>
+    <covidRdf:DataAsOf>04/27/2020</covidRdf:DataAsOf>
+    <covidRdf:Indicator>Weekending</covidRdf:Indicator>
+    <covidRdf:DeathsFromAllCauses>56567</covidRdf:DeathsFromAllCauses>
+    <covidRdf:AllInfluenzaDeaths>395</covidRdf:AllInfluenzaDeaths>
+    <covidRdf:PercentofExpectedDeaths>1.01</covidRdf:PercentofExpectedDeaths>
+    <covidRdf:Group>By week</covidRdf:Group>
   </rdf:Description>
   <rdf:Description rdf:about="https://data.edd.ca.gov12">
-    <j.0:PercentofExpectedDeaths>0.74</j.0:PercentofExpectedDeaths>
-    <j.0:DataAsOf>04/27/2020</j.0:DataAsOf>
-    <j.0:DeathsFromAllCauses>40060</j.0:DeathsFromAllCauses>
-    <j.0:DeathsWithPneumoniaAndCovid>2380</j.0:DeathsWithPneumoniaAndCovid>
-    <j.0:AllInfluenzaDeaths>190</j.0:AllInfluenzaDeaths>
-    <j.0:StartWeek>04/18/2020</j.0:StartWeek>
-    <j.0:Indicator>Weekending</j.0:Indicator>
-    <j.0:Footnote></j.0:Footnote>
-    <j.0:EndWeek>04/18/2020</j.0:EndWeek>
-    <j.0:State>United States</j.0:State>
-    <j.0:Group>By week</j.0:Group>
-    <j.0:AllCovidDeaths>5864</j.0:AllCovidDeaths>
-    <j.0:PneumoniaInfluenzaAndCovidDeaths>8254</j.0:PneumoniaInfluenzaAndCovidDeaths>
-    <j.0:AllPneumoniaDeaths>4730</j.0:AllPneumoniaDeaths>
+    <covidRdf:PercentofExpectedDeaths>0.74</covidRdf:PercentofExpectedDeaths>
+    <covidRdf:DataAsOf>04/27/2020</covidRdf:DataAsOf>
+    <covidRdf:DeathsFromAllCauses>40060</covidRdf:DeathsFromAllCauses>
+    <covidRdf:DeathsWithPneumoniaAndCovid>2380</covidRdf:DeathsWithPneumoniaAndCovid>
+    <covidRdf:AllInfluenzaDeaths>190</covidRdf:AllInfluenzaDeaths>
+    <covidRdf:StartWeek>04/18/2020</covidRdf:StartWeek>
+    <covidRdf:Indicator>Weekending</covidRdf:Indicator>
+    <covidRdf:Footnote></covidRdf:Footnote>
+    <covidRdf:EndWeek>04/18/2020</covidRdf:EndWeek>
+    <covidRdf:State>United States</covidRdf:State>
+    <covidRdf:Group>By week</covidRdf:Group>
+    <covidRdf:AllCovidDeaths>5864</covidRdf:AllCovidDeaths>
+    <covidRdf:PneumoniaInfluenzaAndCovidDeaths>8254</covidRdf:PneumoniaInfluenzaAndCovidDeaths>
+    <covidRdf:AllPneumoniaDeaths>4730</covidRdf:AllPneumoniaDeaths>
   </rdf:Description>
   <rdf:Description rdf:about="https://data.edd.ca.gov56">
-    <j.0:DeathsFromAllCauses>3068</j.0:DeathsFromAllCauses>
-    <j.0:DataAsOf>04/27/2020</j.0:DataAsOf>
-    <j.0:DeathsWithPneumoniaAndCovid>16</j.0:DeathsWithPneumoniaAndCovid>
-    <j.0:Indicator>New Hampshire</j.0:Indicator>
-    <j.0:AllPneumoniaDeaths>212</j.0:AllPneumoniaDeaths>
-    <j.0:PercentofExpectedDeaths>0.95</j.0:PercentofExpectedDeaths>
-    <j.0:AllInfluenzaDeaths>29</j.0:AllInfluenzaDeaths>
-    <j.0:StartWeek>02/01/2020</j.0:StartWeek>
-    <j.0:EndWeek>04/25/2020</j.0:EndWeek>
-    <j.0:Footnote></j.0:Footnote>
-    <j.0:State>New Hampshire</j.0:State>
-    <j.0:AllCovidDeaths>47</j.0:AllCovidDeaths>
-    <j.0:PneumoniaInfluenzaAndCovidDeaths></j.0:PneumoniaInfluenzaAndCovidDeaths>
-    <j.0:Group>By state</j.0:Group>
+    <covidRdf:DeathsFromAllCauses>3068</covidRdf:DeathsFromAllCauses>
+    <covidRdf:DataAsOf>04/27/2020</covidRdf:DataAsOf>
+    <covidRdf:DeathsWithPneumoniaAndCovid>16</covidRdf:DeathsWithPneumoniaAndCovid>
+    <covidRdf:Indicator>New Hampshire</covidRdf:Indicator>
+    <covidRdf:AllPneumoniaDeaths>212</covidRdf:AllPneumoniaDeaths>
+    <covidRdf:PercentofExpectedDeaths>0.95</covidRdf:PercentofExpectedDeaths>
+    <covidRdf:AllInfluenzaDeaths>29</covidRdf:AllInfluenzaDeaths>
+    <covidRdf:StartWeek>02/01/2020</covidRdf:StartWeek>
+    <covidRdf:EndWeek>04/25/2020</covidRdf:EndWeek>
+    <covidRdf:Footnote></covidRdf:Footnote>
+    <covidRdf:State>New Hampshire</covidRdf:State>
+    <covidRdf:AllCovidDeaths>47</covidRdf:AllCovidDeaths>
+    <covidRdf:PneumoniaInfluenzaAndCovidDeaths></covidRdf:PneumoniaInfluenzaAndCovidDeaths>
+    <covidRdf:Group>By state</covidRdf:Group>
   </rdf:Description>
   <rdf:Description rdf:about="https://data.edd.ca.gov88">
-    <j.0:PneumoniaInfluenzaAndCovidDeaths></j.0:PneumoniaInfluenzaAndCovidDeaths>
-    <j.0:State>United States</j.0:State>
-    <j.0:Group>By place of death</j.0:Group>
-    <j.0:AllInfluenzaDeaths>1132</j.0:AllInfluenzaDeaths>
-    <j.0:AllPneumoniaDeaths>4367</j.0:AllPneumoniaDeaths>
-    <j.0:StartWeek>02/01/2020</j.0:StartWeek>
-    <j.0:DeathsFromAllCauses>217574</j.0:DeathsFromAllCauses>
-    <j.0:DataAsOf>04/27/2020</j.0:DataAsOf>
-    <j.0:DeathsWithPneumoniaAndCovid>275</j.0:DeathsWithPneumoniaAndCovid>
-    <j.0:EndWeek>04/25/2020</j.0:EndWeek>
-    <j.0:AllCovidDeaths>2073</j.0:AllCovidDeaths>
-    <j.0:PercentofExpectedDeaths>0.91</j.0:PercentofExpectedDeaths>
-    <j.0:Footnote></j.0:Footnote>
-    <j.0:Indicator>Decedent's home</j.0:Indicator>
+    <covidRdf:PneumoniaInfluenzaAndCovidDeaths></covidRdf:PneumoniaInfluenzaAndCovidDeaths>
+    <covidRdf:State>United States</covidRdf:State>
+    <covidRdf:Group>By place of death</covidRdf:Group>
+    <covidRdf:AllInfluenzaDeaths>1132</covidRdf:AllInfluenzaDeaths>
+    <covidRdf:AllPneumoniaDeaths>4367</covidRdf:AllPneumoniaDeaths>
+    <covidRdf:StartWeek>02/01/2020</covidRdf:StartWeek>
+    <covidRdf:DeathsFromAllCauses>217574</covidRdf:DeathsFromAllCauses>
+    <covidRdf:DataAsOf>04/27/2020</covidRdf:DataAsOf>
+    <covidRdf:DeathsWithPneumoniaAndCovid>275</covidRdf:DeathsWithPneumoniaAndCovid>
+    <covidRdf:EndWeek>04/25/2020</covidRdf:EndWeek>
+    <covidRdf:AllCovidDeaths>2073</covidRdf:AllCovidDeaths>
+    <covidRdf:PercentofExpectedDeaths>0.91</covidRdf:PercentofExpectedDeaths>
+    <covidRdf:Footnote></covidRdf:Footnote>
+    <covidRdf:Indicator>Decedent's home</covidRdf:Indicator>
   </rdf:Description>
   <rdf:Description rdf:about="https://data.edd.ca.gov44">
-    <j.0:StartWeek>02/01/2020</j.0:StartWeek>
-    <j.0:PercentofExpectedDeaths>0.81</j.0:PercentofExpectedDeaths>
-    <j.0:AllPneumoniaDeaths>913</j.0:AllPneumoniaDeaths>
-    <j.0:PneumoniaInfluenzaAndCovidDeaths></j.0:PneumoniaInfluenzaAndCovidDeaths>
-    <j.0:Indicator>Kentucky</j.0:Indicator>
-    <j.0:AllCovidDeaths>87</j.0:AllCovidDeaths>
-    <j.0:Footnote></j.0:Footnote>
-    <j.0:DeathsFromAllCauses>10234</j.0:DeathsFromAllCauses>
-    <j.0:DataAsOf>04/27/2020</j.0:DataAsOf>
-    <j.0:State>Kentucky</j.0:State>
-    <j.0:Group>By state</j.0:Group>
-    <j.0:AllInfluenzaDeaths>84</j.0:AllInfluenzaDeaths>
-    <j.0:DeathsWithPneumoniaAndCovid>55</j.0:DeathsWithPneumoniaAndCovid>
-    <j.0:EndWeek>04/25/2020</j.0:EndWeek>
+    <covidRdf:StartWeek>02/01/2020</covidRdf:StartWeek>
+    <covidRdf:PercentofExpectedDeaths>0.81</covidRdf:PercentofExpectedDeaths>
+    <covidRdf:AllPneumoniaDeaths>913</covidRdf:AllPneumoniaDeaths>
+    <covidRdf:PneumoniaInfluenzaAndCovidDeaths></covidRdf:PneumoniaInfluenzaAndCovidDeaths>
+    <covidRdf:Indicator>Kentucky</covidRdf:Indicator>
+    <covidRdf:AllCovidDeaths>87</covidRdf:AllCovidDeaths>
+    <covidRdf:Footnote></covidRdf:Footnote>
+    <covidRdf:DeathsFromAllCauses>10234</covidRdf:DeathsFromAllCauses>
+    <covidRdf:DataAsOf>04/27/2020</covidRdf:DataAsOf>
+    <covidRdf:State>Kentucky</covidRdf:State>
+    <covidRdf:Group>By state</covidRdf:Group>
+    <covidRdf:AllInfluenzaDeaths>84</covidRdf:AllInfluenzaDeaths>
+    <covidRdf:DeathsWithPneumoniaAndCovid>55</covidRdf:DeathsWithPneumoniaAndCovid>
+    <covidRdf:EndWeek>04/25/2020</covidRdf:EndWeek>
   </rdf:Description>
   <rdf:Description rdf:about="https://data.edd.ca.gov32">
-    <j.0:DeathsFromAllCauses>10114</j.0:DeathsFromAllCauses>
-    <j.0:EndWeek>04/25/2020</j.0:EndWeek>
-    <j.0:State>Colorado</j.0:State>
-    <j.0:AllCovidDeaths>392</j.0:AllCovidDeaths>
-    <j.0:StartWeek>02/01/2020</j.0:StartWeek>
-    <j.0:PercentofExpectedDeaths>0.98</j.0:PercentofExpectedDeaths>
-    <j.0:AllPneumoniaDeaths>849</j.0:AllPneumoniaDeaths>
-    <j.0:PneumoniaInfluenzaAndCovidDeaths></j.0:PneumoniaInfluenzaAndCovidDeaths>
-    <j.0:Footnote></j.0:Footnote>
-    <j.0:Group>By state</j.0:Group>
-    <j.0:Indicator>Colorado</j.0:Indicator>
-    <j.0:DataAsOf>04/27/2020</j.0:DataAsOf>
-    <j.0:DeathsWithPneumoniaAndCovid>243</j.0:DeathsWithPneumoniaAndCovid>
-    <j.0:AllInfluenzaDeaths>90</j.0:AllInfluenzaDeaths>
+    <covidRdf:DeathsFromAllCauses>10114</covidRdf:DeathsFromAllCauses>
+    <covidRdf:EndWeek>04/25/2020</covidRdf:EndWeek>
+    <covidRdf:State>Colorado</covidRdf:State>
+    <covidRdf:AllCovidDeaths>392</covidRdf:AllCovidDeaths>
+    <covidRdf:StartWeek>02/01/2020</covidRdf:StartWeek>
+    <covidRdf:PercentofExpectedDeaths>0.98</covidRdf:PercentofExpectedDeaths>
+    <covidRdf:AllPneumoniaDeaths>849</covidRdf:AllPneumoniaDeaths>
+    <covidRdf:PneumoniaInfluenzaAndCovidDeaths></covidRdf:PneumoniaInfluenzaAndCovidDeaths>
+    <covidRdf:Footnote></covidRdf:Footnote>
+    <covidRdf:Group>By state</covidRdf:Group>
+    <covidRdf:Indicator>Colorado</covidRdf:Indicator>
+    <covidRdf:DataAsOf>04/27/2020</covidRdf:DataAsOf>
+    <covidRdf:DeathsWithPneumoniaAndCovid>243</covidRdf:DeathsWithPneumoniaAndCovid>
+    <covidRdf:AllInfluenzaDeaths>90</covidRdf:AllInfluenzaDeaths>
   </rdf:Description>
   <rdf:Description rdf:about="https://data.edd.ca.gov76">
-    <j.0:AllPneumoniaDeaths>348</j.0:AllPneumoniaDeaths>
-    <j.0:Indicator>West Virginia</j.0:Indicator>
-    <j.0:PneumoniaInfluenzaAndCovidDeaths></j.0:PneumoniaInfluenzaAndCovidDeaths>
-    <j.0:DeathsFromAllCauses>4796</j.0:DeathsFromAllCauses>
-    <j.0:AllCovidDeaths></j.0:AllCovidDeaths>
-    <j.0:DeathsWithPneumoniaAndCovid>0</j.0:DeathsWithPneumoniaAndCovid>
-    <j.0:PercentofExpectedDeaths>0.81</j.0:PercentofExpectedDeaths>
-    <j.0:StartWeek>02/01/2020</j.0:StartWeek>
-    <j.0:DataAsOf>04/27/2020</j.0:DataAsOf>
-    <j.0:AllInfluenzaDeaths>56</j.0:AllInfluenzaDeaths>
-    <j.0:Group>By state</j.0:Group>
-    <j.0:State>West Virginia</j.0:State>
-    <j.0:Footnote>One or more data cells have counts &lt;10 and have been suppressed in accordance with NCHS confidentiality standards.</j.0:Footnote>
-    <j.0:EndWeek>04/25/2020</j.0:EndWeek>
+    <covidRdf:AllPneumoniaDeaths>348</covidRdf:AllPneumoniaDeaths>
+    <covidRdf:Indicator>West Virginia</covidRdf:Indicator>
+    <covidRdf:PneumoniaInfluenzaAndCovidDeaths></covidRdf:PneumoniaInfluenzaAndCovidDeaths>
+    <covidRdf:DeathsFromAllCauses>4796</covidRdf:DeathsFromAllCauses>
+    <covidRdf:AllCovidDeaths></covidRdf:AllCovidDeaths>
+    <covidRdf:DeathsWithPneumoniaAndCovid>0</covidRdf:DeathsWithPneumoniaAndCovid>
+    <covidRdf:PercentofExpectedDeaths>0.81</covidRdf:PercentofExpectedDeaths>
+    <covidRdf:StartWeek>02/01/2020</covidRdf:StartWeek>
+    <covidRdf:DataAsOf>04/27/2020</covidRdf:DataAsOf>
+    <covidRdf:AllInfluenzaDeaths>56</covidRdf:AllInfluenzaDeaths>
+    <covidRdf:Group>By state</covidRdf:Group>
+    <covidRdf:State>West Virginia</covidRdf:State>
+    <covidRdf:Footnote>One or more data cells have counts &lt;10 and have been suppressed in accordance with NCHS confidentiality standards.</covidRdf:Footnote>
+    <covidRdf:EndWeek>04/25/2020</covidRdf:EndWeek>
   </rdf:Description>
   <rdf:Description rdf:about="https://data.edd.ca.gov20">
-    <j.0:AllPneumoniaDeaths>912</j.0:AllPneumoniaDeaths>
-    <j.0:Indicator>35â€“44 years</j.0:Indicator>
-    <j.0:DataAsOf>04/27/2020</j.0:DataAsOf>
-    <j.0:Footnote></j.0:Footnote>
-    <j.0:Group>By age</j.0:Group>
-    <j.0:DeathsWithPneumoniaAndCovid>206</j.0:DeathsWithPneumoniaAndCovid>
-    <j.0:AllInfluenzaDeaths>203</j.0:AllInfluenzaDeaths>
-    <j.0:EndWeek>04/25/2020</j.0:EndWeek>
-    <j.0:AllCovidDeaths>530</j.0:AllCovidDeaths>
-    <j.0:State>United States</j.0:State>
-    <j.0:StartWeek>02/01/2020</j.0:StartWeek>
-    <j.0:DeathsFromAllCauses>18256</j.0:DeathsFromAllCauses>
-    <j.0:PneumoniaInfluenzaAndCovidDeaths></j.0:PneumoniaInfluenzaAndCovidDeaths>
-    <j.0:PercentofExpectedDeaths>0.91</j.0:PercentofExpectedDeaths>
+    <covidRdf:AllPneumoniaDeaths>912</covidRdf:AllPneumoniaDeaths>
+    <covidRdf:Indicator>35â€“44 years</covidRdf:Indicator>
+    <covidRdf:DataAsOf>04/27/2020</covidRdf:DataAsOf>
+    <covidRdf:Footnote></covidRdf:Footnote>
+    <covidRdf:Group>By age</covidRdf:Group>
+    <covidRdf:DeathsWithPneumoniaAndCovid>206</covidRdf:DeathsWithPneumoniaAndCovid>
+    <covidRdf:AllInfluenzaDeaths>203</covidRdf:AllInfluenzaDeaths>
+    <covidRdf:EndWeek>04/25/2020</covidRdf:EndWeek>
+    <covidRdf:AllCovidDeaths>530</covidRdf:AllCovidDeaths>
+    <covidRdf:State>United States</covidRdf:State>
+    <covidRdf:StartWeek>02/01/2020</covidRdf:StartWeek>
+    <covidRdf:DeathsFromAllCauses>18256</covidRdf:DeathsFromAllCauses>
+    <covidRdf:PneumoniaInfluenzaAndCovidDeaths></covidRdf:PneumoniaInfluenzaAndCovidDeaths>
+    <covidRdf:PercentofExpectedDeaths>0.91</covidRdf:PercentofExpectedDeaths>
   </rdf:Description>
   <rdf:Description rdf:about="https://data.edd.ca.gov64">
-    <j.0:StartWeek>02/01/2020</j.0:StartWeek>
-    <j.0:DataAsOf>04/27/2020</j.0:DataAsOf>
-    <j.0:Group>By state</j.0:Group>
-    <j.0:EndWeek>04/25/2020</j.0:EndWeek>
-    <j.0:PercentofExpectedDeaths>0.8</j.0:PercentofExpectedDeaths>
-    <j.0:Indicator>Oklahoma</j.0:Indicator>
-    <j.0:DeathsWithPneumoniaAndCovid>37</j.0:DeathsWithPneumoniaAndCovid>
-    <j.0:AllPneumoniaDeaths>740</j.0:AllPneumoniaDeaths>
-    <j.0:Footnote></j.0:Footnote>
-    <j.0:DeathsFromAllCauses>8389</j.0:DeathsFromAllCauses>
-    <j.0:PneumoniaInfluenzaAndCovidDeaths></j.0:PneumoniaInfluenzaAndCovidDeaths>
-    <j.0:AllCovidDeaths>89</j.0:AllCovidDeaths>
-    <j.0:State>Oklahoma</j.0:State>
-    <j.0:AllInfluenzaDeaths>90</j.0:AllInfluenzaDeaths>
+    <covidRdf:StartWeek>02/01/2020</covidRdf:StartWeek>
+    <covidRdf:DataAsOf>04/27/2020</covidRdf:DataAsOf>
+    <covidRdf:Group>By state</covidRdf:Group>
+    <covidRdf:EndWeek>04/25/2020</covidRdf:EndWeek>
+    <covidRdf:PercentofExpectedDeaths>0.8</covidRdf:PercentofExpectedDeaths>
+    <covidRdf:Indicator>Oklahoma</covidRdf:Indicator>
+    <covidRdf:DeathsWithPneumoniaAndCovid>37</covidRdf:DeathsWithPneumoniaAndCovid>
+    <covidRdf:AllPneumoniaDeaths>740</covidRdf:AllPneumoniaDeaths>
+    <covidRdf:Footnote></covidRdf:Footnote>
+    <covidRdf:DeathsFromAllCauses>8389</covidRdf:DeathsFromAllCauses>
+    <covidRdf:PneumoniaInfluenzaAndCovidDeaths></covidRdf:PneumoniaInfluenzaAndCovidDeaths>
+    <covidRdf:AllCovidDeaths>89</covidRdf:AllCovidDeaths>
+    <covidRdf:State>Oklahoma</covidRdf:State>
+    <covidRdf:AllInfluenzaDeaths>90</covidRdf:AllInfluenzaDeaths>
   </rdf:Description>
   <rdf:Description rdf:about="https://data.edd.ca.gov52">
-    <j.0:Footnote></j.0:Footnote>
-    <j.0:PercentofExpectedDeaths>0.85</j.0:PercentofExpectedDeaths>
-    <j.0:DataAsOf>04/27/2020</j.0:DataAsOf>
-    <j.0:AllPneumoniaDeaths>903</j.0:AllPneumoniaDeaths>
-    <j.0:Group>By state</j.0:Group>
-    <j.0:AllInfluenzaDeaths>167</j.0:AllInfluenzaDeaths>
-    <j.0:DeathsWithPneumoniaAndCovid>55</j.0:DeathsWithPneumoniaAndCovid>
-    <j.0:EndWeek>04/25/2020</j.0:EndWeek>
-    <j.0:AllCovidDeaths>136</j.0:AllCovidDeaths>
-    <j.0:StartWeek>02/01/2020</j.0:StartWeek>
-    <j.0:DeathsFromAllCauses>14378</j.0:DeathsFromAllCauses>
-    <j.0:PneumoniaInfluenzaAndCovidDeaths></j.0:PneumoniaInfluenzaAndCovidDeaths>
-    <j.0:Indicator>Missouri</j.0:Indicator>
-    <j.0:State>Missouri</j.0:State>
+    <covidRdf:Footnote></covidRdf:Footnote>
+    <covidRdf:PercentofExpectedDeaths>0.85</covidRdf:PercentofExpectedDeaths>
+    <covidRdf:DataAsOf>04/27/2020</covidRdf:DataAsOf>
+    <covidRdf:AllPneumoniaDeaths>903</covidRdf:AllPneumoniaDeaths>
+    <covidRdf:Group>By state</covidRdf:Group>
+    <covidRdf:AllInfluenzaDeaths>167</covidRdf:AllInfluenzaDeaths>
+    <covidRdf:DeathsWithPneumoniaAndCovid>55</covidRdf:DeathsWithPneumoniaAndCovid>
+    <covidRdf:EndWeek>04/25/2020</covidRdf:EndWeek>
+    <covidRdf:AllCovidDeaths>136</covidRdf:AllCovidDeaths>
+    <covidRdf:StartWeek>02/01/2020</covidRdf:StartWeek>
+    <covidRdf:DeathsFromAllCauses>14378</covidRdf:DeathsFromAllCauses>
+    <covidRdf:PneumoniaInfluenzaAndCovidDeaths></covidRdf:PneumoniaInfluenzaAndCovidDeaths>
+    <covidRdf:Indicator>Missouri</covidRdf:Indicator>
+    <covidRdf:State>Missouri</covidRdf:State>
   </rdf:Description>
   <rdf:Description rdf:about="https://data.edd.ca.gov5">
-    <j.0:EndWeek>02/29/2020</j.0:EndWeek>
-    <j.0:DataAsOf>04/27/2020</j.0:DataAsOf>
-    <j.0:PercentofExpectedDeaths>0.98</j.0:PercentofExpectedDeaths>
-    <j.0:PneumoniaInfluenzaAndCovidDeaths>4171</j.0:PneumoniaInfluenzaAndCovidDeaths>
-    <j.0:StartWeek>02/29/2020</j.0:StartWeek>
-    <j.0:Footnote></j.0:Footnote>
-    <j.0:Group>By week</j.0:Group>
-    <j.0:AllInfluenzaDeaths>604</j.0:AllInfluenzaDeaths>
-    <j.0:Indicator>Weekending</j.0:Indicator>
-    <j.0:DeathsFromAllCauses>55999</j.0:DeathsFromAllCauses>
-    <j.0:AllCovidDeaths>5</j.0:AllCovidDeaths>
-    <j.0:State>United States</j.0:State>
-    <j.0:DeathsWithPneumoniaAndCovid>3</j.0:DeathsWithPneumoniaAndCovid>
-    <j.0:AllPneumoniaDeaths>3565</j.0:AllPneumoniaDeaths>
+    <covidRdf:EndWeek>02/29/2020</covidRdf:EndWeek>
+    <covidRdf:DataAsOf>04/27/2020</covidRdf:DataAsOf>
+    <covidRdf:PercentofExpectedDeaths>0.98</covidRdf:PercentofExpectedDeaths>
+    <covidRdf:PneumoniaInfluenzaAndCovidDeaths>4171</covidRdf:PneumoniaInfluenzaAndCovidDeaths>
+    <covidRdf:StartWeek>02/29/2020</covidRdf:StartWeek>
+    <covidRdf:Footnote></covidRdf:Footnote>
+    <covidRdf:Group>By week</covidRdf:Group>
+    <covidRdf:AllInfluenzaDeaths>604</covidRdf:AllInfluenzaDeaths>
+    <covidRdf:Indicator>Weekending</covidRdf:Indicator>
+    <covidRdf:DeathsFromAllCauses>55999</covidRdf:DeathsFromAllCauses>
+    <covidRdf:AllCovidDeaths>5</covidRdf:AllCovidDeaths>
+    <covidRdf:State>United States</covidRdf:State>
+    <covidRdf:DeathsWithPneumoniaAndCovid>3</covidRdf:DeathsWithPneumoniaAndCovid>
+    <covidRdf:AllPneumoniaDeaths>3565</covidRdf:AllPneumoniaDeaths>
   </rdf:Description>
   <rdf:Description rdf:about="https://data.edd.ca.gov18">
-    <j.0:DataAsOf>04/27/2020</j.0:DataAsOf>
-    <j.0:State>United States</j.0:State>
-    <j.0:PercentofExpectedDeaths>0.91</j.0:PercentofExpectedDeaths>
-    <j.0:EndWeek>04/25/2020</j.0:EndWeek>
-    <j.0:Footnote></j.0:Footnote>
-    <j.0:PneumoniaInfluenzaAndCovidDeaths></j.0:PneumoniaInfluenzaAndCovidDeaths>
-    <j.0:DeathsFromAllCauses>5978</j.0:DeathsFromAllCauses>
-    <j.0:Group>By age</j.0:Group>
-    <j.0:StartWeek>02/01/2020</j.0:StartWeek>
-    <j.0:AllCovidDeaths>28</j.0:AllCovidDeaths>
-    <j.0:AllPneumoniaDeaths>123</j.0:AllPneumoniaDeaths>
-    <j.0:DeathsWithPneumoniaAndCovid>13</j.0:DeathsWithPneumoniaAndCovid>
-    <j.0:Indicator>15â€“24 years</j.0:Indicator>
-    <j.0:AllInfluenzaDeaths>40</j.0:AllInfluenzaDeaths>
+    <covidRdf:DataAsOf>04/27/2020</covidRdf:DataAsOf>
+    <covidRdf:State>United States</covidRdf:State>
+    <covidRdf:PercentofExpectedDeaths>0.91</covidRdf:PercentofExpectedDeaths>
+    <covidRdf:EndWeek>04/25/2020</covidRdf:EndWeek>
+    <covidRdf:Footnote></covidRdf:Footnote>
+    <covidRdf:PneumoniaInfluenzaAndCovidDeaths></covidRdf:PneumoniaInfluenzaAndCovidDeaths>
+    <covidRdf:DeathsFromAllCauses>5978</covidRdf:DeathsFromAllCauses>
+    <covidRdf:Group>By age</covidRdf:Group>
+    <covidRdf:StartWeek>02/01/2020</covidRdf:StartWeek>
+    <covidRdf:AllCovidDeaths>28</covidRdf:AllCovidDeaths>
+    <covidRdf:AllPneumoniaDeaths>123</covidRdf:AllPneumoniaDeaths>
+    <covidRdf:DeathsWithPneumoniaAndCovid>13</covidRdf:DeathsWithPneumoniaAndCovid>
+    <covidRdf:Indicator>15â€“24 years</covidRdf:Indicator>
+    <covidRdf:AllInfluenzaDeaths>40</covidRdf:AllInfluenzaDeaths>
   </rdf:Description>
   <rdf:Description rdf:about="https://data.edd.ca.gov38">
-    <j.0:DataAsOf>04/27/2020</j.0:DataAsOf>
-    <j.0:AllInfluenzaDeaths>18</j.0:AllInfluenzaDeaths>
-    <j.0:AllCovidDeaths></j.0:AllCovidDeaths>
-    <j.0:Footnote>One or more data cells have counts &lt;10 and have been suppressed in accordance with NCHS confidentiality standards.</j.0:Footnote>
-    <j.0:State>Hawaii</j.0:State>
-    <j.0:PercentofExpectedDeaths>0.89</j.0:PercentofExpectedDeaths>
-    <j.0:StartWeek>02/01/2020</j.0:StartWeek>
-    <j.0:DeathsWithPneumoniaAndCovid></j.0:DeathsWithPneumoniaAndCovid>
-    <j.0:EndWeek>04/25/2020</j.0:EndWeek>
-    <j.0:DeathsFromAllCauses>2662</j.0:DeathsFromAllCauses>
-    <j.0:Indicator>Hawaii</j.0:Indicator>
-    <j.0:Group>By state</j.0:Group>
-    <j.0:PneumoniaInfluenzaAndCovidDeaths></j.0:PneumoniaInfluenzaAndCovidDeaths>
-    <j.0:AllPneumoniaDeaths>182</j.0:AllPneumoniaDeaths>
+    <covidRdf:DataAsOf>04/27/2020</covidRdf:DataAsOf>
+    <covidRdf:AllInfluenzaDeaths>18</covidRdf:AllInfluenzaDeaths>
+    <covidRdf:AllCovidDeaths></covidRdf:AllCovidDeaths>
+    <covidRdf:Footnote>One or more data cells have counts &lt;10 and have been suppressed in accordance with NCHS confidentiality standards.</covidRdf:Footnote>
+    <covidRdf:State>Hawaii</covidRdf:State>
+    <covidRdf:PercentofExpectedDeaths>0.89</covidRdf:PercentofExpectedDeaths>
+    <covidRdf:StartWeek>02/01/2020</covidRdf:StartWeek>
+    <covidRdf:DeathsWithPneumoniaAndCovid></covidRdf:DeathsWithPneumoniaAndCovid>
+    <covidRdf:EndWeek>04/25/2020</covidRdf:EndWeek>
+    <covidRdf:DeathsFromAllCauses>2662</covidRdf:DeathsFromAllCauses>
+    <covidRdf:Indicator>Hawaii</covidRdf:Indicator>
+    <covidRdf:Group>By state</covidRdf:Group>
+    <covidRdf:PneumoniaInfluenzaAndCovidDeaths></covidRdf:PneumoniaInfluenzaAndCovidDeaths>
+    <covidRdf:AllPneumoniaDeaths>182</covidRdf:AllPneumoniaDeaths>
   </rdf:Description>
   <rdf:Description rdf:about="https://data.edd.ca.gov4">
-    <j.0:Indicator>Weekending</j.0:Indicator>
-    <j.0:EndWeek>02/22/2020</j.0:EndWeek>
-    <j.0:DataAsOf>04/27/2020</j.0:DataAsOf>
-    <j.0:DeathsWithPneumoniaAndCovid>0</j.0:DeathsWithPneumoniaAndCovid>
-    <j.0:StartWeek>02/22/2020</j.0:StartWeek>
-    <j.0:PneumoniaInfluenzaAndCovidDeaths>4060</j.0:PneumoniaInfluenzaAndCovidDeaths>
-    <j.0:AllInfluenzaDeaths>530</j.0:AllInfluenzaDeaths>
-    <j.0:DeathsFromAllCauses>56295</j.0:DeathsFromAllCauses>
-    <j.0:State>United States</j.0:State>
-    <j.0:Group>By week</j.0:Group>
-    <j.0:AllCovidDeaths>0</j.0:AllCovidDeaths>
-    <j.0:Footnote></j.0:Footnote>
-    <j.0:PercentofExpectedDeaths>0.97</j.0:PercentofExpectedDeaths>
-    <j.0:AllPneumoniaDeaths>3530</j.0:AllPneumoniaDeaths>
+    <covidRdf:Indicator>Weekending</covidRdf:Indicator>
+    <covidRdf:EndWeek>02/22/2020</covidRdf:EndWeek>
+    <covidRdf:DataAsOf>04/27/2020</covidRdf:DataAsOf>
+    <covidRdf:DeathsWithPneumoniaAndCovid>0</covidRdf:DeathsWithPneumoniaAndCovid>
+    <covidRdf:StartWeek>02/22/2020</covidRdf:StartWeek>
+    <covidRdf:PneumoniaInfluenzaAndCovidDeaths>4060</covidRdf:PneumoniaInfluenzaAndCovidDeaths>
+    <covidRdf:AllInfluenzaDeaths>530</covidRdf:AllInfluenzaDeaths>
+    <covidRdf:DeathsFromAllCauses>56295</covidRdf:DeathsFromAllCauses>
+    <covidRdf:State>United States</covidRdf:State>
+    <covidRdf:Group>By week</covidRdf:Group>
+    <covidRdf:AllCovidDeaths>0</covidRdf:AllCovidDeaths>
+    <covidRdf:Footnote></covidRdf:Footnote>
+    <covidRdf:PercentofExpectedDeaths>0.97</covidRdf:PercentofExpectedDeaths>
+    <covidRdf:AllPneumoniaDeaths>3530</covidRdf:AllPneumoniaDeaths>
   </rdf:Description>
   <rdf:Description rdf:about="https://data.edd.ca.gov73">
-    <j.0:AllCovidDeaths>36</j.0:AllCovidDeaths>
-    <j.0:Group>By state</j.0:Group>
-    <j.0:DeathsWithPneumoniaAndCovid></j.0:DeathsWithPneumoniaAndCovid>
-    <j.0:AllInfluenzaDeaths>14</j.0:AllInfluenzaDeaths>
-    <j.0:DataAsOf>04/27/2020</j.0:DataAsOf>
-    <j.0:AllPneumoniaDeaths>105</j.0:AllPneumoniaDeaths>
-    <j.0:PneumoniaInfluenzaAndCovidDeaths></j.0:PneumoniaInfluenzaAndCovidDeaths>
-    <j.0:EndWeek>04/25/2020</j.0:EndWeek>
-    <j.0:StartWeek>02/01/2020</j.0:StartWeek>
-    <j.0:Footnote>One or more data cells have counts &lt;10 and have been suppressed in accordance with NCHS confidentiality standards.</j.0:Footnote>
-    <j.0:PercentofExpectedDeaths>1</j.0:PercentofExpectedDeaths>
-    <j.0:DeathsFromAllCauses>1521</j.0:DeathsFromAllCauses>
-    <j.0:Indicator>Vermont</j.0:Indicator>
-    <j.0:State>Vermont</j.0:State>
+    <covidRdf:AllCovidDeaths>36</covidRdf:AllCovidDeaths>
+    <covidRdf:Group>By state</covidRdf:Group>
+    <covidRdf:DeathsWithPneumoniaAndCovid></covidRdf:DeathsWithPneumoniaAndCovid>
+    <covidRdf:AllInfluenzaDeaths>14</covidRdf:AllInfluenzaDeaths>
+    <covidRdf:DataAsOf>04/27/2020</covidRdf:DataAsOf>
+    <covidRdf:AllPneumoniaDeaths>105</covidRdf:AllPneumoniaDeaths>
+    <covidRdf:PneumoniaInfluenzaAndCovidDeaths></covidRdf:PneumoniaInfluenzaAndCovidDeaths>
+    <covidRdf:EndWeek>04/25/2020</covidRdf:EndWeek>
+    <covidRdf:StartWeek>02/01/2020</covidRdf:StartWeek>
+    <covidRdf:Footnote>One or more data cells have counts &lt;10 and have been suppressed in accordance with NCHS confidentiality standards.</covidRdf:Footnote>
+    <covidRdf:PercentofExpectedDeaths>1</covidRdf:PercentofExpectedDeaths>
+    <covidRdf:DeathsFromAllCauses>1521</covidRdf:DeathsFromAllCauses>
+    <covidRdf:Indicator>Vermont</covidRdf:Indicator>
+    <covidRdf:State>Vermont</covidRdf:State>
   </rdf:Description>
   <rdf:Description rdf:about="https://data.edd.ca.gov61">
-    <j.0:PercentofExpectedDeaths>0.37</j.0:PercentofExpectedDeaths>
-    <j.0:Footnote></j.0:Footnote>
-    <j.0:Group>By state</j.0:Group>
-    <j.0:StartWeek>02/01/2020</j.0:StartWeek>
-    <j.0:DeathsFromAllCauses>9131</j.0:DeathsFromAllCauses>
-    <j.0:AllPneumoniaDeaths>557</j.0:AllPneumoniaDeaths>
-    <j.0:DataAsOf>04/27/2020</j.0:DataAsOf>
-    <j.0:AllInfluenzaDeaths>107</j.0:AllInfluenzaDeaths>
-    <j.0:State>North Carolina</j.0:State>
-    <j.0:AllCovidDeaths>0</j.0:AllCovidDeaths>
-    <j.0:DeathsWithPneumoniaAndCovid>0</j.0:DeathsWithPneumoniaAndCovid>
-    <j.0:PneumoniaInfluenzaAndCovidDeaths></j.0:PneumoniaInfluenzaAndCovidDeaths>
-    <j.0:EndWeek>04/25/2020</j.0:EndWeek>
-    <j.0:Indicator>North Carolina</j.0:Indicator>
+    <covidRdf:PercentofExpectedDeaths>0.37</covidRdf:PercentofExpectedDeaths>
+    <covidRdf:Footnote></covidRdf:Footnote>
+    <covidRdf:Group>By state</covidRdf:Group>
+    <covidRdf:StartWeek>02/01/2020</covidRdf:StartWeek>
+    <covidRdf:DeathsFromAllCauses>9131</covidRdf:DeathsFromAllCauses>
+    <covidRdf:AllPneumoniaDeaths>557</covidRdf:AllPneumoniaDeaths>
+    <covidRdf:DataAsOf>04/27/2020</covidRdf:DataAsOf>
+    <covidRdf:AllInfluenzaDeaths>107</covidRdf:AllInfluenzaDeaths>
+    <covidRdf:State>North Carolina</covidRdf:State>
+    <covidRdf:AllCovidDeaths>0</covidRdf:AllCovidDeaths>
+    <covidRdf:DeathsWithPneumoniaAndCovid>0</covidRdf:DeathsWithPneumoniaAndCovid>
+    <covidRdf:PneumoniaInfluenzaAndCovidDeaths></covidRdf:PneumoniaInfluenzaAndCovidDeaths>
+    <covidRdf:EndWeek>04/25/2020</covidRdf:EndWeek>
+    <covidRdf:Indicator>North Carolina</covidRdf:Indicator>
   </rdf:Description>
   <rdf:Description rdf:about="https://data.edd.ca.gov81">
-    <j.0:EndWeek>04/25/2020</j.0:EndWeek>
-    <j.0:StartWeek>02/01/2020</j.0:StartWeek>
-    <j.0:AllInfluenzaDeaths>2903</j.0:AllInfluenzaDeaths>
-    <j.0:DeathsWithPneumoniaAndCovid>7157</j.0:DeathsWithPneumoniaAndCovid>
-    <j.0:AllPneumoniaDeaths>30733</j.0:AllPneumoniaDeaths>
-    <j.0:Footnote></j.0:Footnote>
-    <j.0:DeathsFromAllCauses>347539</j.0:DeathsFromAllCauses>
-    <j.0:PercentofExpectedDeaths>0.91</j.0:PercentofExpectedDeaths>
-    <j.0:State>United States</j.0:State>
-    <j.0:AllCovidDeaths>15923</j.0:AllCovidDeaths>
-    <j.0:Group>By sex</j.0:Group>
-    <j.0:PneumoniaInfluenzaAndCovidDeaths></j.0:PneumoniaInfluenzaAndCovidDeaths>
-    <j.0:DataAsOf>04/27/2020</j.0:DataAsOf>
-    <j.0:Indicator>Male</j.0:Indicator>
+    <covidRdf:EndWeek>04/25/2020</covidRdf:EndWeek>
+    <covidRdf:StartWeek>02/01/2020</covidRdf:StartWeek>
+    <covidRdf:AllInfluenzaDeaths>2903</covidRdf:AllInfluenzaDeaths>
+    <covidRdf:DeathsWithPneumoniaAndCovid>7157</covidRdf:DeathsWithPneumoniaAndCovid>
+    <covidRdf:AllPneumoniaDeaths>30733</covidRdf:AllPneumoniaDeaths>
+    <covidRdf:Footnote></covidRdf:Footnote>
+    <covidRdf:DeathsFromAllCauses>347539</covidRdf:DeathsFromAllCauses>
+    <covidRdf:PercentofExpectedDeaths>0.91</covidRdf:PercentofExpectedDeaths>
+    <covidRdf:State>United States</covidRdf:State>
+    <covidRdf:AllCovidDeaths>15923</covidRdf:AllCovidDeaths>
+    <covidRdf:Group>By sex</covidRdf:Group>
+    <covidRdf:PneumoniaInfluenzaAndCovidDeaths></covidRdf:PneumoniaInfluenzaAndCovidDeaths>
+    <covidRdf:DataAsOf>04/27/2020</covidRdf:DataAsOf>
+    <covidRdf:Indicator>Male</covidRdf:Indicator>
   </rdf:Description>
   <rdf:Description rdf:about="https://data.edd.ca.gov0">
-    <j.0:Footnote></j.0:Footnote>
-    <j.0:StartWeek>02/01/2020</j.0:StartWeek>
-    <j.0:DataAsOf>04/27/2020</j.0:DataAsOf>
-    <j.0:DeathsFromAllCauses>673580</j.0:DeathsFromAllCauses>
-    <j.0:AllPneumoniaDeaths>57480</j.0:AllPneumoniaDeaths>
-    <j.0:Group>By week</j.0:Group>
-    <j.0:PercentofExpectedDeaths>0.91</j.0:PercentofExpectedDeaths>
-    <j.0:AllCovidDeaths>27674</j.0:AllCovidDeaths>
-    <j.0:Indicator>Total Deaths</j.0:Indicator>
-    <j.0:State>United States</j.0:State>
-    <j.0:PneumoniaInfluenzaAndCovidDeaths>77695</j.0:PneumoniaInfluenzaAndCovidDeaths>
-    <j.0:AllInfluenzaDeaths>5668</j.0:AllInfluenzaDeaths>
-    <j.0:DeathsWithPneumoniaAndCovid>12398</j.0:DeathsWithPneumoniaAndCovid>
-    <j.0:EndWeek>04/25/2020</j.0:EndWeek>
+    <covidRdf:Footnote></covidRdf:Footnote>
+    <covidRdf:StartWeek>02/01/2020</covidRdf:StartWeek>
+    <covidRdf:DataAsOf>04/27/2020</covidRdf:DataAsOf>
+    <covidRdf:DeathsFromAllCauses>673580</covidRdf:DeathsFromAllCauses>
+    <covidRdf:AllPneumoniaDeaths>57480</covidRdf:AllPneumoniaDeaths>
+    <covidRdf:Group>By week</covidRdf:Group>
+    <covidRdf:PercentofExpectedDeaths>0.91</covidRdf:PercentofExpectedDeaths>
+    <covidRdf:AllCovidDeaths>27674</covidRdf:AllCovidDeaths>
+    <covidRdf:Indicator>Total Deaths</covidRdf:Indicator>
+    <covidRdf:State>United States</covidRdf:State>
+    <covidRdf:PneumoniaInfluenzaAndCovidDeaths>77695</covidRdf:PneumoniaInfluenzaAndCovidDeaths>
+    <covidRdf:AllInfluenzaDeaths>5668</covidRdf:AllInfluenzaDeaths>
+    <covidRdf:DeathsWithPneumoniaAndCovid>12398</covidRdf:DeathsWithPneumoniaAndCovid>
+    <covidRdf:EndWeek>04/25/2020</covidRdf:EndWeek>
   </rdf:Description>
   <rdf:Description rdf:about="https://data.edd.ca.gov37">
-    <j.0:EndWeek>04/25/2020</j.0:EndWeek>
-    <j.0:StartWeek>02/01/2020</j.0:StartWeek>
-    <j.0:Indicator>Georgia</j.0:Indicator>
-    <j.0:PercentofExpectedDeaths>0.85</j.0:PercentofExpectedDeaths>
-    <j.0:DeathsWithPneumoniaAndCovid>184</j.0:DeathsWithPneumoniaAndCovid>
-    <j.0:State>Georgia</j.0:State>
-    <j.0:AllInfluenzaDeaths>91</j.0:AllInfluenzaDeaths>
-    <j.0:Footnote></j.0:Footnote>
-    <j.0:AllPneumoniaDeaths>1208</j.0:AllPneumoniaDeaths>
-    <j.0:DataAsOf>04/27/2020</j.0:DataAsOf>
-    <j.0:Group>By state</j.0:Group>
-    <j.0:PneumoniaInfluenzaAndCovidDeaths></j.0:PneumoniaInfluenzaAndCovidDeaths>
-    <j.0:AllCovidDeaths>382</j.0:AllCovidDeaths>
-    <j.0:DeathsFromAllCauses>18624</j.0:DeathsFromAllCauses>
+    <covidRdf:EndWeek>04/25/2020</covidRdf:EndWeek>
+    <covidRdf:StartWeek>02/01/2020</covidRdf:StartWeek>
+    <covidRdf:Indicator>Georgia</covidRdf:Indicator>
+    <covidRdf:PercentofExpectedDeaths>0.85</covidRdf:PercentofExpectedDeaths>
+    <covidRdf:DeathsWithPneumoniaAndCovid>184</covidRdf:DeathsWithPneumoniaAndCovid>
+    <covidRdf:State>Georgia</covidRdf:State>
+    <covidRdf:AllInfluenzaDeaths>91</covidRdf:AllInfluenzaDeaths>
+    <covidRdf:Footnote></covidRdf:Footnote>
+    <covidRdf:AllPneumoniaDeaths>1208</covidRdf:AllPneumoniaDeaths>
+    <covidRdf:DataAsOf>04/27/2020</covidRdf:DataAsOf>
+    <covidRdf:Group>By state</covidRdf:Group>
+    <covidRdf:PneumoniaInfluenzaAndCovidDeaths></covidRdf:PneumoniaInfluenzaAndCovidDeaths>
+    <covidRdf:AllCovidDeaths>382</covidRdf:AllCovidDeaths>
+    <covidRdf:DeathsFromAllCauses>18624</covidRdf:DeathsFromAllCauses>
   </rdf:Description>
   <rdf:Description rdf:about="https://data.edd.ca.gov25">
-    <j.0:State>United States</j.0:State>
-    <j.0:AllInfluenzaDeaths>1183</j.0:AllInfluenzaDeaths>
-    <j.0:AllCovidDeaths>8210</j.0:AllCovidDeaths>
-    <j.0:Group>By age</j.0:Group>
-    <j.0:AllPneumoniaDeaths>18747</j.0:AllPneumoniaDeaths>
-    <j.0:DataAsOf>04/27/2020</j.0:DataAsOf>
-    <j.0:Footnote></j.0:Footnote>
-    <j.0:DeathsFromAllCauses>211523</j.0:DeathsFromAllCauses>
-    <j.0:DeathsWithPneumoniaAndCovid>3756</j.0:DeathsWithPneumoniaAndCovid>
-    <j.0:Indicator>85 years and over</j.0:Indicator>
-    <j.0:PneumoniaInfluenzaAndCovidDeaths></j.0:PneumoniaInfluenzaAndCovidDeaths>
-    <j.0:EndWeek>04/25/2020</j.0:EndWeek>
-    <j.0:PercentofExpectedDeaths>0.91</j.0:PercentofExpectedDeaths>
-    <j.0:StartWeek>02/01/2020</j.0:StartWeek>
+    <covidRdf:State>United States</covidRdf:State>
+    <covidRdf:AllInfluenzaDeaths>1183</covidRdf:AllInfluenzaDeaths>
+    <covidRdf:AllCovidDeaths>8210</covidRdf:AllCovidDeaths>
+    <covidRdf:Group>By age</covidRdf:Group>
+    <covidRdf:AllPneumoniaDeaths>18747</covidRdf:AllPneumoniaDeaths>
+    <covidRdf:DataAsOf>04/27/2020</covidRdf:DataAsOf>
+    <covidRdf:Footnote></covidRdf:Footnote>
+    <covidRdf:DeathsFromAllCauses>211523</covidRdf:DeathsFromAllCauses>
+    <covidRdf:DeathsWithPneumoniaAndCovid>3756</covidRdf:DeathsWithPneumoniaAndCovid>
+    <covidRdf:Indicator>85 years and over</covidRdf:Indicator>
+    <covidRdf:PneumoniaInfluenzaAndCovidDeaths></covidRdf:PneumoniaInfluenzaAndCovidDeaths>
+    <covidRdf:EndWeek>04/25/2020</covidRdf:EndWeek>
+    <covidRdf:PercentofExpectedDeaths>0.91</covidRdf:PercentofExpectedDeaths>
+    <covidRdf:StartWeek>02/01/2020</covidRdf:StartWeek>
   </rdf:Description>
   <rdf:Description rdf:about="https://data.edd.ca.gov69">
-    <j.0:DataAsOf>04/27/2020</j.0:DataAsOf>
-    <j.0:AllInfluenzaDeaths>21</j.0:AllInfluenzaDeaths>
-    <j.0:Group>By state</j.0:Group>
-    <j.0:Footnote>One or more data cells have counts &lt;10 and have been suppressed in accordance with NCHS confidentiality standards.</j.0:Footnote>
-    <j.0:DeathsWithPneumoniaAndCovid></j.0:DeathsWithPneumoniaAndCovid>
-    <j.0:Indicator>South Dakota</j.0:Indicator>
-    <j.0:DeathsFromAllCauses>1816</j.0:DeathsFromAllCauses>
-    <j.0:StartWeek>02/01/2020</j.0:StartWeek>
-    <j.0:PneumoniaInfluenzaAndCovidDeaths></j.0:PneumoniaInfluenzaAndCovidDeaths>
-    <j.0:EndWeek>04/25/2020</j.0:EndWeek>
-    <j.0:State>South Dakota</j.0:State>
-    <j.0:AllCovidDeaths></j.0:AllCovidDeaths>
-    <j.0:PercentofExpectedDeaths>0.86</j.0:PercentofExpectedDeaths>
-    <j.0:AllPneumoniaDeaths>143</j.0:AllPneumoniaDeaths>
+    <covidRdf:DataAsOf>04/27/2020</covidRdf:DataAsOf>
+    <covidRdf:AllInfluenzaDeaths>21</covidRdf:AllInfluenzaDeaths>
+    <covidRdf:Group>By state</covidRdf:Group>
+    <covidRdf:Footnote>One or more data cells have counts &lt;10 and have been suppressed in accordance with NCHS confidentiality standards.</covidRdf:Footnote>
+    <covidRdf:DeathsWithPneumoniaAndCovid></covidRdf:DeathsWithPneumoniaAndCovid>
+    <covidRdf:Indicator>South Dakota</covidRdf:Indicator>
+    <covidRdf:DeathsFromAllCauses>1816</covidRdf:DeathsFromAllCauses>
+    <covidRdf:StartWeek>02/01/2020</covidRdf:StartWeek>
+    <covidRdf:PneumoniaInfluenzaAndCovidDeaths></covidRdf:PneumoniaInfluenzaAndCovidDeaths>
+    <covidRdf:EndWeek>04/25/2020</covidRdf:EndWeek>
+    <covidRdf:State>South Dakota</covidRdf:State>
+    <covidRdf:AllCovidDeaths></covidRdf:AllCovidDeaths>
+    <covidRdf:PercentofExpectedDeaths>0.86</covidRdf:PercentofExpectedDeaths>
+    <covidRdf:AllPneumoniaDeaths>143</covidRdf:AllPneumoniaDeaths>
   </rdf:Description>
   <rdf:Description rdf:about="https://data.edd.ca.gov13">
-    <j.0:AllInfluenzaDeaths>17</j.0:AllInfluenzaDeaths>
-    <j.0:AllPneumoniaDeaths>672</j.0:AllPneumoniaDeaths>
-    <j.0:PneumoniaInfluenzaAndCovidDeaths>930</j.0:PneumoniaInfluenzaAndCovidDeaths>
-    <j.0:DataAsOf>04/27/2020</j.0:DataAsOf>
-    <j.0:Footnote></j.0:Footnote>
-    <j.0:EndWeek>04/25/2020</j.0:EndWeek>
-    <j.0:State>United States</j.0:State>
-    <j.0:Group>By week</j.0:Group>
-    <j.0:StartWeek>04/25/2020</j.0:StartWeek>
-    <j.0:PercentofExpectedDeaths>0.15</j.0:PercentofExpectedDeaths>
-    <j.0:AllCovidDeaths>461</j.0:AllCovidDeaths>
-    <j.0:DeathsFromAllCauses>8035</j.0:DeathsFromAllCauses>
-    <j.0:Indicator>Weekending</j.0:Indicator>
-    <j.0:DeathsWithPneumoniaAndCovid>208</j.0:DeathsWithPneumoniaAndCovid>
+    <covidRdf:AllInfluenzaDeaths>17</covidRdf:AllInfluenzaDeaths>
+    <covidRdf:AllPneumoniaDeaths>672</covidRdf:AllPneumoniaDeaths>
+    <covidRdf:PneumoniaInfluenzaAndCovidDeaths>930</covidRdf:PneumoniaInfluenzaAndCovidDeaths>
+    <covidRdf:DataAsOf>04/27/2020</covidRdf:DataAsOf>
+    <covidRdf:Footnote></covidRdf:Footnote>
+    <covidRdf:EndWeek>04/25/2020</covidRdf:EndWeek>
+    <covidRdf:State>United States</covidRdf:State>
+    <covidRdf:Group>By week</covidRdf:Group>
+    <covidRdf:StartWeek>04/25/2020</covidRdf:StartWeek>
+    <covidRdf:PercentofExpectedDeaths>0.15</covidRdf:PercentofExpectedDeaths>
+    <covidRdf:AllCovidDeaths>461</covidRdf:AllCovidDeaths>
+    <covidRdf:DeathsFromAllCauses>8035</covidRdf:DeathsFromAllCauses>
+    <covidRdf:Indicator>Weekending</covidRdf:Indicator>
+    <covidRdf:DeathsWithPneumoniaAndCovid>208</covidRdf:DeathsWithPneumoniaAndCovid>
   </rdf:Description>
   <rdf:Description rdf:about="https://data.edd.ca.gov57">
-    <j.0:Footnote></j.0:Footnote>
-    <j.0:AllInfluenzaDeaths>104</j.0:AllInfluenzaDeaths>
-    <j.0:PneumoniaInfluenzaAndCovidDeaths></j.0:PneumoniaInfluenzaAndCovidDeaths>
-    <j.0:DeathsWithPneumoniaAndCovid>1569</j.0:DeathsWithPneumoniaAndCovid>
-    <j.0:EndWeek>04/25/2020</j.0:EndWeek>
-    <j.0:Indicator>New Jersey</j.0:Indicator>
-    <j.0:DataAsOf>04/27/2020</j.0:DataAsOf>
-    <j.0:State>New Jersey</j.0:State>
-    <j.0:DeathsFromAllCauses>23224</j.0:DeathsFromAllCauses>
-    <j.0:Group>By state</j.0:Group>
-    <j.0:StartWeek>02/01/2020</j.0:StartWeek>
-    <j.0:AllCovidDeaths>3037</j.0:AllCovidDeaths>
-    <j.0:AllPneumoniaDeaths>3125</j.0:AllPneumoniaDeaths>
-    <j.0:PercentofExpectedDeaths>1.19</j.0:PercentofExpectedDeaths>
+    <covidRdf:Footnote></covidRdf:Footnote>
+    <covidRdf:AllInfluenzaDeaths>104</covidRdf:AllInfluenzaDeaths>
+    <covidRdf:PneumoniaInfluenzaAndCovidDeaths></covidRdf:PneumoniaInfluenzaAndCovidDeaths>
+    <covidRdf:DeathsWithPneumoniaAndCovid>1569</covidRdf:DeathsWithPneumoniaAndCovid>
+    <covidRdf:EndWeek>04/25/2020</covidRdf:EndWeek>
+    <covidRdf:Indicator>New Jersey</covidRdf:Indicator>
+    <covidRdf:DataAsOf>04/27/2020</covidRdf:DataAsOf>
+    <covidRdf:State>New Jersey</covidRdf:State>
+    <covidRdf:DeathsFromAllCauses>23224</covidRdf:DeathsFromAllCauses>
+    <covidRdf:Group>By state</covidRdf:Group>
+    <covidRdf:StartWeek>02/01/2020</covidRdf:StartWeek>
+    <covidRdf:AllCovidDeaths>3037</covidRdf:AllCovidDeaths>
+    <covidRdf:AllPneumoniaDeaths>3125</covidRdf:AllPneumoniaDeaths>
+    <covidRdf:PercentofExpectedDeaths>1.19</covidRdf:PercentofExpectedDeaths>
   </rdf:Description>
   <rdf:Description rdf:about="https://data.edd.ca.gov45">
-    <j.0:PercentofExpectedDeaths>0.88</j.0:PercentofExpectedDeaths>
-    <j.0:Footnote></j.0:Footnote>
-    <j.0:AllCovidDeaths>538</j.0:AllCovidDeaths>
-    <j.0:PneumoniaInfluenzaAndCovidDeaths></j.0:PneumoniaInfluenzaAndCovidDeaths>
-    <j.0:EndWeek>04/25/2020</j.0:EndWeek>
-    <j.0:DataAsOf>04/27/2020</j.0:DataAsOf>
-    <j.0:DeathsWithPneumoniaAndCovid>220</j.0:DeathsWithPneumoniaAndCovid>
-    <j.0:State>Louisiana</j.0:State>
-    <j.0:AllInfluenzaDeaths>60</j.0:AllInfluenzaDeaths>
-    <j.0:Group>By state</j.0:Group>
-    <j.0:StartWeek>02/01/2020</j.0:StartWeek>
-    <j.0:DeathsFromAllCauses>10304</j.0:DeathsFromAllCauses>
-    <j.0:AllPneumoniaDeaths>680</j.0:AllPneumoniaDeaths>
-    <j.0:Indicator>Louisiana</j.0:Indicator>
+    <covidRdf:PercentofExpectedDeaths>0.88</covidRdf:PercentofExpectedDeaths>
+    <covidRdf:Footnote></covidRdf:Footnote>
+    <covidRdf:AllCovidDeaths>538</covidRdf:AllCovidDeaths>
+    <covidRdf:PneumoniaInfluenzaAndCovidDeaths></covidRdf:PneumoniaInfluenzaAndCovidDeaths>
+    <covidRdf:EndWeek>04/25/2020</covidRdf:EndWeek>
+    <covidRdf:DataAsOf>04/27/2020</covidRdf:DataAsOf>
+    <covidRdf:DeathsWithPneumoniaAndCovid>220</covidRdf:DeathsWithPneumoniaAndCovid>
+    <covidRdf:State>Louisiana</covidRdf:State>
+    <covidRdf:AllInfluenzaDeaths>60</covidRdf:AllInfluenzaDeaths>
+    <covidRdf:Group>By state</covidRdf:Group>
+    <covidRdf:StartWeek>02/01/2020</covidRdf:StartWeek>
+    <covidRdf:DeathsFromAllCauses>10304</covidRdf:DeathsFromAllCauses>
+    <covidRdf:AllPneumoniaDeaths>680</covidRdf:AllPneumoniaDeaths>
+    <covidRdf:Indicator>Louisiana</covidRdf:Indicator>
   </rdf:Description>
   <rdf:Description rdf:about="https://data.edd.ca.gov89">
-    <j.0:PneumoniaInfluenzaAndCovidDeaths></j.0:PneumoniaInfluenzaAndCovidDeaths>
-    <j.0:EndWeek>04/25/2020</j.0:EndWeek>
-    <j.0:Group>By place of death</j.0:Group>
-    <j.0:DeathsFromAllCauses>47811</j.0:DeathsFromAllCauses>
-    <j.0:DeathsWithPneumoniaAndCovid>162</j.0:DeathsWithPneumoniaAndCovid>
-    <j.0:AllInfluenzaDeaths>285</j.0:AllInfluenzaDeaths>
-    <j.0:DataAsOf>04/27/2020</j.0:DataAsOf>
-    <j.0:AllCovidDeaths>334</j.0:AllCovidDeaths>
-    <j.0:Footnote></j.0:Footnote>
-    <j.0:State>United States</j.0:State>
-    <j.0:Indicator>Hospice facility</j.0:Indicator>
-    <j.0:PercentofExpectedDeaths>0.91</j.0:PercentofExpectedDeaths>
-    <j.0:AllPneumoniaDeaths>2916</j.0:AllPneumoniaDeaths>
-    <j.0:StartWeek>02/01/2020</j.0:StartWeek>
+    <covidRdf:PneumoniaInfluenzaAndCovidDeaths></covidRdf:PneumoniaInfluenzaAndCovidDeaths>
+    <covidRdf:EndWeek>04/25/2020</covidRdf:EndWeek>
+    <covidRdf:Group>By place of death</covidRdf:Group>
+    <covidRdf:DeathsFromAllCauses>47811</covidRdf:DeathsFromAllCauses>
+    <covidRdf:DeathsWithPneumoniaAndCovid>162</covidRdf:DeathsWithPneumoniaAndCovid>
+    <covidRdf:AllInfluenzaDeaths>285</covidRdf:AllInfluenzaDeaths>
+    <covidRdf:DataAsOf>04/27/2020</covidRdf:DataAsOf>
+    <covidRdf:AllCovidDeaths>334</covidRdf:AllCovidDeaths>
+    <covidRdf:Footnote></covidRdf:Footnote>
+    <covidRdf:State>United States</covidRdf:State>
+    <covidRdf:Indicator>Hospice facility</covidRdf:Indicator>
+    <covidRdf:PercentofExpectedDeaths>0.91</covidRdf:PercentofExpectedDeaths>
+    <covidRdf:AllPneumoniaDeaths>2916</covidRdf:AllPneumoniaDeaths>
+    <covidRdf:StartWeek>02/01/2020</covidRdf:StartWeek>
   </rdf:Description>
   <rdf:Description rdf:about="https://data.edd.ca.gov33">
-    <j.0:DataAsOf>04/27/2020</j.0:DataAsOf>
-    <j.0:PercentofExpectedDeaths>0.06</j.0:PercentofExpectedDeaths>
-    <j.0:AllPneumoniaDeaths>29</j.0:AllPneumoniaDeaths>
-    <j.0:AllInfluenzaDeaths></j.0:AllInfluenzaDeaths>
-    <j.0:Group>By state</j.0:Group>
-    <j.0:Footnote>One or more data cells have counts &lt;10 and have been suppressed in accordance with NCHS confidentiality standards.</j.0:Footnote>
-    <j.0:State>Connecticut</j.0:State>
-    <j.0:AllCovidDeaths></j.0:AllCovidDeaths>
-    <j.0:StartWeek>02/01/2020</j.0:StartWeek>
-    <j.0:DeathsFromAllCauses>461</j.0:DeathsFromAllCauses>
-    <j.0:DeathsWithPneumoniaAndCovid>0</j.0:DeathsWithPneumoniaAndCovid>
-    <j.0:PneumoniaInfluenzaAndCovidDeaths></j.0:PneumoniaInfluenzaAndCovidDeaths>
-    <j.0:EndWeek>04/25/2020</j.0:EndWeek>
-    <j.0:Indicator>Connecticut</j.0:Indicator>
+    <covidRdf:DataAsOf>04/27/2020</covidRdf:DataAsOf>
+    <covidRdf:PercentofExpectedDeaths>0.06</covidRdf:PercentofExpectedDeaths>
+    <covidRdf:AllPneumoniaDeaths>29</covidRdf:AllPneumoniaDeaths>
+    <covidRdf:AllInfluenzaDeaths></covidRdf:AllInfluenzaDeaths>
+    <covidRdf:Group>By state</covidRdf:Group>
+    <covidRdf:Footnote>One or more data cells have counts &lt;10 and have been suppressed in accordance with NCHS confidentiality standards.</covidRdf:Footnote>
+    <covidRdf:State>Connecticut</covidRdf:State>
+    <covidRdf:AllCovidDeaths></covidRdf:AllCovidDeaths>
+    <covidRdf:StartWeek>02/01/2020</covidRdf:StartWeek>
+    <covidRdf:DeathsFromAllCauses>461</covidRdf:DeathsFromAllCauses>
+    <covidRdf:DeathsWithPneumoniaAndCovid>0</covidRdf:DeathsWithPneumoniaAndCovid>
+    <covidRdf:PneumoniaInfluenzaAndCovidDeaths></covidRdf:PneumoniaInfluenzaAndCovidDeaths>
+    <covidRdf:EndWeek>04/25/2020</covidRdf:EndWeek>
+    <covidRdf:Indicator>Connecticut</covidRdf:Indicator>
   </rdf:Description>
   <rdf:Description rdf:about="https://data.edd.ca.gov8">
-    <j.0:Group>By week</j.0:Group>
-    <j.0:Footnote></j.0:Footnote>
-    <j.0:AllCovidDeaths>478</j.0:AllCovidDeaths>
-    <j.0:Indicator>Weekending</j.0:Indicator>
-    <j.0:PneumoniaInfluenzaAndCovidDeaths>4845</j.0:PneumoniaInfluenzaAndCovidDeaths>
-    <j.0:AllPneumoniaDeaths>4106</j.0:AllPneumoniaDeaths>
-    <j.0:EndWeek>03/21/2020</j.0:EndWeek>
-    <j.0:StartWeek>03/21/2020</j.0:StartWeek>
-    <j.0:PercentofExpectedDeaths>0.94</j.0:PercentofExpectedDeaths>
-    <j.0:State>United States</j.0:State>
-    <j.0:DeathsFromAllCauses>53553</j.0:DeathsFromAllCauses>
-    <j.0:AllInfluenzaDeaths>490</j.0:AllInfluenzaDeaths>
-    <j.0:DataAsOf>04/27/2020</j.0:DataAsOf>
-    <j.0:DeathsWithPneumoniaAndCovid>223</j.0:DeathsWithPneumoniaAndCovid>
+    <covidRdf:Group>By week</covidRdf:Group>
+    <covidRdf:Footnote></covidRdf:Footnote>
+    <covidRdf:AllCovidDeaths>478</covidRdf:AllCovidDeaths>
+    <covidRdf:Indicator>Weekending</covidRdf:Indicator>
+    <covidRdf:PneumoniaInfluenzaAndCovidDeaths>4845</covidRdf:PneumoniaInfluenzaAndCovidDeaths>
+    <covidRdf:AllPneumoniaDeaths>4106</covidRdf:AllPneumoniaDeaths>
+    <covidRdf:EndWeek>03/21/2020</covidRdf:EndWeek>
+    <covidRdf:StartWeek>03/21/2020</covidRdf:StartWeek>
+    <covidRdf:PercentofExpectedDeaths>0.94</covidRdf:PercentofExpectedDeaths>
+    <covidRdf:State>United States</covidRdf:State>
+    <covidRdf:DeathsFromAllCauses>53553</covidRdf:DeathsFromAllCauses>
+    <covidRdf:AllInfluenzaDeaths>490</covidRdf:AllInfluenzaDeaths>
+    <covidRdf:DataAsOf>04/27/2020</covidRdf:DataAsOf>
+    <covidRdf:DeathsWithPneumoniaAndCovid>223</covidRdf:DeathsWithPneumoniaAndCovid>
   </rdf:Description>
   <rdf:Description rdf:about="https://data.edd.ca.gov77">
-    <j.0:DataAsOf>04/27/2020</j.0:DataAsOf>
-    <j.0:AllCovidDeaths>182</j.0:AllCovidDeaths>
-    <j.0:State>Wisconsin</j.0:State>
-    <j.0:Indicator>Wisconsin</j.0:Indicator>
-    <j.0:AllInfluenzaDeaths>144</j.0:AllInfluenzaDeaths>
-    <j.0:Footnote></j.0:Footnote>
-    <j.0:AllPneumoniaDeaths>754</j.0:AllPneumoniaDeaths>
-    <j.0:DeathsFromAllCauses>13146</j.0:DeathsFromAllCauses>
-    <j.0:PercentofExpectedDeaths>0.96</j.0:PercentofExpectedDeaths>
-    <j.0:PneumoniaInfluenzaAndCovidDeaths></j.0:PneumoniaInfluenzaAndCovidDeaths>
-    <j.0:Group>By state</j.0:Group>
-    <j.0:EndWeek>04/25/2020</j.0:EndWeek>
-    <j.0:DeathsWithPneumoniaAndCovid>29</j.0:DeathsWithPneumoniaAndCovid>
-    <j.0:StartWeek>02/01/2020</j.0:StartWeek>
+    <covidRdf:DataAsOf>04/27/2020</covidRdf:DataAsOf>
+    <covidRdf:AllCovidDeaths>182</covidRdf:AllCovidDeaths>
+    <covidRdf:State>Wisconsin</covidRdf:State>
+    <covidRdf:Indicator>Wisconsin</covidRdf:Indicator>
+    <covidRdf:AllInfluenzaDeaths>144</covidRdf:AllInfluenzaDeaths>
+    <covidRdf:Footnote></covidRdf:Footnote>
+    <covidRdf:AllPneumoniaDeaths>754</covidRdf:AllPneumoniaDeaths>
+    <covidRdf:DeathsFromAllCauses>13146</covidRdf:DeathsFromAllCauses>
+    <covidRdf:PercentofExpectedDeaths>0.96</covidRdf:PercentofExpectedDeaths>
+    <covidRdf:PneumoniaInfluenzaAndCovidDeaths></covidRdf:PneumoniaInfluenzaAndCovidDeaths>
+    <covidRdf:Group>By state</covidRdf:Group>
+    <covidRdf:EndWeek>04/25/2020</covidRdf:EndWeek>
+    <covidRdf:DeathsWithPneumoniaAndCovid>29</covidRdf:DeathsWithPneumoniaAndCovid>
+    <covidRdf:StartWeek>02/01/2020</covidRdf:StartWeek>
   </rdf:Description>
   <rdf:Description rdf:about="https://data.edd.ca.gov21">
-    <j.0:PercentofExpectedDeaths>0.91</j.0:PercentofExpectedDeaths>
-    <j.0:AllInfluenzaDeaths>490</j.0:AllInfluenzaDeaths>
-    <j.0:AllCovidDeaths>1484</j.0:AllCovidDeaths>
-    <j.0:Indicator>45â€“54 years</j.0:Indicator>
-    <j.0:StartWeek>02/01/2020</j.0:StartWeek>
-    <j.0:AllPneumoniaDeaths>2395</j.0:AllPneumoniaDeaths>
-    <j.0:Group>By age</j.0:Group>
-    <j.0:DeathsWithPneumoniaAndCovid>614</j.0:DeathsWithPneumoniaAndCovid>
-    <j.0:State>United States</j.0:State>
-    <j.0:DeathsFromAllCauses>35433</j.0:DeathsFromAllCauses>
-    <j.0:PneumoniaInfluenzaAndCovidDeaths></j.0:PneumoniaInfluenzaAndCovidDeaths>
-    <j.0:EndWeek>04/25/2020</j.0:EndWeek>
-    <j.0:Footnote></j.0:Footnote>
-    <j.0:DataAsOf>04/27/2020</j.0:DataAsOf>
+    <covidRdf:PercentofExpectedDeaths>0.91</covidRdf:PercentofExpectedDeaths>
+    <covidRdf:AllInfluenzaDeaths>490</covidRdf:AllInfluenzaDeaths>
+    <covidRdf:AllCovidDeaths>1484</covidRdf:AllCovidDeaths>
+    <covidRdf:Indicator>45â€“54 years</covidRdf:Indicator>
+    <covidRdf:StartWeek>02/01/2020</covidRdf:StartWeek>
+    <covidRdf:AllPneumoniaDeaths>2395</covidRdf:AllPneumoniaDeaths>
+    <covidRdf:Group>By age</covidRdf:Group>
+    <covidRdf:DeathsWithPneumoniaAndCovid>614</covidRdf:DeathsWithPneumoniaAndCovid>
+    <covidRdf:State>United States</covidRdf:State>
+    <covidRdf:DeathsFromAllCauses>35433</covidRdf:DeathsFromAllCauses>
+    <covidRdf:PneumoniaInfluenzaAndCovidDeaths></covidRdf:PneumoniaInfluenzaAndCovidDeaths>
+    <covidRdf:EndWeek>04/25/2020</covidRdf:EndWeek>
+    <covidRdf:Footnote></covidRdf:Footnote>
+    <covidRdf:DataAsOf>04/27/2020</covidRdf:DataAsOf>
   </rdf:Description>
   <rdf:Description rdf:about="https://data.edd.ca.gov65">
-    <j.0:Indicator>Oregon</j.0:Indicator>
-    <j.0:AllPneumoniaDeaths>420</j.0:AllPneumoniaDeaths>
-    <j.0:DeathsWithPneumoniaAndCovid>25</j.0:DeathsWithPneumoniaAndCovid>
-    <j.0:State>Oregon</j.0:State>
-    <j.0:Footnote></j.0:Footnote>
-    <j.0:Group>By state</j.0:Group>
-    <j.0:PneumoniaInfluenzaAndCovidDeaths></j.0:PneumoniaInfluenzaAndCovidDeaths>
-    <j.0:EndWeek>04/25/2020</j.0:EndWeek>
-    <j.0:AllInfluenzaDeaths>56</j.0:AllInfluenzaDeaths>
-    <j.0:DeathsFromAllCauses>7900</j.0:DeathsFromAllCauses>
-    <j.0:AllCovidDeaths>58</j.0:AllCovidDeaths>
-    <j.0:StartWeek>02/01/2020</j.0:StartWeek>
-    <j.0:PercentofExpectedDeaths>0.83</j.0:PercentofExpectedDeaths>
-    <j.0:DataAsOf>04/27/2020</j.0:DataAsOf>
+    <covidRdf:Indicator>Oregon</covidRdf:Indicator>
+    <covidRdf:AllPneumoniaDeaths>420</covidRdf:AllPneumoniaDeaths>
+    <covidRdf:DeathsWithPneumoniaAndCovid>25</covidRdf:DeathsWithPneumoniaAndCovid>
+    <covidRdf:State>Oregon</covidRdf:State>
+    <covidRdf:Footnote></covidRdf:Footnote>
+    <covidRdf:Group>By state</covidRdf:Group>
+    <covidRdf:PneumoniaInfluenzaAndCovidDeaths></covidRdf:PneumoniaInfluenzaAndCovidDeaths>
+    <covidRdf:EndWeek>04/25/2020</covidRdf:EndWeek>
+    <covidRdf:AllInfluenzaDeaths>56</covidRdf:AllInfluenzaDeaths>
+    <covidRdf:DeathsFromAllCauses>7900</covidRdf:DeathsFromAllCauses>
+    <covidRdf:AllCovidDeaths>58</covidRdf:AllCovidDeaths>
+    <covidRdf:StartWeek>02/01/2020</covidRdf:StartWeek>
+    <covidRdf:PercentofExpectedDeaths>0.83</covidRdf:PercentofExpectedDeaths>
+    <covidRdf:DataAsOf>04/27/2020</covidRdf:DataAsOf>
   </rdf:Description>
   <rdf:Description rdf:about="https://data.edd.ca.gov53">
-    <j.0:PercentofExpectedDeaths>0.84</j.0:PercentofExpectedDeaths>
-    <j.0:PneumoniaInfluenzaAndCovidDeaths></j.0:PneumoniaInfluenzaAndCovidDeaths>
-    <j.0:AllInfluenzaDeaths>32</j.0:AllInfluenzaDeaths>
-    <j.0:Indicator>Montana</j.0:Indicator>
-    <j.0:DeathsFromAllCauses>2248</j.0:DeathsFromAllCauses>
-    <j.0:EndWeek>04/25/2020</j.0:EndWeek>
-    <j.0:DataAsOf>04/27/2020</j.0:DataAsOf>
-    <j.0:DeathsWithPneumoniaAndCovid></j.0:DeathsWithPneumoniaAndCovid>
-    <j.0:AllCovidDeaths></j.0:AllCovidDeaths>
-    <j.0:Footnote>One or more data cells have counts &lt;10 and have been suppressed in accordance with NCHS confidentiality standards.</j.0:Footnote>
-    <j.0:Group>By state</j.0:Group>
-    <j.0:AllPneumoniaDeaths>132</j.0:AllPneumoniaDeaths>
-    <j.0:State>Montana</j.0:State>
-    <j.0:StartWeek>02/01/2020</j.0:StartWeek>
+    <covidRdf:PercentofExpectedDeaths>0.84</covidRdf:PercentofExpectedDeaths>
+    <covidRdf:PneumoniaInfluenzaAndCovidDeaths></covidRdf:PneumoniaInfluenzaAndCovidDeaths>
+    <covidRdf:AllInfluenzaDeaths>32</covidRdf:AllInfluenzaDeaths>
+    <covidRdf:Indicator>Montana</covidRdf:Indicator>
+    <covidRdf:DeathsFromAllCauses>2248</covidRdf:DeathsFromAllCauses>
+    <covidRdf:EndWeek>04/25/2020</covidRdf:EndWeek>
+    <covidRdf:DataAsOf>04/27/2020</covidRdf:DataAsOf>
+    <covidRdf:DeathsWithPneumoniaAndCovid></covidRdf:DeathsWithPneumoniaAndCovid>
+    <covidRdf:AllCovidDeaths></covidRdf:AllCovidDeaths>
+    <covidRdf:Footnote>One or more data cells have counts &lt;10 and have been suppressed in accordance with NCHS confidentiality standards.</covidRdf:Footnote>
+    <covidRdf:Group>By state</covidRdf:Group>
+    <covidRdf:AllPneumoniaDeaths>132</covidRdf:AllPneumoniaDeaths>
+    <covidRdf:State>Montana</covidRdf:State>
+    <covidRdf:StartWeek>02/01/2020</covidRdf:StartWeek>
   </rdf:Description>
   <rdf:Description rdf:about="https://data.edd.ca.gov41">
-    <j.0:AllInfluenzaDeaths>118</j.0:AllInfluenzaDeaths>
-    <j.0:Indicator>Indiana</j.0:Indicator>
-    <j.0:PneumoniaInfluenzaAndCovidDeaths></j.0:PneumoniaInfluenzaAndCovidDeaths>
-    <j.0:EndWeek>04/25/2020</j.0:EndWeek>
-    <j.0:DataAsOf>04/27/2020</j.0:DataAsOf>
-    <j.0:State>Indiana</j.0:State>
-    <j.0:Footnote></j.0:Footnote>
-    <j.0:DeathsWithPneumoniaAndCovid>133</j.0:DeathsWithPneumoniaAndCovid>
-    <j.0:DeathsFromAllCauses>15398</j.0:DeathsFromAllCauses>
-    <j.0:PercentofExpectedDeaths>0.89</j.0:PercentofExpectedDeaths>
-    <j.0:AllPneumoniaDeaths>1307</j.0:AllPneumoniaDeaths>
-    <j.0:Group>By state</j.0:Group>
-    <j.0:StartWeek>02/01/2020</j.0:StartWeek>
-    <j.0:AllCovidDeaths>239</j.0:AllCovidDeaths>
+    <covidRdf:AllInfluenzaDeaths>118</covidRdf:AllInfluenzaDeaths>
+    <covidRdf:Indicator>Indiana</covidRdf:Indicator>
+    <covidRdf:PneumoniaInfluenzaAndCovidDeaths></covidRdf:PneumoniaInfluenzaAndCovidDeaths>
+    <covidRdf:EndWeek>04/25/2020</covidRdf:EndWeek>
+    <covidRdf:DataAsOf>04/27/2020</covidRdf:DataAsOf>
+    <covidRdf:State>Indiana</covidRdf:State>
+    <covidRdf:Footnote></covidRdf:Footnote>
+    <covidRdf:DeathsWithPneumoniaAndCovid>133</covidRdf:DeathsWithPneumoniaAndCovid>
+    <covidRdf:DeathsFromAllCauses>15398</covidRdf:DeathsFromAllCauses>
+    <covidRdf:PercentofExpectedDeaths>0.89</covidRdf:PercentofExpectedDeaths>
+    <covidRdf:AllPneumoniaDeaths>1307</covidRdf:AllPneumoniaDeaths>
+    <covidRdf:Group>By state</covidRdf:Group>
+    <covidRdf:StartWeek>02/01/2020</covidRdf:StartWeek>
+    <covidRdf:AllCovidDeaths>239</covidRdf:AllCovidDeaths>
   </rdf:Description>
   <rdf:Description rdf:about="https://data.edd.ca.gov85">
-    <j.0:AllPneumoniaDeaths>0.91</j.0:AllPneumoniaDeaths>
-    <j.0:DataAsOf>04/27/2020</j.0:DataAsOf>
-    <j.0:AllCovidDeaths>04/25/2020</j.0:AllCovidDeaths>
-    <j.0:DeathsFromAllCauses>19178</j.0:DeathsFromAllCauses>
-    <j.0:EndWeek>02/01/2020</j.0:EndWeek>
-    <j.0:State>United States</j.0:State>
-    <j.0:AllInfluenzaDeaths>9903</j.0:AllInfluenzaDeaths>
-    <j.0:Group>By place of death</j.0:Group>
-    <j.0:PercentofExpectedDeaths>193765</j.0:PercentofExpectedDeaths>
-    <j.0:PneumoniaInfluenzaAndCovidDeaths>3544</j.0:PneumoniaInfluenzaAndCovidDeaths>
-    <j.0:Indicator>"Healthcare setting</j.0:Indicator>
-    <j.0:StartWeek> inpatient"</j.0:StartWeek>
-    <j.0:DeathsWithPneumoniaAndCovid>39369</j.0:DeathsWithPneumoniaAndCovid>
-    <j.0:Footnote></j.0:Footnote>
+    <covidRdf:AllPneumoniaDeaths>0.91</covidRdf:AllPneumoniaDeaths>
+    <covidRdf:DataAsOf>04/27/2020</covidRdf:DataAsOf>
+    <covidRdf:AllCovidDeaths>04/25/2020</covidRdf:AllCovidDeaths>
+    <covidRdf:DeathsFromAllCauses>19178</covidRdf:DeathsFromAllCauses>
+    <covidRdf:EndWeek>02/01/2020</covidRdf:EndWeek>
+    <covidRdf:State>United States</covidRdf:State>
+    <covidRdf:AllInfluenzaDeaths>9903</covidRdf:AllInfluenzaDeaths>
+    <covidRdf:Group>By place of death</covidRdf:Group>
+    <covidRdf:PercentofExpectedDeaths>193765</covidRdf:PercentofExpectedDeaths>
+    <covidRdf:PneumoniaInfluenzaAndCovidDeaths>3544</covidRdf:PneumoniaInfluenzaAndCovidDeaths>
+    <covidRdf:Indicator>"Healthcare setting</covidRdf:Indicator>
+    <covidRdf:StartWeek> inpatient"</covidRdf:StartWeek>
+    <covidRdf:DeathsWithPneumoniaAndCovid>39369</covidRdf:DeathsWithPneumoniaAndCovid>
+    <covidRdf:Footnote></covidRdf:Footnote>
   </rdf:Description>
   <rdf:Description rdf:about="https://data.edd.ca.gov19">
-    <j.0:DeathsFromAllCauses>12659</j.0:DeathsFromAllCauses>
-    <j.0:PercentofExpectedDeaths>0.91</j.0:PercentofExpectedDeaths>
-    <j.0:EndWeek>04/25/2020</j.0:EndWeek>
-    <j.0:AllPneumoniaDeaths>412</j.0:AllPneumoniaDeaths>
-    <j.0:DeathsWithPneumoniaAndCovid>93</j.0:DeathsWithPneumoniaAndCovid>
-    <j.0:Group>By age</j.0:Group>
-    <j.0:Indicator>25â€“34 years</j.0:Indicator>
-    <j.0:DataAsOf>04/27/2020</j.0:DataAsOf>
-    <j.0:State>United States</j.0:State>
-    <j.0:AllCovidDeaths>220</j.0:AllCovidDeaths>
-    <j.0:Footnote></j.0:Footnote>
-    <j.0:PneumoniaInfluenzaAndCovidDeaths></j.0:PneumoniaInfluenzaAndCovidDeaths>
-    <j.0:StartWeek>02/01/2020</j.0:StartWeek>
-    <j.0:AllInfluenzaDeaths>126</j.0:AllInfluenzaDeaths>
+    <covidRdf:DeathsFromAllCauses>12659</covidRdf:DeathsFromAllCauses>
+    <covidRdf:PercentofExpectedDeaths>0.91</covidRdf:PercentofExpectedDeaths>
+    <covidRdf:EndWeek>04/25/2020</covidRdf:EndWeek>
+    <covidRdf:AllPneumoniaDeaths>412</covidRdf:AllPneumoniaDeaths>
+    <covidRdf:DeathsWithPneumoniaAndCovid>93</covidRdf:DeathsWithPneumoniaAndCovid>
+    <covidRdf:Group>By age</covidRdf:Group>
+    <covidRdf:Indicator>25â€“34 years</covidRdf:Indicator>
+    <covidRdf:DataAsOf>04/27/2020</covidRdf:DataAsOf>
+    <covidRdf:State>United States</covidRdf:State>
+    <covidRdf:AllCovidDeaths>220</covidRdf:AllCovidDeaths>
+    <covidRdf:Footnote></covidRdf:Footnote>
+    <covidRdf:PneumoniaInfluenzaAndCovidDeaths></covidRdf:PneumoniaInfluenzaAndCovidDeaths>
+    <covidRdf:StartWeek>02/01/2020</covidRdf:StartWeek>
+    <covidRdf:AllInfluenzaDeaths>126</covidRdf:AllInfluenzaDeaths>
   </rdf:Description>
   <rdf:Description rdf:about="https://data.edd.ca.gov39">
-    <j.0:DeathsWithPneumoniaAndCovid>12</j.0:DeathsWithPneumoniaAndCovid>
-    <j.0:DeathsFromAllCauses>3448</j.0:DeathsFromAllCauses>
-    <j.0:State>Idaho</j.0:State>
-    <j.0:EndWeek>04/25/2020</j.0:EndWeek>
-    <j.0:DataAsOf>04/27/2020</j.0:DataAsOf>
-    <j.0:Group>By state</j.0:Group>
-    <j.0:AllCovidDeaths>41</j.0:AllCovidDeaths>
-    <j.0:AllPneumoniaDeaths>190</j.0:AllPneumoniaDeaths>
-    <j.0:Indicator>Idaho</j.0:Indicator>
-    <j.0:PercentofExpectedDeaths>0.93</j.0:PercentofExpectedDeaths>
-    <j.0:StartWeek>02/01/2020</j.0:StartWeek>
-    <j.0:Footnote></j.0:Footnote>
-    <j.0:PneumoniaInfluenzaAndCovidDeaths></j.0:PneumoniaInfluenzaAndCovidDeaths>
-    <j.0:AllInfluenzaDeaths>24</j.0:AllInfluenzaDeaths>
+    <covidRdf:DeathsWithPneumoniaAndCovid>12</covidRdf:DeathsWithPneumoniaAndCovid>
+    <covidRdf:DeathsFromAllCauses>3448</covidRdf:DeathsFromAllCauses>
+    <covidRdf:State>Idaho</covidRdf:State>
+    <covidRdf:EndWeek>04/25/2020</covidRdf:EndWeek>
+    <covidRdf:DataAsOf>04/27/2020</covidRdf:DataAsOf>
+    <covidRdf:Group>By state</covidRdf:Group>
+    <covidRdf:AllCovidDeaths>41</covidRdf:AllCovidDeaths>
+    <covidRdf:AllPneumoniaDeaths>190</covidRdf:AllPneumoniaDeaths>
+    <covidRdf:Indicator>Idaho</covidRdf:Indicator>
+    <covidRdf:PercentofExpectedDeaths>0.93</covidRdf:PercentofExpectedDeaths>
+    <covidRdf:StartWeek>02/01/2020</covidRdf:StartWeek>
+    <covidRdf:Footnote></covidRdf:Footnote>
+    <covidRdf:PneumoniaInfluenzaAndCovidDeaths></covidRdf:PneumoniaInfluenzaAndCovidDeaths>
+    <covidRdf:AllInfluenzaDeaths>24</covidRdf:AllInfluenzaDeaths>
   </rdf:Description>
   <rdf:Description rdf:about="https://data.edd.ca.gov27">
-    <j.0:PercentofExpectedDeaths>0.87</j.0:PercentofExpectedDeaths>
-    <j.0:PneumoniaInfluenzaAndCovidDeaths></j.0:PneumoniaInfluenzaAndCovidDeaths>
-    <j.0:EndWeek>04/25/2020</j.0:EndWeek>
-    <j.0:DataAsOf>04/27/2020</j.0:DataAsOf>
-    <j.0:AllInfluenzaDeaths>82</j.0:AllInfluenzaDeaths>
-    <j.0:DeathsFromAllCauses>11783</j.0:DeathsFromAllCauses>
-    <j.0:Group>By state</j.0:Group>
-    <j.0:DeathsWithPneumoniaAndCovid>38</j.0:DeathsWithPneumoniaAndCovid>
-    <j.0:StartWeek>02/01/2020</j.0:StartWeek>
-    <j.0:State>Alabama</j.0:State>
-    <j.0:Indicator>Alabama</j.0:Indicator>
-    <j.0:AllCovidDeaths>127</j.0:AllCovidDeaths>
-    <j.0:Footnote></j.0:Footnote>
-    <j.0:AllPneumoniaDeaths>735</j.0:AllPneumoniaDeaths>
+    <covidRdf:PercentofExpectedDeaths>0.87</covidRdf:PercentofExpectedDeaths>
+    <covidRdf:PneumoniaInfluenzaAndCovidDeaths></covidRdf:PneumoniaInfluenzaAndCovidDeaths>
+    <covidRdf:EndWeek>04/25/2020</covidRdf:EndWeek>
+    <covidRdf:DataAsOf>04/27/2020</covidRdf:DataAsOf>
+    <covidRdf:AllInfluenzaDeaths>82</covidRdf:AllInfluenzaDeaths>
+    <covidRdf:DeathsFromAllCauses>11783</covidRdf:DeathsFromAllCauses>
+    <covidRdf:Group>By state</covidRdf:Group>
+    <covidRdf:DeathsWithPneumoniaAndCovid>38</covidRdf:DeathsWithPneumoniaAndCovid>
+    <covidRdf:StartWeek>02/01/2020</covidRdf:StartWeek>
+    <covidRdf:State>Alabama</covidRdf:State>
+    <covidRdf:Indicator>Alabama</covidRdf:Indicator>
+    <covidRdf:AllCovidDeaths>127</covidRdf:AllCovidDeaths>
+    <covidRdf:Footnote></covidRdf:Footnote>
+    <covidRdf:AllPneumoniaDeaths>735</covidRdf:AllPneumoniaDeaths>
   </rdf:Description>
   <rdf:Description rdf:about="https://data.edd.ca.gov62">
-    <j.0:Indicator>North Dakota</j.0:Indicator>
-    <j.0:AllInfluenzaDeaths>18</j.0:AllInfluenzaDeaths>
-    <j.0:State>North Dakota</j.0:State>
-    <j.0:StartWeek>02/01/2020</j.0:StartWeek>
-    <j.0:EndWeek>04/25/2020</j.0:EndWeek>
-    <j.0:DataAsOf>04/27/2020</j.0:DataAsOf>
-    <j.0:AllPneumoniaDeaths>135</j.0:AllPneumoniaDeaths>
-    <j.0:Footnote>One or more data cells have counts &lt;10 and have been suppressed in accordance with NCHS confidentiality standards.</j.0:Footnote>
-    <j.0:DeathsWithPneumoniaAndCovid></j.0:DeathsWithPneumoniaAndCovid>
-    <j.0:AllCovidDeaths></j.0:AllCovidDeaths>
-    <j.0:PercentofExpectedDeaths>0.83</j.0:PercentofExpectedDeaths>
-    <j.0:DeathsFromAllCauses>1508</j.0:DeathsFromAllCauses>
-    <j.0:PneumoniaInfluenzaAndCovidDeaths></j.0:PneumoniaInfluenzaAndCovidDeaths>
-    <j.0:Group>By state</j.0:Group>
+    <covidRdf:Indicator>North Dakota</covidRdf:Indicator>
+    <covidRdf:AllInfluenzaDeaths>18</covidRdf:AllInfluenzaDeaths>
+    <covidRdf:State>North Dakota</covidRdf:State>
+    <covidRdf:StartWeek>02/01/2020</covidRdf:StartWeek>
+    <covidRdf:EndWeek>04/25/2020</covidRdf:EndWeek>
+    <covidRdf:DataAsOf>04/27/2020</covidRdf:DataAsOf>
+    <covidRdf:AllPneumoniaDeaths>135</covidRdf:AllPneumoniaDeaths>
+    <covidRdf:Footnote>One or more data cells have counts &lt;10 and have been suppressed in accordance with NCHS confidentiality standards.</covidRdf:Footnote>
+    <covidRdf:DeathsWithPneumoniaAndCovid></covidRdf:DeathsWithPneumoniaAndCovid>
+    <covidRdf:AllCovidDeaths></covidRdf:AllCovidDeaths>
+    <covidRdf:PercentofExpectedDeaths>0.83</covidRdf:PercentofExpectedDeaths>
+    <covidRdf:DeathsFromAllCauses>1508</covidRdf:DeathsFromAllCauses>
+    <covidRdf:PneumoniaInfluenzaAndCovidDeaths></covidRdf:PneumoniaInfluenzaAndCovidDeaths>
+    <covidRdf:Group>By state</covidRdf:Group>
   </rdf:Description>
   <rdf:Description rdf:about="https://data.edd.ca.gov3">
-    <j.0:DeathsWithPneumoniaAndCovid>0</j.0:DeathsWithPneumoniaAndCovid>
-    <j.0:EndWeek>02/15/2020</j.0:EndWeek>
-    <j.0:AllInfluenzaDeaths>511</j.0:AllInfluenzaDeaths>
-    <j.0:PneumoniaInfluenzaAndCovidDeaths>4181</j.0:PneumoniaInfluenzaAndCovidDeaths>
-    <j.0:State>United States</j.0:State>
-    <j.0:DeathsFromAllCauses>56523</j.0:DeathsFromAllCauses>
-    <j.0:Group>By week</j.0:Group>
-    <j.0:StartWeek>02/15/2020</j.0:StartWeek>
-    <j.0:Footnote></j.0:Footnote>
-    <j.0:Indicator>Weekending</j.0:Indicator>
-    <j.0:AllPneumoniaDeaths>3670</j.0:AllPneumoniaDeaths>
-    <j.0:AllCovidDeaths>0</j.0:AllCovidDeaths>
-    <j.0:PercentofExpectedDeaths>0.96</j.0:PercentofExpectedDeaths>
-    <j.0:DataAsOf>04/27/2020</j.0:DataAsOf>
+    <covidRdf:DeathsWithPneumoniaAndCovid>0</covidRdf:DeathsWithPneumoniaAndCovid>
+    <covidRdf:EndWeek>02/15/2020</covidRdf:EndWeek>
+    <covidRdf:AllInfluenzaDeaths>511</covidRdf:AllInfluenzaDeaths>
+    <covidRdf:PneumoniaInfluenzaAndCovidDeaths>4181</covidRdf:PneumoniaInfluenzaAndCovidDeaths>
+    <covidRdf:State>United States</covidRdf:State>
+    <covidRdf:DeathsFromAllCauses>56523</covidRdf:DeathsFromAllCauses>
+    <covidRdf:Group>By week</covidRdf:Group>
+    <covidRdf:StartWeek>02/15/2020</covidRdf:StartWeek>
+    <covidRdf:Footnote></covidRdf:Footnote>
+    <covidRdf:Indicator>Weekending</covidRdf:Indicator>
+    <covidRdf:AllPneumoniaDeaths>3670</covidRdf:AllPneumoniaDeaths>
+    <covidRdf:AllCovidDeaths>0</covidRdf:AllCovidDeaths>
+    <covidRdf:PercentofExpectedDeaths>0.96</covidRdf:PercentofExpectedDeaths>
+    <covidRdf:DataAsOf>04/27/2020</covidRdf:DataAsOf>
   </rdf:Description>
   <rdf:Description rdf:about="https://data.edd.ca.gov50">
-    <j.0:AllCovidDeaths>114</j.0:AllCovidDeaths>
-    <j.0:PercentofExpectedDeaths>0.95</j.0:PercentofExpectedDeaths>
-    <j.0:StartWeek>02/01/2020</j.0:StartWeek>
-    <j.0:AllInfluenzaDeaths>111</j.0:AllInfluenzaDeaths>
-    <j.0:AllPneumoniaDeaths>786</j.0:AllPneumoniaDeaths>
-    <j.0:State>Minnesota</j.0:State>
-    <j.0:Footnote></j.0:Footnote>
-    <j.0:EndWeek>04/25/2020</j.0:EndWeek>
-    <j.0:DataAsOf>04/27/2020</j.0:DataAsOf>
-    <j.0:Indicator>Minnesota</j.0:Indicator>
-    <j.0:Group>By state</j.0:Group>
-    <j.0:PneumoniaInfluenzaAndCovidDeaths></j.0:PneumoniaInfluenzaAndCovidDeaths>
-    <j.0:DeathsFromAllCauses>10799</j.0:DeathsFromAllCauses>
-    <j.0:DeathsWithPneumoniaAndCovid>44</j.0:DeathsWithPneumoniaAndCovid>
+    <covidRdf:AllCovidDeaths>114</covidRdf:AllCovidDeaths>
+    <covidRdf:PercentofExpectedDeaths>0.95</covidRdf:PercentofExpectedDeaths>
+    <covidRdf:StartWeek>02/01/2020</covidRdf:StartWeek>
+    <covidRdf:AllInfluenzaDeaths>111</covidRdf:AllInfluenzaDeaths>
+    <covidRdf:AllPneumoniaDeaths>786</covidRdf:AllPneumoniaDeaths>
+    <covidRdf:State>Minnesota</covidRdf:State>
+    <covidRdf:Footnote></covidRdf:Footnote>
+    <covidRdf:EndWeek>04/25/2020</covidRdf:EndWeek>
+    <covidRdf:DataAsOf>04/27/2020</covidRdf:DataAsOf>
+    <covidRdf:Indicator>Minnesota</covidRdf:Indicator>
+    <covidRdf:Group>By state</covidRdf:Group>
+    <covidRdf:PneumoniaInfluenzaAndCovidDeaths></covidRdf:PneumoniaInfluenzaAndCovidDeaths>
+    <covidRdf:DeathsFromAllCauses>10799</covidRdf:DeathsFromAllCauses>
+    <covidRdf:DeathsWithPneumoniaAndCovid>44</covidRdf:DeathsWithPneumoniaAndCovid>
   </rdf:Description>
   <rdf:Description rdf:about="https://data.edd.ca.gov82">
-    <j.0:Indicator>Female</j.0:Indicator>
-    <j.0:AllCovidDeaths>11750</j.0:AllCovidDeaths>
-    <j.0:PneumoniaInfluenzaAndCovidDeaths></j.0:PneumoniaInfluenzaAndCovidDeaths>
-    <j.0:DataAsOf>04/27/2020</j.0:DataAsOf>
-    <j.0:DeathsWithPneumoniaAndCovid>5240</j.0:DeathsWithPneumoniaAndCovid>
-    <j.0:PercentofExpectedDeaths>0.91</j.0:PercentofExpectedDeaths>
-    <j.0:StartWeek>02/01/2020</j.0:StartWeek>
-    <j.0:AllInfluenzaDeaths>2765</j.0:AllInfluenzaDeaths>
-    <j.0:Footnote></j.0:Footnote>
-    <j.0:DeathsFromAllCauses>326018</j.0:DeathsFromAllCauses>
-    <j.0:State>United States</j.0:State>
-    <j.0:AllPneumoniaDeaths>26746</j.0:AllPneumoniaDeaths>
-    <j.0:EndWeek>04/25/2020</j.0:EndWeek>
-    <j.0:Group>By sex</j.0:Group>
+    <covidRdf:Indicator>Female</covidRdf:Indicator>
+    <covidRdf:AllCovidDeaths>11750</covidRdf:AllCovidDeaths>
+    <covidRdf:PneumoniaInfluenzaAndCovidDeaths></covidRdf:PneumoniaInfluenzaAndCovidDeaths>
+    <covidRdf:DataAsOf>04/27/2020</covidRdf:DataAsOf>
+    <covidRdf:DeathsWithPneumoniaAndCovid>5240</covidRdf:DeathsWithPneumoniaAndCovid>
+    <covidRdf:PercentofExpectedDeaths>0.91</covidRdf:PercentofExpectedDeaths>
+    <covidRdf:StartWeek>02/01/2020</covidRdf:StartWeek>
+    <covidRdf:AllInfluenzaDeaths>2765</covidRdf:AllInfluenzaDeaths>
+    <covidRdf:Footnote></covidRdf:Footnote>
+    <covidRdf:DeathsFromAllCauses>326018</covidRdf:DeathsFromAllCauses>
+    <covidRdf:State>United States</covidRdf:State>
+    <covidRdf:AllPneumoniaDeaths>26746</covidRdf:AllPneumoniaDeaths>
+    <covidRdf:EndWeek>04/25/2020</covidRdf:EndWeek>
+    <covidRdf:Group>By sex</covidRdf:Group>
   </rdf:Description>
   <rdf:Description rdf:about="https://data.edd.ca.gov70">
-    <j.0:DeathsWithPneumoniaAndCovid>56</j.0:DeathsWithPneumoniaAndCovid>
-    <j.0:DataAsOf>04/27/2020</j.0:DataAsOf>
-    <j.0:AllPneumoniaDeaths>1317</j.0:AllPneumoniaDeaths>
-    <j.0:PneumoniaInfluenzaAndCovidDeaths></j.0:PneumoniaInfluenzaAndCovidDeaths>
-    <j.0:Group>By state</j.0:Group>
-    <j.0:StartWeek>02/01/2020</j.0:StartWeek>
-    <j.0:AllCovidDeaths>114</j.0:AllCovidDeaths>
-    <j.0:Footnote></j.0:Footnote>
-    <j.0:PercentofExpectedDeaths>0.9</j.0:PercentofExpectedDeaths>
-    <j.0:State>Tennessee</j.0:State>
-    <j.0:EndWeek>04/25/2020</j.0:EndWeek>
-    <j.0:DeathsFromAllCauses>17396</j.0:DeathsFromAllCauses>
-    <j.0:Indicator>Tennessee</j.0:Indicator>
-    <j.0:AllInfluenzaDeaths>119</j.0:AllInfluenzaDeaths>
+    <covidRdf:DeathsWithPneumoniaAndCovid>56</covidRdf:DeathsWithPneumoniaAndCovid>
+    <covidRdf:DataAsOf>04/27/2020</covidRdf:DataAsOf>
+    <covidRdf:AllPneumoniaDeaths>1317</covidRdf:AllPneumoniaDeaths>
+    <covidRdf:PneumoniaInfluenzaAndCovidDeaths></covidRdf:PneumoniaInfluenzaAndCovidDeaths>
+    <covidRdf:Group>By state</covidRdf:Group>
+    <covidRdf:StartWeek>02/01/2020</covidRdf:StartWeek>
+    <covidRdf:AllCovidDeaths>114</covidRdf:AllCovidDeaths>
+    <covidRdf:Footnote></covidRdf:Footnote>
+    <covidRdf:PercentofExpectedDeaths>0.9</covidRdf:PercentofExpectedDeaths>
+    <covidRdf:State>Tennessee</covidRdf:State>
+    <covidRdf:EndWeek>04/25/2020</covidRdf:EndWeek>
+    <covidRdf:DeathsFromAllCauses>17396</covidRdf:DeathsFromAllCauses>
+    <covidRdf:Indicator>Tennessee</covidRdf:Indicator>
+    <covidRdf:AllInfluenzaDeaths>119</covidRdf:AllInfluenzaDeaths>
   </rdf:Description>
   <rdf:Description rdf:about="https://data.edd.ca.gov90">
-    <j.0:DataAsOf>04/27/2020</j.0:DataAsOf>
-    <j.0:StartWeek>02/01/2020</j.0:StartWeek>
-    <j.0:EndWeek>04/25/2020</j.0:EndWeek>
-    <j.0:DeathsFromAllCauses>130207</j.0:DeathsFromAllCauses>
-    <j.0:Footnote></j.0:Footnote>
-    <j.0:PercentofExpectedDeaths>0.91</j.0:PercentofExpectedDeaths>
-    <j.0:PneumoniaInfluenzaAndCovidDeaths></j.0:PneumoniaInfluenzaAndCovidDeaths>
-    <j.0:AllCovidDeaths>4341</j.0:AllCovidDeaths>
-    <j.0:AllInfluenzaDeaths>436</j.0:AllInfluenzaDeaths>
-    <j.0:Group>By place of death</j.0:Group>
-    <j.0:AllPneumoniaDeaths>7624</j.0:AllPneumoniaDeaths>
-    <j.0:Indicator>Nursing home/long term care facility</j.0:Indicator>
-    <j.0:DeathsWithPneumoniaAndCovid>1429</j.0:DeathsWithPneumoniaAndCovid>
-    <j.0:State>United States</j.0:State>
+    <covidRdf:DataAsOf>04/27/2020</covidRdf:DataAsOf>
+    <covidRdf:StartWeek>02/01/2020</covidRdf:StartWeek>
+    <covidRdf:EndWeek>04/25/2020</covidRdf:EndWeek>
+    <covidRdf:DeathsFromAllCauses>130207</covidRdf:DeathsFromAllCauses>
+    <covidRdf:Footnote></covidRdf:Footnote>
+    <covidRdf:PercentofExpectedDeaths>0.91</covidRdf:PercentofExpectedDeaths>
+    <covidRdf:PneumoniaInfluenzaAndCovidDeaths></covidRdf:PneumoniaInfluenzaAndCovidDeaths>
+    <covidRdf:AllCovidDeaths>4341</covidRdf:AllCovidDeaths>
+    <covidRdf:AllInfluenzaDeaths>436</covidRdf:AllInfluenzaDeaths>
+    <covidRdf:Group>By place of death</covidRdf:Group>
+    <covidRdf:AllPneumoniaDeaths>7624</covidRdf:AllPneumoniaDeaths>
+    <covidRdf:Indicator>Nursing home/long term care facility</covidRdf:Indicator>
+    <covidRdf:DeathsWithPneumoniaAndCovid>1429</covidRdf:DeathsWithPneumoniaAndCovid>
+    <covidRdf:State>United States</covidRdf:State>
   </rdf:Description>
   <rdf:Description rdf:about="https://data.edd.ca.gov26">
-    <j.0:DeathsWithPneumoniaAndCovid>12398</j.0:DeathsWithPneumoniaAndCovid>
-    <j.0:PneumoniaInfluenzaAndCovidDeaths></j.0:PneumoniaInfluenzaAndCovidDeaths>
-    <j.0:StartWeek>02/01/2020</j.0:StartWeek>
-    <j.0:Indicator>Total US</j.0:Indicator>
-    <j.0:AllInfluenzaDeaths>5668</j.0:AllInfluenzaDeaths>
-    <j.0:State>United States</j.0:State>
-    <j.0:AllPneumoniaDeaths>57480</j.0:AllPneumoniaDeaths>
-    <j.0:Group>By state</j.0:Group>
-    <j.0:DeathsFromAllCauses>673580</j.0:DeathsFromAllCauses>
-    <j.0:AllCovidDeaths>27674</j.0:AllCovidDeaths>
-    <j.0:EndWeek>04/25/2020</j.0:EndWeek>
-    <j.0:PercentofExpectedDeaths>0.91</j.0:PercentofExpectedDeaths>
-    <j.0:DataAsOf>04/27/2020</j.0:DataAsOf>
-    <j.0:Footnote></j.0:Footnote>
+    <covidRdf:DeathsWithPneumoniaAndCovid>12398</covidRdf:DeathsWithPneumoniaAndCovid>
+    <covidRdf:PneumoniaInfluenzaAndCovidDeaths></covidRdf:PneumoniaInfluenzaAndCovidDeaths>
+    <covidRdf:StartWeek>02/01/2020</covidRdf:StartWeek>
+    <covidRdf:Indicator>Total US</covidRdf:Indicator>
+    <covidRdf:AllInfluenzaDeaths>5668</covidRdf:AllInfluenzaDeaths>
+    <covidRdf:State>United States</covidRdf:State>
+    <covidRdf:AllPneumoniaDeaths>57480</covidRdf:AllPneumoniaDeaths>
+    <covidRdf:Group>By state</covidRdf:Group>
+    <covidRdf:DeathsFromAllCauses>673580</covidRdf:DeathsFromAllCauses>
+    <covidRdf:AllCovidDeaths>27674</covidRdf:AllCovidDeaths>
+    <covidRdf:EndWeek>04/25/2020</covidRdf:EndWeek>
+    <covidRdf:PercentofExpectedDeaths>0.91</covidRdf:PercentofExpectedDeaths>
+    <covidRdf:DataAsOf>04/27/2020</covidRdf:DataAsOf>
+    <covidRdf:Footnote></covidRdf:Footnote>
   </rdf:Description>
   <rdf:Description rdf:about="https://data.edd.ca.gov58">
-    <j.0:DeathsFromAllCauses>4028</j.0:DeathsFromAllCauses>
-    <j.0:PneumoniaInfluenzaAndCovidDeaths></j.0:PneumoniaInfluenzaAndCovidDeaths>
-    <j.0:DeathsWithPneumoniaAndCovid>20</j.0:DeathsWithPneumoniaAndCovid>
-    <j.0:AllInfluenzaDeaths>25</j.0:AllInfluenzaDeaths>
-    <j.0:AllPneumoniaDeaths>284</j.0:AllPneumoniaDeaths>
-    <j.0:PercentofExpectedDeaths>0.83</j.0:PercentofExpectedDeaths>
-    <j.0:State>New Mexico</j.0:State>
-    <j.0:Group>By state</j.0:Group>
-    <j.0:DataAsOf>04/27/2020</j.0:DataAsOf>
-    <j.0:StartWeek>02/01/2020</j.0:StartWeek>
-    <j.0:AllCovidDeaths>28</j.0:AllCovidDeaths>
-    <j.0:Footnote></j.0:Footnote>
-    <j.0:EndWeek>04/25/2020</j.0:EndWeek>
-    <j.0:Indicator>New Mexico</j.0:Indicator>
+    <covidRdf:DeathsFromAllCauses>4028</covidRdf:DeathsFromAllCauses>
+    <covidRdf:PneumoniaInfluenzaAndCovidDeaths></covidRdf:PneumoniaInfluenzaAndCovidDeaths>
+    <covidRdf:DeathsWithPneumoniaAndCovid>20</covidRdf:DeathsWithPneumoniaAndCovid>
+    <covidRdf:AllInfluenzaDeaths>25</covidRdf:AllInfluenzaDeaths>
+    <covidRdf:AllPneumoniaDeaths>284</covidRdf:AllPneumoniaDeaths>
+    <covidRdf:PercentofExpectedDeaths>0.83</covidRdf:PercentofExpectedDeaths>
+    <covidRdf:State>New Mexico</covidRdf:State>
+    <covidRdf:Group>By state</covidRdf:Group>
+    <covidRdf:DataAsOf>04/27/2020</covidRdf:DataAsOf>
+    <covidRdf:StartWeek>02/01/2020</covidRdf:StartWeek>
+    <covidRdf:AllCovidDeaths>28</covidRdf:AllCovidDeaths>
+    <covidRdf:Footnote></covidRdf:Footnote>
+    <covidRdf:EndWeek>04/25/2020</covidRdf:EndWeek>
+    <covidRdf:Indicator>New Mexico</covidRdf:Indicator>
   </rdf:Description>
   <rdf:Description rdf:about="https://data.edd.ca.gov14">
-    <j.0:EndWeek>04/25/2020</j.0:EndWeek>
-    <j.0:Footnote></j.0:Footnote>
-    <j.0:PneumoniaInfluenzaAndCovidDeaths></j.0:PneumoniaInfluenzaAndCovidDeaths>
-    <j.0:AllCovidDeaths>27674</j.0:AllCovidDeaths>
-    <j.0:DataAsOf>04/27/2020</j.0:DataAsOf>
-    <j.0:PercentofExpectedDeaths>0.91</j.0:PercentofExpectedDeaths>
-    <j.0:AllPneumoniaDeaths>57480</j.0:AllPneumoniaDeaths>
-    <j.0:State>United States</j.0:State>
-    <j.0:Indicator>All ages</j.0:Indicator>
-    <j.0:DeathsWithPneumoniaAndCovid>12398</j.0:DeathsWithPneumoniaAndCovid>
-    <j.0:DeathsFromAllCauses>673580</j.0:DeathsFromAllCauses>
-    <j.0:Group>By age</j.0:Group>
-    <j.0:AllInfluenzaDeaths>5668</j.0:AllInfluenzaDeaths>
-    <j.0:StartWeek>02/01/2020</j.0:StartWeek>
+    <covidRdf:EndWeek>04/25/2020</covidRdf:EndWeek>
+    <covidRdf:Footnote></covidRdf:Footnote>
+    <covidRdf:PneumoniaInfluenzaAndCovidDeaths></covidRdf:PneumoniaInfluenzaAndCovidDeaths>
+    <covidRdf:AllCovidDeaths>27674</covidRdf:AllCovidDeaths>
+    <covidRdf:DataAsOf>04/27/2020</covidRdf:DataAsOf>
+    <covidRdf:PercentofExpectedDeaths>0.91</covidRdf:PercentofExpectedDeaths>
+    <covidRdf:AllPneumoniaDeaths>57480</covidRdf:AllPneumoniaDeaths>
+    <covidRdf:State>United States</covidRdf:State>
+    <covidRdf:Indicator>All ages</covidRdf:Indicator>
+    <covidRdf:DeathsWithPneumoniaAndCovid>12398</covidRdf:DeathsWithPneumoniaAndCovid>
+    <covidRdf:DeathsFromAllCauses>673580</covidRdf:DeathsFromAllCauses>
+    <covidRdf:Group>By age</covidRdf:Group>
+    <covidRdf:AllInfluenzaDeaths>5668</covidRdf:AllInfluenzaDeaths>
+    <covidRdf:StartWeek>02/01/2020</covidRdf:StartWeek>
   </rdf:Description>
   <rdf:Description rdf:about="https://data.edd.ca.gov46">
-    <j.0:DeathsWithPneumoniaAndCovid>10</j.0:DeathsWithPneumoniaAndCovid>
-    <j.0:EndWeek>04/25/2020</j.0:EndWeek>
-    <j.0:Footnote></j.0:Footnote>
-    <j.0:DeathsFromAllCauses>3668</j.0:DeathsFromAllCauses>
-    <j.0:PercentofExpectedDeaths>0.96</j.0:PercentofExpectedDeaths>
-    <j.0:Group>By state</j.0:Group>
-    <j.0:PneumoniaInfluenzaAndCovidDeaths></j.0:PneumoniaInfluenzaAndCovidDeaths>
-    <j.0:AllInfluenzaDeaths>30</j.0:AllInfluenzaDeaths>
-    <j.0:DataAsOf>04/27/2020</j.0:DataAsOf>
-    <j.0:AllPneumoniaDeaths>308</j.0:AllPneumoniaDeaths>
-    <j.0:Indicator>Maine</j.0:Indicator>
-    <j.0:AllCovidDeaths>31</j.0:AllCovidDeaths>
-    <j.0:State>Maine</j.0:State>
-    <j.0:StartWeek>02/01/2020</j.0:StartWeek>
+    <covidRdf:DeathsWithPneumoniaAndCovid>10</covidRdf:DeathsWithPneumoniaAndCovid>
+    <covidRdf:EndWeek>04/25/2020</covidRdf:EndWeek>
+    <covidRdf:Footnote></covidRdf:Footnote>
+    <covidRdf:DeathsFromAllCauses>3668</covidRdf:DeathsFromAllCauses>
+    <covidRdf:PercentofExpectedDeaths>0.96</covidRdf:PercentofExpectedDeaths>
+    <covidRdf:Group>By state</covidRdf:Group>
+    <covidRdf:PneumoniaInfluenzaAndCovidDeaths></covidRdf:PneumoniaInfluenzaAndCovidDeaths>
+    <covidRdf:AllInfluenzaDeaths>30</covidRdf:AllInfluenzaDeaths>
+    <covidRdf:DataAsOf>04/27/2020</covidRdf:DataAsOf>
+    <covidRdf:AllPneumoniaDeaths>308</covidRdf:AllPneumoniaDeaths>
+    <covidRdf:Indicator>Maine</covidRdf:Indicator>
+    <covidRdf:AllCovidDeaths>31</covidRdf:AllCovidDeaths>
+    <covidRdf:State>Maine</covidRdf:State>
+    <covidRdf:StartWeek>02/01/2020</covidRdf:StartWeek>
   </rdf:Description>
   <rdf:Description rdf:about="https://data.edd.ca.gov34">
-    <j.0:PercentofExpectedDeaths>0.81</j.0:PercentofExpectedDeaths>
-    <j.0:AllInfluenzaDeaths>14</j.0:AllInfluenzaDeaths>
-    <j.0:StartWeek>02/01/2020</j.0:StartWeek>
-    <j.0:DeathsWithPneumoniaAndCovid>14</j.0:DeathsWithPneumoniaAndCovid>
-    <j.0:Indicator>Delaware</j.0:Indicator>
-    <j.0:EndWeek>04/25/2020</j.0:EndWeek>
-    <j.0:Group>By state</j.0:Group>
-    <j.0:DeathsFromAllCauses>1958</j.0:DeathsFromAllCauses>
-    <j.0:Footnote></j.0:Footnote>
-    <j.0:PneumoniaInfluenzaAndCovidDeaths></j.0:PneumoniaInfluenzaAndCovidDeaths>
-    <j.0:AllCovidDeaths>28</j.0:AllCovidDeaths>
-    <j.0:State>Delaware</j.0:State>
-    <j.0:DataAsOf>04/27/2020</j.0:DataAsOf>
-    <j.0:AllPneumoniaDeaths>109</j.0:AllPneumoniaDeaths>
+    <covidRdf:PercentofExpectedDeaths>0.81</covidRdf:PercentofExpectedDeaths>
+    <covidRdf:AllInfluenzaDeaths>14</covidRdf:AllInfluenzaDeaths>
+    <covidRdf:StartWeek>02/01/2020</covidRdf:StartWeek>
+    <covidRdf:DeathsWithPneumoniaAndCovid>14</covidRdf:DeathsWithPneumoniaAndCovid>
+    <covidRdf:Indicator>Delaware</covidRdf:Indicator>
+    <covidRdf:EndWeek>04/25/2020</covidRdf:EndWeek>
+    <covidRdf:Group>By state</covidRdf:Group>
+    <covidRdf:DeathsFromAllCauses>1958</covidRdf:DeathsFromAllCauses>
+    <covidRdf:Footnote></covidRdf:Footnote>
+    <covidRdf:PneumoniaInfluenzaAndCovidDeaths></covidRdf:PneumoniaInfluenzaAndCovidDeaths>
+    <covidRdf:AllCovidDeaths>28</covidRdf:AllCovidDeaths>
+    <covidRdf:State>Delaware</covidRdf:State>
+    <covidRdf:DataAsOf>04/27/2020</covidRdf:DataAsOf>
+    <covidRdf:AllPneumoniaDeaths>109</covidRdf:AllPneumoniaDeaths>
   </rdf:Description>
   <rdf:Description rdf:about="https://data.edd.ca.gov78">
-    <j.0:PercentofExpectedDeaths>0.94</j.0:PercentofExpectedDeaths>
-    <j.0:DeathsWithPneumoniaAndCovid>0</j.0:DeathsWithPneumoniaAndCovid>
-    <j.0:EndWeek>04/25/2020</j.0:EndWeek>
-    <j.0:Footnote>One or more data cells have counts &lt;10 and have been suppressed in accordance with NCHS confidentiality standards.</j.0:Footnote>
-    <j.0:AllPneumoniaDeaths>83</j.0:AllPneumoniaDeaths>
-    <j.0:PneumoniaInfluenzaAndCovidDeaths></j.0:PneumoniaInfluenzaAndCovidDeaths>
-    <j.0:StartWeek>02/01/2020</j.0:StartWeek>
-    <j.0:DeathsFromAllCauses>1085</j.0:DeathsFromAllCauses>
-    <j.0:Indicator>Wyoming</j.0:Indicator>
-    <j.0:AllInfluenzaDeaths></j.0:AllInfluenzaDeaths>
-    <j.0:Group>By state</j.0:Group>
-    <j.0:State>Wyoming</j.0:State>
-    <j.0:DataAsOf>04/27/2020</j.0:DataAsOf>
-    <j.0:AllCovidDeaths></j.0:AllCovidDeaths>
+    <covidRdf:PercentofExpectedDeaths>0.94</covidRdf:PercentofExpectedDeaths>
+    <covidRdf:DeathsWithPneumoniaAndCovid>0</covidRdf:DeathsWithPneumoniaAndCovid>
+    <covidRdf:EndWeek>04/25/2020</covidRdf:EndWeek>
+    <covidRdf:Footnote>One or more data cells have counts &lt;10 and have been suppressed in accordance with NCHS confidentiality standards.</covidRdf:Footnote>
+    <covidRdf:AllPneumoniaDeaths>83</covidRdf:AllPneumoniaDeaths>
+    <covidRdf:PneumoniaInfluenzaAndCovidDeaths></covidRdf:PneumoniaInfluenzaAndCovidDeaths>
+    <covidRdf:StartWeek>02/01/2020</covidRdf:StartWeek>
+    <covidRdf:DeathsFromAllCauses>1085</covidRdf:DeathsFromAllCauses>
+    <covidRdf:Indicator>Wyoming</covidRdf:Indicator>
+    <covidRdf:AllInfluenzaDeaths></covidRdf:AllInfluenzaDeaths>
+    <covidRdf:Group>By state</covidRdf:Group>
+    <covidRdf:State>Wyoming</covidRdf:State>
+    <covidRdf:DataAsOf>04/27/2020</covidRdf:DataAsOf>
+    <covidRdf:AllCovidDeaths></covidRdf:AllCovidDeaths>
   </rdf:Description>
   <rdf:Description rdf:about="https://data.edd.ca.gov66">
-    <j.0:StartWeek>02/01/2020</j.0:StartWeek>
-    <j.0:AllCovidDeaths>688</j.0:AllCovidDeaths>
-    <j.0:AllInfluenzaDeaths>173</j.0:AllInfluenzaDeaths>
-    <j.0:DeathsWithPneumoniaAndCovid>296</j.0:DeathsWithPneumoniaAndCovid>
-    <j.0:State>Pennsylvania</j.0:State>
-    <j.0:DataAsOf>04/27/2020</j.0:DataAsOf>
-    <j.0:DeathsFromAllCauses>25746</j.0:DeathsFromAllCauses>
-    <j.0:Group>By state</j.0:Group>
-    <j.0:PercentofExpectedDeaths>0.72</j.0:PercentofExpectedDeaths>
-    <j.0:EndWeek>04/25/2020</j.0:EndWeek>
-    <j.0:AllPneumoniaDeaths>1800</j.0:AllPneumoniaDeaths>
-    <j.0:Indicator>Pennsylvania</j.0:Indicator>
-    <j.0:Footnote></j.0:Footnote>
-    <j.0:PneumoniaInfluenzaAndCovidDeaths></j.0:PneumoniaInfluenzaAndCovidDeaths>
+    <covidRdf:StartWeek>02/01/2020</covidRdf:StartWeek>
+    <covidRdf:AllCovidDeaths>688</covidRdf:AllCovidDeaths>
+    <covidRdf:AllInfluenzaDeaths>173</covidRdf:AllInfluenzaDeaths>
+    <covidRdf:DeathsWithPneumoniaAndCovid>296</covidRdf:DeathsWithPneumoniaAndCovid>
+    <covidRdf:State>Pennsylvania</covidRdf:State>
+    <covidRdf:DataAsOf>04/27/2020</covidRdf:DataAsOf>
+    <covidRdf:DeathsFromAllCauses>25746</covidRdf:DeathsFromAllCauses>
+    <covidRdf:Group>By state</covidRdf:Group>
+    <covidRdf:PercentofExpectedDeaths>0.72</covidRdf:PercentofExpectedDeaths>
+    <covidRdf:EndWeek>04/25/2020</covidRdf:EndWeek>
+    <covidRdf:AllPneumoniaDeaths>1800</covidRdf:AllPneumoniaDeaths>
+    <covidRdf:Indicator>Pennsylvania</covidRdf:Indicator>
+    <covidRdf:Footnote></covidRdf:Footnote>
+    <covidRdf:PneumoniaInfluenzaAndCovidDeaths></covidRdf:PneumoniaInfluenzaAndCovidDeaths>
   </rdf:Description>
   <rdf:Description rdf:about="https://data.edd.ca.gov22">
-    <j.0:PneumoniaInfluenzaAndCovidDeaths></j.0:PneumoniaInfluenzaAndCovidDeaths>
-    <j.0:PercentofExpectedDeaths>0.91</j.0:PercentofExpectedDeaths>
-    <j.0:Footnote></j.0:Footnote>
-    <j.0:DataAsOf>04/27/2020</j.0:DataAsOf>
-    <j.0:Group>By age</j.0:Group>
-    <j.0:DeathsFromAllCauses>85259</j.0:DeathsFromAllCauses>
-    <j.0:AllPneumoniaDeaths>6944</j.0:AllPneumoniaDeaths>
-    <j.0:AllInfluenzaDeaths>1048</j.0:AllInfluenzaDeaths>
-    <j.0:AllCovidDeaths>3537</j.0:AllCovidDeaths>
-    <j.0:EndWeek>04/25/2020</j.0:EndWeek>
-    <j.0:StartWeek>02/01/2020</j.0:StartWeek>
-    <j.0:DeathsWithPneumoniaAndCovid>1536</j.0:DeathsWithPneumoniaAndCovid>
-    <j.0:Indicator>55â€“64 years</j.0:Indicator>
-    <j.0:State>United States</j.0:State>
+    <covidRdf:PneumoniaInfluenzaAndCovidDeaths></covidRdf:PneumoniaInfluenzaAndCovidDeaths>
+    <covidRdf:PercentofExpectedDeaths>0.91</covidRdf:PercentofExpectedDeaths>
+    <covidRdf:Footnote></covidRdf:Footnote>
+    <covidRdf:DataAsOf>04/27/2020</covidRdf:DataAsOf>
+    <covidRdf:Group>By age</covidRdf:Group>
+    <covidRdf:DeathsFromAllCauses>85259</covidRdf:DeathsFromAllCauses>
+    <covidRdf:AllPneumoniaDeaths>6944</covidRdf:AllPneumoniaDeaths>
+    <covidRdf:AllInfluenzaDeaths>1048</covidRdf:AllInfluenzaDeaths>
+    <covidRdf:AllCovidDeaths>3537</covidRdf:AllCovidDeaths>
+    <covidRdf:EndWeek>04/25/2020</covidRdf:EndWeek>
+    <covidRdf:StartWeek>02/01/2020</covidRdf:StartWeek>
+    <covidRdf:DeathsWithPneumoniaAndCovid>1536</covidRdf:DeathsWithPneumoniaAndCovid>
+    <covidRdf:Indicator>55â€“64 years</covidRdf:Indicator>
+    <covidRdf:State>United States</covidRdf:State>
   </rdf:Description>
   <rdf:Description rdf:about="https://data.edd.ca.gov54">
-    <j.0:DeathsFromAllCauses>3696</j.0:DeathsFromAllCauses>
-    <j.0:DeathsWithPneumoniaAndCovid></j.0:DeathsWithPneumoniaAndCovid>
-    <j.0:State>Nebraska</j.0:State>
-    <j.0:DataAsOf>04/27/2020</j.0:DataAsOf>
-    <j.0:Group>By state</j.0:Group>
-    <j.0:Footnote>One or more data cells have counts &lt;10 and have been suppressed in accordance with NCHS confidentiality standards.</j.0:Footnote>
-    <j.0:AllCovidDeaths>21</j.0:AllCovidDeaths>
-    <j.0:AllInfluenzaDeaths>27</j.0:AllInfluenzaDeaths>
-    <j.0:AllPneumoniaDeaths>285</j.0:AllPneumoniaDeaths>
-    <j.0:Indicator>Nebraska</j.0:Indicator>
-    <j.0:StartWeek>02/01/2020</j.0:StartWeek>
-    <j.0:EndWeek>04/25/2020</j.0:EndWeek>
-    <j.0:PercentofExpectedDeaths>0.84</j.0:PercentofExpectedDeaths>
-    <j.0:PneumoniaInfluenzaAndCovidDeaths></j.0:PneumoniaInfluenzaAndCovidDeaths>
+    <covidRdf:DeathsFromAllCauses>3696</covidRdf:DeathsFromAllCauses>
+    <covidRdf:DeathsWithPneumoniaAndCovid></covidRdf:DeathsWithPneumoniaAndCovid>
+    <covidRdf:State>Nebraska</covidRdf:State>
+    <covidRdf:DataAsOf>04/27/2020</covidRdf:DataAsOf>
+    <covidRdf:Group>By state</covidRdf:Group>
+    <covidRdf:Footnote>One or more data cells have counts &lt;10 and have been suppressed in accordance with NCHS confidentiality standards.</covidRdf:Footnote>
+    <covidRdf:AllCovidDeaths>21</covidRdf:AllCovidDeaths>
+    <covidRdf:AllInfluenzaDeaths>27</covidRdf:AllInfluenzaDeaths>
+    <covidRdf:AllPneumoniaDeaths>285</covidRdf:AllPneumoniaDeaths>
+    <covidRdf:Indicator>Nebraska</covidRdf:Indicator>
+    <covidRdf:StartWeek>02/01/2020</covidRdf:StartWeek>
+    <covidRdf:EndWeek>04/25/2020</covidRdf:EndWeek>
+    <covidRdf:PercentofExpectedDeaths>0.84</covidRdf:PercentofExpectedDeaths>
+    <covidRdf:PneumoniaInfluenzaAndCovidDeaths></covidRdf:PneumoniaInfluenzaAndCovidDeaths>
   </rdf:Description>
   <rdf:Description rdf:about="https://data.edd.ca.gov7">
-    <j.0:StartWeek>03/14/2020</j.0:StartWeek>
-    <j.0:Footnote></j.0:Footnote>
-    <j.0:AllInfluenzaDeaths>570</j.0:AllInfluenzaDeaths>
-    <j.0:EndWeek>03/14/2020</j.0:EndWeek>
-    <j.0:PercentofExpectedDeaths>0.94</j.0:PercentofExpectedDeaths>
-    <j.0:State>United States</j.0:State>
-    <j.0:DataAsOf>04/27/2020</j.0:DataAsOf>
-    <j.0:Indicator>Weekending</j.0:Indicator>
-    <j.0:PneumoniaInfluenzaAndCovidDeaths>4244</j.0:PneumoniaInfluenzaAndCovidDeaths>
-    <j.0:DeathsFromAllCauses>53606</j.0:DeathsFromAllCauses>
-    <j.0:DeathsWithPneumoniaAndCovid>25</j.0:DeathsWithPneumoniaAndCovid>
-    <j.0:Group>By week</j.0:Group>
-    <j.0:AllPneumoniaDeaths>3651</j.0:AllPneumoniaDeaths>
-    <j.0:AllCovidDeaths>49</j.0:AllCovidDeaths>
+    <covidRdf:StartWeek>03/14/2020</covidRdf:StartWeek>
+    <covidRdf:Footnote></covidRdf:Footnote>
+    <covidRdf:AllInfluenzaDeaths>570</covidRdf:AllInfluenzaDeaths>
+    <covidRdf:EndWeek>03/14/2020</covidRdf:EndWeek>
+    <covidRdf:PercentofExpectedDeaths>0.94</covidRdf:PercentofExpectedDeaths>
+    <covidRdf:State>United States</covidRdf:State>
+    <covidRdf:DataAsOf>04/27/2020</covidRdf:DataAsOf>
+    <covidRdf:Indicator>Weekending</covidRdf:Indicator>
+    <covidRdf:PneumoniaInfluenzaAndCovidDeaths>4244</covidRdf:PneumoniaInfluenzaAndCovidDeaths>
+    <covidRdf:DeathsFromAllCauses>53606</covidRdf:DeathsFromAllCauses>
+    <covidRdf:DeathsWithPneumoniaAndCovid>25</covidRdf:DeathsWithPneumoniaAndCovid>
+    <covidRdf:Group>By week</covidRdf:Group>
+    <covidRdf:AllPneumoniaDeaths>3651</covidRdf:AllPneumoniaDeaths>
+    <covidRdf:AllCovidDeaths>49</covidRdf:AllCovidDeaths>
   </rdf:Description>
   <rdf:Description rdf:about="https://data.edd.ca.gov10">
-    <j.0:State>United States</j.0:State>
-    <j.0:DeathsWithPneumoniaAndCovid>3669</j.0:DeathsWithPneumoniaAndCovid>
-    <j.0:Indicator>Weekending</j.0:Indicator>
-    <j.0:PneumoniaInfluenzaAndCovidDeaths>12498</j.0:PneumoniaInfluenzaAndCovidDeaths>
-    <j.0:EndWeek>04/04/2020</j.0:EndWeek>
-    <j.0:PercentofExpectedDeaths>1.11</j.0:PercentofExpectedDeaths>
-    <j.0:Footnote></j.0:Footnote>
-    <j.0:AllInfluenzaDeaths>417</j.0:AllInfluenzaDeaths>
-    <j.0:DeathsFromAllCauses>62131</j.0:DeathsFromAllCauses>
-    <j.0:DataAsOf>04/27/2020</j.0:DataAsOf>
-    <j.0:Group>By week</j.0:Group>
-    <j.0:AllCovidDeaths>7586</j.0:AllCovidDeaths>
-    <j.0:AllPneumoniaDeaths>8371</j.0:AllPneumoniaDeaths>
-    <j.0:StartWeek>04/04/2020</j.0:StartWeek>
+    <covidRdf:State>United States</covidRdf:State>
+    <covidRdf:DeathsWithPneumoniaAndCovid>3669</covidRdf:DeathsWithPneumoniaAndCovid>
+    <covidRdf:Indicator>Weekending</covidRdf:Indicator>
+    <covidRdf:PneumoniaInfluenzaAndCovidDeaths>12498</covidRdf:PneumoniaInfluenzaAndCovidDeaths>
+    <covidRdf:EndWeek>04/04/2020</covidRdf:EndWeek>
+    <covidRdf:PercentofExpectedDeaths>1.11</covidRdf:PercentofExpectedDeaths>
+    <covidRdf:Footnote></covidRdf:Footnote>
+    <covidRdf:AllInfluenzaDeaths>417</covidRdf:AllInfluenzaDeaths>
+    <covidRdf:DeathsFromAllCauses>62131</covidRdf:DeathsFromAllCauses>
+    <covidRdf:DataAsOf>04/27/2020</covidRdf:DataAsOf>
+    <covidRdf:Group>By week</covidRdf:Group>
+    <covidRdf:AllCovidDeaths>7586</covidRdf:AllCovidDeaths>
+    <covidRdf:AllPneumoniaDeaths>8371</covidRdf:AllPneumoniaDeaths>
+    <covidRdf:StartWeek>04/04/2020</covidRdf:StartWeek>
   </rdf:Description>
   <rdf:Description rdf:about="https://data.edd.ca.gov86">
-    <j.0:Group>By place of death</j.0:Group>
-    <j.0:DeathsWithPneumoniaAndCovid>2235</j.0:DeathsWithPneumoniaAndCovid>
-    <j.0:EndWeek>02/01/2020</j.0:EndWeek>
-    <j.0:PneumoniaInfluenzaAndCovidDeaths>182</j.0:PneumoniaInfluenzaAndCovidDeaths>
-    <j.0:Footnote></j.0:Footnote>
-    <j.0:DataAsOf>04/27/2020</j.0:DataAsOf>
-    <j.0:DeathsFromAllCauses>1431</j.0:DeathsFromAllCauses>
-    <j.0:Indicator>"Healthcare setting</j.0:Indicator>
-    <j.0:State>United States</j.0:State>
-    <j.0:StartWeek> outpatient or emergency room"</j.0:StartWeek>
-    <j.0:AllPneumoniaDeaths>0.91</j.0:AllPneumoniaDeaths>
-    <j.0:AllCovidDeaths>04/25/2020</j.0:AllCovidDeaths>
-    <j.0:PercentofExpectedDeaths>40122</j.0:PercentofExpectedDeaths>
-    <j.0:AllInfluenzaDeaths>537</j.0:AllInfluenzaDeaths>
+    <covidRdf:Group>By place of death</covidRdf:Group>
+    <covidRdf:DeathsWithPneumoniaAndCovid>2235</covidRdf:DeathsWithPneumoniaAndCovid>
+    <covidRdf:EndWeek>02/01/2020</covidRdf:EndWeek>
+    <covidRdf:PneumoniaInfluenzaAndCovidDeaths>182</covidRdf:PneumoniaInfluenzaAndCovidDeaths>
+    <covidRdf:Footnote></covidRdf:Footnote>
+    <covidRdf:DataAsOf>04/27/2020</covidRdf:DataAsOf>
+    <covidRdf:DeathsFromAllCauses>1431</covidRdf:DeathsFromAllCauses>
+    <covidRdf:Indicator>"Healthcare setting</covidRdf:Indicator>
+    <covidRdf:State>United States</covidRdf:State>
+    <covidRdf:StartWeek> outpatient or emergency room"</covidRdf:StartWeek>
+    <covidRdf:AllPneumoniaDeaths>0.91</covidRdf:AllPneumoniaDeaths>
+    <covidRdf:AllCovidDeaths>04/25/2020</covidRdf:AllCovidDeaths>
+    <covidRdf:PercentofExpectedDeaths>40122</covidRdf:PercentofExpectedDeaths>
+    <covidRdf:AllInfluenzaDeaths>537</covidRdf:AllInfluenzaDeaths>
   </rdf:Description>
   <rdf:Description rdf:about="https://data.edd.ca.gov42">
-    <j.0:Indicator>Iowa</j.0:Indicator>
-    <j.0:StartWeek>02/01/2020</j.0:StartWeek>
-    <j.0:PneumoniaInfluenzaAndCovidDeaths></j.0:PneumoniaInfluenzaAndCovidDeaths>
-    <j.0:AllPneumoniaDeaths>504</j.0:AllPneumoniaDeaths>
-    <j.0:AllInfluenzaDeaths>80</j.0:AllInfluenzaDeaths>
-    <j.0:DataAsOf>04/27/2020</j.0:DataAsOf>
-    <j.0:Group>By state</j.0:Group>
-    <j.0:PercentofExpectedDeaths>0.9</j.0:PercentofExpectedDeaths>
-    <j.0:Footnote></j.0:Footnote>
-    <j.0:AllCovidDeaths>68</j.0:AllCovidDeaths>
-    <j.0:DeathsWithPneumoniaAndCovid>16</j.0:DeathsWithPneumoniaAndCovid>
-    <j.0:State>Iowa</j.0:State>
-    <j.0:DeathsFromAllCauses>7125</j.0:DeathsFromAllCauses>
-    <j.0:EndWeek>04/25/2020</j.0:EndWeek>
+    <covidRdf:Indicator>Iowa</covidRdf:Indicator>
+    <covidRdf:StartWeek>02/01/2020</covidRdf:StartWeek>
+    <covidRdf:PneumoniaInfluenzaAndCovidDeaths></covidRdf:PneumoniaInfluenzaAndCovidDeaths>
+    <covidRdf:AllPneumoniaDeaths>504</covidRdf:AllPneumoniaDeaths>
+    <covidRdf:AllInfluenzaDeaths>80</covidRdf:AllInfluenzaDeaths>
+    <covidRdf:DataAsOf>04/27/2020</covidRdf:DataAsOf>
+    <covidRdf:Group>By state</covidRdf:Group>
+    <covidRdf:PercentofExpectedDeaths>0.9</covidRdf:PercentofExpectedDeaths>
+    <covidRdf:Footnote></covidRdf:Footnote>
+    <covidRdf:AllCovidDeaths>68</covidRdf:AllCovidDeaths>
+    <covidRdf:DeathsWithPneumoniaAndCovid>16</covidRdf:DeathsWithPneumoniaAndCovid>
+    <covidRdf:State>Iowa</covidRdf:State>
+    <covidRdf:DeathsFromAllCauses>7125</covidRdf:DeathsFromAllCauses>
+    <covidRdf:EndWeek>04/25/2020</covidRdf:EndWeek>
   </rdf:Description>
   <rdf:Description rdf:about="https://data.edd.ca.gov74">
-    <j.0:StartWeek>02/01/2020</j.0:StartWeek>
-    <j.0:State>Virginia</j.0:State>
-    <j.0:PercentofExpectedDeaths>0.94</j.0:PercentofExpectedDeaths>
-    <j.0:DeathsWithPneumoniaAndCovid>67</j.0:DeathsWithPneumoniaAndCovid>
-    <j.0:Group>By state</j.0:Group>
-    <j.0:DataAsOf>04/27/2020</j.0:DataAsOf>
-    <j.0:Footnote></j.0:Footnote>
-    <j.0:PneumoniaInfluenzaAndCovidDeaths></j.0:PneumoniaInfluenzaAndCovidDeaths>
-    <j.0:AllPneumoniaDeaths>912</j.0:AllPneumoniaDeaths>
-    <j.0:DeathsFromAllCauses>16835</j.0:DeathsFromAllCauses>
-    <j.0:AllInfluenzaDeaths>101</j.0:AllInfluenzaDeaths>
-    <j.0:Indicator>Virginia</j.0:Indicator>
-    <j.0:AllCovidDeaths>211</j.0:AllCovidDeaths>
-    <j.0:EndWeek>04/25/2020</j.0:EndWeek>
+    <covidRdf:StartWeek>02/01/2020</covidRdf:StartWeek>
+    <covidRdf:State>Virginia</covidRdf:State>
+    <covidRdf:PercentofExpectedDeaths>0.94</covidRdf:PercentofExpectedDeaths>
+    <covidRdf:DeathsWithPneumoniaAndCovid>67</covidRdf:DeathsWithPneumoniaAndCovid>
+    <covidRdf:Group>By state</covidRdf:Group>
+    <covidRdf:DataAsOf>04/27/2020</covidRdf:DataAsOf>
+    <covidRdf:Footnote></covidRdf:Footnote>
+    <covidRdf:PneumoniaInfluenzaAndCovidDeaths></covidRdf:PneumoniaInfluenzaAndCovidDeaths>
+    <covidRdf:AllPneumoniaDeaths>912</covidRdf:AllPneumoniaDeaths>
+    <covidRdf:DeathsFromAllCauses>16835</covidRdf:DeathsFromAllCauses>
+    <covidRdf:AllInfluenzaDeaths>101</covidRdf:AllInfluenzaDeaths>
+    <covidRdf:Indicator>Virginia</covidRdf:Indicator>
+    <covidRdf:AllCovidDeaths>211</covidRdf:AllCovidDeaths>
+    <covidRdf:EndWeek>04/25/2020</covidRdf:EndWeek>
   </rdf:Description>
   <rdf:Description rdf:about="https://data.edd.ca.gov30">
-    <j.0:AllCovidDeaths>19</j.0:AllCovidDeaths>
-    <j.0:Footnote>One or more data cells have counts &lt;10 and have been suppressed in accordance with NCHS confidentiality standards.</j.0:Footnote>
-    <j.0:State>Arkansas</j.0:State>
-    <j.0:AllPneumoniaDeaths>500</j.0:AllPneumoniaDeaths>
-    <j.0:EndWeek>04/25/2020</j.0:EndWeek>
-    <j.0:StartWeek>02/01/2020</j.0:StartWeek>
-    <j.0:Group>By state</j.0:Group>
-    <j.0:DeathsFromAllCauses>7514</j.0:DeathsFromAllCauses>
-    <j.0:PneumoniaInfluenzaAndCovidDeaths></j.0:PneumoniaInfluenzaAndCovidDeaths>
-    <j.0:AllInfluenzaDeaths>67</j.0:AllInfluenzaDeaths>
-    <j.0:Indicator>Arkansas</j.0:Indicator>
-    <j.0:PercentofExpectedDeaths>0.91</j.0:PercentofExpectedDeaths>
-    <j.0:DeathsWithPneumoniaAndCovid></j.0:DeathsWithPneumoniaAndCovid>
-    <j.0:DataAsOf>04/27/2020</j.0:DataAsOf>
+    <covidRdf:AllCovidDeaths>19</covidRdf:AllCovidDeaths>
+    <covidRdf:Footnote>One or more data cells have counts &lt;10 and have been suppressed in accordance with NCHS confidentiality standards.</covidRdf:Footnote>
+    <covidRdf:State>Arkansas</covidRdf:State>
+    <covidRdf:AllPneumoniaDeaths>500</covidRdf:AllPneumoniaDeaths>
+    <covidRdf:EndWeek>04/25/2020</covidRdf:EndWeek>
+    <covidRdf:StartWeek>02/01/2020</covidRdf:StartWeek>
+    <covidRdf:Group>By state</covidRdf:Group>
+    <covidRdf:DeathsFromAllCauses>7514</covidRdf:DeathsFromAllCauses>
+    <covidRdf:PneumoniaInfluenzaAndCovidDeaths></covidRdf:PneumoniaInfluenzaAndCovidDeaths>
+    <covidRdf:AllInfluenzaDeaths>67</covidRdf:AllInfluenzaDeaths>
+    <covidRdf:Indicator>Arkansas</covidRdf:Indicator>
+    <covidRdf:PercentofExpectedDeaths>0.91</covidRdf:PercentofExpectedDeaths>
+    <covidRdf:DeathsWithPneumoniaAndCovid></covidRdf:DeathsWithPneumoniaAndCovid>
+    <covidRdf:DataAsOf>04/27/2020</covidRdf:DataAsOf>
   </rdf:Description>
   <rdf:Description rdf:about="https://data.edd.ca.gov28">
-    <j.0:AllPneumoniaDeaths>37</j.0:AllPneumoniaDeaths>
-    <j.0:StartWeek>02/01/2020</j.0:StartWeek>
-    <j.0:EndWeek>04/25/2020</j.0:EndWeek>
-    <j.0:AllInfluenzaDeaths></j.0:AllInfluenzaDeaths>
-    <j.0:DeathsWithPneumoniaAndCovid></j.0:DeathsWithPneumoniaAndCovid>
-    <j.0:Group>By state</j.0:Group>
-    <j.0:DeathsFromAllCauses>789</j.0:DeathsFromAllCauses>
-    <j.0:PercentofExpectedDeaths>0.73</j.0:PercentofExpectedDeaths>
-    <j.0:PneumoniaInfluenzaAndCovidDeaths></j.0:PneumoniaInfluenzaAndCovidDeaths>
-    <j.0:DataAsOf>04/27/2020</j.0:DataAsOf>
-    <j.0:Indicator>Alaska</j.0:Indicator>
-    <j.0:AllCovidDeaths></j.0:AllCovidDeaths>
-    <j.0:Footnote>One or more data cells have counts &lt;10 and have been suppressed in accordance with NCHS confidentiality standards.</j.0:Footnote>
-    <j.0:State>Alaska</j.0:State>
+    <covidRdf:AllPneumoniaDeaths>37</covidRdf:AllPneumoniaDeaths>
+    <covidRdf:StartWeek>02/01/2020</covidRdf:StartWeek>
+    <covidRdf:EndWeek>04/25/2020</covidRdf:EndWeek>
+    <covidRdf:AllInfluenzaDeaths></covidRdf:AllInfluenzaDeaths>
+    <covidRdf:DeathsWithPneumoniaAndCovid></covidRdf:DeathsWithPneumoniaAndCovid>
+    <covidRdf:Group>By state</covidRdf:Group>
+    <covidRdf:DeathsFromAllCauses>789</covidRdf:DeathsFromAllCauses>
+    <covidRdf:PercentofExpectedDeaths>0.73</covidRdf:PercentofExpectedDeaths>
+    <covidRdf:PneumoniaInfluenzaAndCovidDeaths></covidRdf:PneumoniaInfluenzaAndCovidDeaths>
+    <covidRdf:DataAsOf>04/27/2020</covidRdf:DataAsOf>
+    <covidRdf:Indicator>Alaska</covidRdf:Indicator>
+    <covidRdf:AllCovidDeaths></covidRdf:AllCovidDeaths>
+    <covidRdf:Footnote>One or more data cells have counts &lt;10 and have been suppressed in accordance with NCHS confidentiality standards.</covidRdf:Footnote>
+    <covidRdf:State>Alaska</covidRdf:State>
   </rdf:Description>
   <rdf:Description rdf:about="https://data.edd.ca.gov16">
-    <j.0:State>United States</j.0:State>
-    <j.0:DataAsOf>04/27/2020</j.0:DataAsOf>
-    <j.0:PercentofExpectedDeaths>0.91</j.0:PercentofExpectedDeaths>
-    <j.0:AllCovidDeaths>2</j.0:AllCovidDeaths>
-    <j.0:EndWeek>04/25/2020</j.0:EndWeek>
-    <j.0:PneumoniaInfluenzaAndCovidDeaths></j.0:PneumoniaInfluenzaAndCovidDeaths>
-    <j.0:Group>By age</j.0:Group>
-    <j.0:DeathsWithPneumoniaAndCovid>2</j.0:DeathsWithPneumoniaAndCovid>
-    <j.0:AllPneumoniaDeaths>32</j.0:AllPneumoniaDeaths>
-    <j.0:Indicator>1â€“4 years</j.0:Indicator>
-    <j.0:StartWeek>02/01/2020</j.0:StartWeek>
-    <j.0:Footnote></j.0:Footnote>
-    <j.0:AllInfluenzaDeaths>28</j.0:AllInfluenzaDeaths>
-    <j.0:DeathsFromAllCauses>686</j.0:DeathsFromAllCauses>
+    <covidRdf:State>United States</covidRdf:State>
+    <covidRdf:DataAsOf>04/27/2020</covidRdf:DataAsOf>
+    <covidRdf:PercentofExpectedDeaths>0.91</covidRdf:PercentofExpectedDeaths>
+    <covidRdf:AllCovidDeaths>2</covidRdf:AllCovidDeaths>
+    <covidRdf:EndWeek>04/25/2020</covidRdf:EndWeek>
+    <covidRdf:PneumoniaInfluenzaAndCovidDeaths></covidRdf:PneumoniaInfluenzaAndCovidDeaths>
+    <covidRdf:Group>By age</covidRdf:Group>
+    <covidRdf:DeathsWithPneumoniaAndCovid>2</covidRdf:DeathsWithPneumoniaAndCovid>
+    <covidRdf:AllPneumoniaDeaths>32</covidRdf:AllPneumoniaDeaths>
+    <covidRdf:Indicator>1â€“4 years</covidRdf:Indicator>
+    <covidRdf:StartWeek>02/01/2020</covidRdf:StartWeek>
+    <covidRdf:Footnote></covidRdf:Footnote>
+    <covidRdf:AllInfluenzaDeaths>28</covidRdf:AllInfluenzaDeaths>
+    <covidRdf:DeathsFromAllCauses>686</covidRdf:DeathsFromAllCauses>
   </rdf:Description>
   <rdf:Description rdf:about="https://data.edd.ca.gov51">
-    <j.0:DeathsWithPneumoniaAndCovid>78</j.0:DeathsWithPneumoniaAndCovid>
-    <j.0:PneumoniaInfluenzaAndCovidDeaths></j.0:PneumoniaInfluenzaAndCovidDeaths>
-    <j.0:AllInfluenzaDeaths>51</j.0:AllInfluenzaDeaths>
-    <j.0:EndWeek>04/25/2020</j.0:EndWeek>
-    <j.0:PercentofExpectedDeaths>0.95</j.0:PercentofExpectedDeaths>
-    <j.0:Indicator>Mississippi</j.0:Indicator>
-    <j.0:Group>By state</j.0:Group>
-    <j.0:StartWeek>02/01/2020</j.0:StartWeek>
-    <j.0:Footnote></j.0:Footnote>
-    <j.0:DataAsOf>04/27/2020</j.0:DataAsOf>
-    <j.0:State>Mississippi</j.0:State>
-    <j.0:AllCovidDeaths>154</j.0:AllCovidDeaths>
-    <j.0:DeathsFromAllCauses>7706</j.0:DeathsFromAllCauses>
-    <j.0:AllPneumoniaDeaths>694</j.0:AllPneumoniaDeaths>
+    <covidRdf:DeathsWithPneumoniaAndCovid>78</covidRdf:DeathsWithPneumoniaAndCovid>
+    <covidRdf:PneumoniaInfluenzaAndCovidDeaths></covidRdf:PneumoniaInfluenzaAndCovidDeaths>
+    <covidRdf:AllInfluenzaDeaths>51</covidRdf:AllInfluenzaDeaths>
+    <covidRdf:EndWeek>04/25/2020</covidRdf:EndWeek>
+    <covidRdf:PercentofExpectedDeaths>0.95</covidRdf:PercentofExpectedDeaths>
+    <covidRdf:Indicator>Mississippi</covidRdf:Indicator>
+    <covidRdf:Group>By state</covidRdf:Group>
+    <covidRdf:StartWeek>02/01/2020</covidRdf:StartWeek>
+    <covidRdf:Footnote></covidRdf:Footnote>
+    <covidRdf:DataAsOf>04/27/2020</covidRdf:DataAsOf>
+    <covidRdf:State>Mississippi</covidRdf:State>
+    <covidRdf:AllCovidDeaths>154</covidRdf:AllCovidDeaths>
+    <covidRdf:DeathsFromAllCauses>7706</covidRdf:DeathsFromAllCauses>
+    <covidRdf:AllPneumoniaDeaths>694</covidRdf:AllPneumoniaDeaths>
   </rdf:Description>
   <rdf:Description rdf:about="https://data.edd.ca.gov83">
-    <j.0:AllPneumoniaDeaths>1</j.0:AllPneumoniaDeaths>
-    <j.0:PneumoniaInfluenzaAndCovidDeaths></j.0:PneumoniaInfluenzaAndCovidDeaths>
-    <j.0:StartWeek>02/01/2020</j.0:StartWeek>
-    <j.0:DataAsOf>04/27/2020</j.0:DataAsOf>
-    <j.0:DeathsWithPneumoniaAndCovid>1</j.0:DeathsWithPneumoniaAndCovid>
-    <j.0:DeathsFromAllCauses>23</j.0:DeathsFromAllCauses>
-    <j.0:EndWeek>04/25/2020</j.0:EndWeek>
-    <j.0:Footnote></j.0:Footnote>
-    <j.0:AllCovidDeaths>1</j.0:AllCovidDeaths>
-    <j.0:PercentofExpectedDeaths>0.91</j.0:PercentofExpectedDeaths>
-    <j.0:State>United States</j.0:State>
-    <j.0:AllInfluenzaDeaths>0</j.0:AllInfluenzaDeaths>
-    <j.0:Indicator>Unknown</j.0:Indicator>
-    <j.0:Group>By sex</j.0:Group>
+    <covidRdf:AllPneumoniaDeaths>1</covidRdf:AllPneumoniaDeaths>
+    <covidRdf:PneumoniaInfluenzaAndCovidDeaths></covidRdf:PneumoniaInfluenzaAndCovidDeaths>
+    <covidRdf:StartWeek>02/01/2020</covidRdf:StartWeek>
+    <covidRdf:DataAsOf>04/27/2020</covidRdf:DataAsOf>
+    <covidRdf:DeathsWithPneumoniaAndCovid>1</covidRdf:DeathsWithPneumoniaAndCovid>
+    <covidRdf:DeathsFromAllCauses>23</covidRdf:DeathsFromAllCauses>
+    <covidRdf:EndWeek>04/25/2020</covidRdf:EndWeek>
+    <covidRdf:Footnote></covidRdf:Footnote>
+    <covidRdf:AllCovidDeaths>1</covidRdf:AllCovidDeaths>
+    <covidRdf:PercentofExpectedDeaths>0.91</covidRdf:PercentofExpectedDeaths>
+    <covidRdf:State>United States</covidRdf:State>
+    <covidRdf:AllInfluenzaDeaths>0</covidRdf:AllInfluenzaDeaths>
+    <covidRdf:Indicator>Unknown</covidRdf:Indicator>
+    <covidRdf:Group>By sex</covidRdf:Group>
   </rdf:Description>
   <rdf:Description rdf:about="https://data.edd.ca.gov2">
-    <j.0:AllInfluenzaDeaths>491</j.0:AllInfluenzaDeaths>
-    <j.0:PneumoniaInfluenzaAndCovidDeaths>4137</j.0:PneumoniaInfluenzaAndCovidDeaths>
-    <j.0:DeathsWithPneumoniaAndCovid>0</j.0:DeathsWithPneumoniaAndCovid>
-    <j.0:DataAsOf>04/27/2020</j.0:DataAsOf>
-    <j.0:Indicator>Weekending</j.0:Indicator>
-    <j.0:StartWeek>02/08/2020</j.0:StartWeek>
-    <j.0:DeathsFromAllCauses>57301</j.0:DeathsFromAllCauses>
-    <j.0:State>United States</j.0:State>
-    <j.0:AllCovidDeaths>0</j.0:AllCovidDeaths>
-    <j.0:Group>By week</j.0:Group>
-    <j.0:AllPneumoniaDeaths>3646</j.0:AllPneumoniaDeaths>
-    <j.0:Footnote></j.0:Footnote>
-    <j.0:PercentofExpectedDeaths>0.96</j.0:PercentofExpectedDeaths>
-    <j.0:EndWeek>02/08/2020</j.0:EndWeek>
+    <covidRdf:AllInfluenzaDeaths>491</covidRdf:AllInfluenzaDeaths>
+    <covidRdf:PneumoniaInfluenzaAndCovidDeaths>4137</covidRdf:PneumoniaInfluenzaAndCovidDeaths>
+    <covidRdf:DeathsWithPneumoniaAndCovid>0</covidRdf:DeathsWithPneumoniaAndCovid>
+    <covidRdf:DataAsOf>04/27/2020</covidRdf:DataAsOf>
+    <covidRdf:Indicator>Weekending</covidRdf:Indicator>
+    <covidRdf:StartWeek>02/08/2020</covidRdf:StartWeek>
+    <covidRdf:DeathsFromAllCauses>57301</covidRdf:DeathsFromAllCauses>
+    <covidRdf:State>United States</covidRdf:State>
+    <covidRdf:AllCovidDeaths>0</covidRdf:AllCovidDeaths>
+    <covidRdf:Group>By week</covidRdf:Group>
+    <covidRdf:AllPneumoniaDeaths>3646</covidRdf:AllPneumoniaDeaths>
+    <covidRdf:Footnote></covidRdf:Footnote>
+    <covidRdf:PercentofExpectedDeaths>0.96</covidRdf:PercentofExpectedDeaths>
+    <covidRdf:EndWeek>02/08/2020</covidRdf:EndWeek>
   </rdf:Description>
   <rdf:Description rdf:about="https://data.edd.ca.gov71">
-    <j.0:AllInfluenzaDeaths>310</j.0:AllInfluenzaDeaths>
-    <j.0:Indicator>Texas</j.0:Indicator>
-    <j.0:DeathsFromAllCauses>47230</j.0:DeathsFromAllCauses>
-    <j.0:AllCovidDeaths>347</j.0:AllCovidDeaths>
-    <j.0:AllPneumoniaDeaths>3497</j.0:AllPneumoniaDeaths>
-    <j.0:DataAsOf>04/27/2020</j.0:DataAsOf>
-    <j.0:DeathsWithPneumoniaAndCovid>135</j.0:DeathsWithPneumoniaAndCovid>
-    <j.0:PneumoniaInfluenzaAndCovidDeaths></j.0:PneumoniaInfluenzaAndCovidDeaths>
-    <j.0:EndWeek>04/25/2020</j.0:EndWeek>
-    <j.0:StartWeek>02/01/2020</j.0:StartWeek>
-    <j.0:State>Texas</j.0:State>
-    <j.0:Footnote></j.0:Footnote>
-    <j.0:PercentofExpectedDeaths>0.9</j.0:PercentofExpectedDeaths>
-    <j.0:Group>By state</j.0:Group>
+    <covidRdf:AllInfluenzaDeaths>310</covidRdf:AllInfluenzaDeaths>
+    <covidRdf:Indicator>Texas</covidRdf:Indicator>
+    <covidRdf:DeathsFromAllCauses>47230</covidRdf:DeathsFromAllCauses>
+    <covidRdf:AllCovidDeaths>347</covidRdf:AllCovidDeaths>
+    <covidRdf:AllPneumoniaDeaths>3497</covidRdf:AllPneumoniaDeaths>
+    <covidRdf:DataAsOf>04/27/2020</covidRdf:DataAsOf>
+    <covidRdf:DeathsWithPneumoniaAndCovid>135</covidRdf:DeathsWithPneumoniaAndCovid>
+    <covidRdf:PneumoniaInfluenzaAndCovidDeaths></covidRdf:PneumoniaInfluenzaAndCovidDeaths>
+    <covidRdf:EndWeek>04/25/2020</covidRdf:EndWeek>
+    <covidRdf:StartWeek>02/01/2020</covidRdf:StartWeek>
+    <covidRdf:State>Texas</covidRdf:State>
+    <covidRdf:Footnote></covidRdf:Footnote>
+    <covidRdf:PercentofExpectedDeaths>0.9</covidRdf:PercentofExpectedDeaths>
+    <covidRdf:Group>By state</covidRdf:Group>
   </rdf:Description>
   <rdf:Description rdf:about="https://data.edd.ca.gov91">
-    <j.0:PercentofExpectedDeaths>0.91</j.0:PercentofExpectedDeaths>
-    <j.0:State>United States</j.0:State>
-    <j.0:AllPneumoniaDeaths>911</j.0:AllPneumoniaDeaths>
-    <j.0:DataAsOf>04/27/2020</j.0:DataAsOf>
-    <j.0:AllCovidDeaths>279</j.0:AllCovidDeaths>
-    <j.0:StartWeek>02/01/2020</j.0:StartWeek>
-    <j.0:DeathsWithPneumoniaAndCovid>80</j.0:DeathsWithPneumoniaAndCovid>
-    <j.0:DeathsFromAllCauses>42210</j.0:DeathsFromAllCauses>
-    <j.0:Footnote></j.0:Footnote>
-    <j.0:AllInfluenzaDeaths>78</j.0:AllInfluenzaDeaths>
-    <j.0:PneumoniaInfluenzaAndCovidDeaths></j.0:PneumoniaInfluenzaAndCovidDeaths>
-    <j.0:Indicator>Other</j.0:Indicator>
-    <j.0:EndWeek>04/25/2020</j.0:EndWeek>
-    <j.0:Group>By place of death</j.0:Group>
+    <covidRdf:PercentofExpectedDeaths>0.91</covidRdf:PercentofExpectedDeaths>
+    <covidRdf:State>United States</covidRdf:State>
+    <covidRdf:AllPneumoniaDeaths>911</covidRdf:AllPneumoniaDeaths>
+    <covidRdf:DataAsOf>04/27/2020</covidRdf:DataAsOf>
+    <covidRdf:AllCovidDeaths>279</covidRdf:AllCovidDeaths>
+    <covidRdf:StartWeek>02/01/2020</covidRdf:StartWeek>
+    <covidRdf:DeathsWithPneumoniaAndCovid>80</covidRdf:DeathsWithPneumoniaAndCovid>
+    <covidRdf:DeathsFromAllCauses>42210</covidRdf:DeathsFromAllCauses>
+    <covidRdf:Footnote></covidRdf:Footnote>
+    <covidRdf:AllInfluenzaDeaths>78</covidRdf:AllInfluenzaDeaths>
+    <covidRdf:PneumoniaInfluenzaAndCovidDeaths></covidRdf:PneumoniaInfluenzaAndCovidDeaths>
+    <covidRdf:Indicator>Other</covidRdf:Indicator>
+    <covidRdf:EndWeek>04/25/2020</covidRdf:EndWeek>
+    <covidRdf:Group>By place of death</covidRdf:Group>
   </rdf:Description>
   <rdf:Description rdf:about="https://data.edd.ca.gov59">
-    <j.0:DeathsFromAllCauses>30423</j.0:DeathsFromAllCauses>
-    <j.0:DeathsWithPneumoniaAndCovid>2228</j.0:DeathsWithPneumoniaAndCovid>
-    <j.0:PercentofExpectedDeaths>1.16</j.0:PercentofExpectedDeaths>
-    <j.0:Indicator>New York</j.0:Indicator>
-    <j.0:PneumoniaInfluenzaAndCovidDeaths></j.0:PneumoniaInfluenzaAndCovidDeaths>
-    <j.0:AllCovidDeaths>4283</j.0:AllCovidDeaths>
-    <j.0:EndWeek>04/25/2020</j.0:EndWeek>
-    <j.0:DataAsOf>04/27/2020</j.0:DataAsOf>
-    <j.0:AllPneumoniaDeaths>4709</j.0:AllPneumoniaDeaths>
-    <j.0:AllInfluenzaDeaths>187</j.0:AllInfluenzaDeaths>
-    <j.0:StartWeek>02/01/2020</j.0:StartWeek>
-    <j.0:State>New York</j.0:State>
-    <j.0:Group>By state</j.0:Group>
-    <j.0:Footnote></j.0:Footnote>
+    <covidRdf:DeathsFromAllCauses>30423</covidRdf:DeathsFromAllCauses>
+    <covidRdf:DeathsWithPneumoniaAndCovid>2228</covidRdf:DeathsWithPneumoniaAndCovid>
+    <covidRdf:PercentofExpectedDeaths>1.16</covidRdf:PercentofExpectedDeaths>
+    <covidRdf:Indicator>New York</covidRdf:Indicator>
+    <covidRdf:PneumoniaInfluenzaAndCovidDeaths></covidRdf:PneumoniaInfluenzaAndCovidDeaths>
+    <covidRdf:AllCovidDeaths>4283</covidRdf:AllCovidDeaths>
+    <covidRdf:EndWeek>04/25/2020</covidRdf:EndWeek>
+    <covidRdf:DataAsOf>04/27/2020</covidRdf:DataAsOf>
+    <covidRdf:AllPneumoniaDeaths>4709</covidRdf:AllPneumoniaDeaths>
+    <covidRdf:AllInfluenzaDeaths>187</covidRdf:AllInfluenzaDeaths>
+    <covidRdf:StartWeek>02/01/2020</covidRdf:StartWeek>
+    <covidRdf:State>New York</covidRdf:State>
+    <covidRdf:Group>By state</covidRdf:Group>
+    <covidRdf:Footnote></covidRdf:Footnote>
   </rdf:Description>
   <rdf:Description rdf:about="https://data.edd.ca.gov15">
-    <j.0:StartWeek>02/01/2020</j.0:StartWeek>
-    <j.0:PercentofExpectedDeaths>0.91</j.0:PercentofExpectedDeaths>
-    <j.0:Indicator>Under 1 year</j.0:Indicator>
-    <j.0:DeathsWithPneumoniaAndCovid>0</j.0:DeathsWithPneumoniaAndCovid>
-    <j.0:Group>By age</j.0:Group>
-    <j.0:AllPneumoniaDeaths>32</j.0:AllPneumoniaDeaths>
-    <j.0:Footnote></j.0:Footnote>
-    <j.0:AllCovidDeaths>0</j.0:AllCovidDeaths>
-    <j.0:PneumoniaInfluenzaAndCovidDeaths></j.0:PneumoniaInfluenzaAndCovidDeaths>
-    <j.0:DataAsOf>04/27/2020</j.0:DataAsOf>
-    <j.0:AllInfluenzaDeaths>11</j.0:AllInfluenzaDeaths>
-    <j.0:DeathsFromAllCauses>3489</j.0:DeathsFromAllCauses>
-    <j.0:State>United States</j.0:State>
-    <j.0:EndWeek>04/25/2020</j.0:EndWeek>
+    <covidRdf:StartWeek>02/01/2020</covidRdf:StartWeek>
+    <covidRdf:PercentofExpectedDeaths>0.91</covidRdf:PercentofExpectedDeaths>
+    <covidRdf:Indicator>Under 1 year</covidRdf:Indicator>
+    <covidRdf:DeathsWithPneumoniaAndCovid>0</covidRdf:DeathsWithPneumoniaAndCovid>
+    <covidRdf:Group>By age</covidRdf:Group>
+    <covidRdf:AllPneumoniaDeaths>32</covidRdf:AllPneumoniaDeaths>
+    <covidRdf:Footnote></covidRdf:Footnote>
+    <covidRdf:AllCovidDeaths>0</covidRdf:AllCovidDeaths>
+    <covidRdf:PneumoniaInfluenzaAndCovidDeaths></covidRdf:PneumoniaInfluenzaAndCovidDeaths>
+    <covidRdf:DataAsOf>04/27/2020</covidRdf:DataAsOf>
+    <covidRdf:AllInfluenzaDeaths>11</covidRdf:AllInfluenzaDeaths>
+    <covidRdf:DeathsFromAllCauses>3489</covidRdf:DeathsFromAllCauses>
+    <covidRdf:State>United States</covidRdf:State>
+    <covidRdf:EndWeek>04/25/2020</covidRdf:EndWeek>
   </rdf:Description>
   <rdf:Description rdf:about="https://data.edd.ca.gov47">
-    <j.0:DeathsWithPneumoniaAndCovid>211</j.0:DeathsWithPneumoniaAndCovid>
-    <j.0:AllCovidDeaths>478</j.0:AllCovidDeaths>
-    <j.0:Footnote></j.0:Footnote>
-    <j.0:State>Maryland</j.0:State>
-    <j.0:AllPneumoniaDeaths>1131</j.0:AllPneumoniaDeaths>
-    <j.0:PercentofExpectedDeaths>0.98</j.0:PercentofExpectedDeaths>
-    <j.0:PneumoniaInfluenzaAndCovidDeaths></j.0:PneumoniaInfluenzaAndCovidDeaths>
-    <j.0:EndWeek>04/25/2020</j.0:EndWeek>
-    <j.0:DataAsOf>04/27/2020</j.0:DataAsOf>
-    <j.0:StartWeek>02/01/2020</j.0:StartWeek>
-    <j.0:AllInfluenzaDeaths>105</j.0:AllInfluenzaDeaths>
-    <j.0:Group>By state</j.0:Group>
-    <j.0:Indicator>Maryland</j.0:Indicator>
-    <j.0:DeathsFromAllCauses>12854</j.0:DeathsFromAllCauses>
+    <covidRdf:DeathsWithPneumoniaAndCovid>211</covidRdf:DeathsWithPneumoniaAndCovid>
+    <covidRdf:AllCovidDeaths>478</covidRdf:AllCovidDeaths>
+    <covidRdf:Footnote></covidRdf:Footnote>
+    <covidRdf:State>Maryland</covidRdf:State>
+    <covidRdf:AllPneumoniaDeaths>1131</covidRdf:AllPneumoniaDeaths>
+    <covidRdf:PercentofExpectedDeaths>0.98</covidRdf:PercentofExpectedDeaths>
+    <covidRdf:PneumoniaInfluenzaAndCovidDeaths></covidRdf:PneumoniaInfluenzaAndCovidDeaths>
+    <covidRdf:EndWeek>04/25/2020</covidRdf:EndWeek>
+    <covidRdf:DataAsOf>04/27/2020</covidRdf:DataAsOf>
+    <covidRdf:StartWeek>02/01/2020</covidRdf:StartWeek>
+    <covidRdf:AllInfluenzaDeaths>105</covidRdf:AllInfluenzaDeaths>
+    <covidRdf:Group>By state</covidRdf:Group>
+    <covidRdf:Indicator>Maryland</covidRdf:Indicator>
+    <covidRdf:DeathsFromAllCauses>12854</covidRdf:DeathsFromAllCauses>
   </rdf:Description>
   <rdf:Description rdf:about="https://data.edd.ca.gov79">
-    <j.0:Indicator>Puerto Rico</j.0:Indicator>
-    <j.0:AllInfluenzaDeaths>28</j.0:AllInfluenzaDeaths>
-    <j.0:Footnote></j.0:Footnote>
-    <j.0:DeathsFromAllCauses>4876</j.0:DeathsFromAllCauses>
-    <j.0:DeathsWithPneumoniaAndCovid>26</j.0:DeathsWithPneumoniaAndCovid>
-    <j.0:DataAsOf>04/27/2020</j.0:DataAsOf>
-    <j.0:Group>By state</j.0:Group>
-    <j.0:AllPneumoniaDeaths>685</j.0:AllPneumoniaDeaths>
-    <j.0:PercentofExpectedDeaths>0.65</j.0:PercentofExpectedDeaths>
-    <j.0:State>Puerto Rico</j.0:State>
-    <j.0:AllCovidDeaths>51</j.0:AllCovidDeaths>
-    <j.0:PneumoniaInfluenzaAndCovidDeaths></j.0:PneumoniaInfluenzaAndCovidDeaths>
-    <j.0:StartWeek>02/01/2020</j.0:StartWeek>
-    <j.0:EndWeek>04/25/2020</j.0:EndWeek>
+    <covidRdf:Indicator>Puerto Rico</covidRdf:Indicator>
+    <covidRdf:AllInfluenzaDeaths>28</covidRdf:AllInfluenzaDeaths>
+    <covidRdf:Footnote></covidRdf:Footnote>
+    <covidRdf:DeathsFromAllCauses>4876</covidRdf:DeathsFromAllCauses>
+    <covidRdf:DeathsWithPneumoniaAndCovid>26</covidRdf:DeathsWithPneumoniaAndCovid>
+    <covidRdf:DataAsOf>04/27/2020</covidRdf:DataAsOf>
+    <covidRdf:Group>By state</covidRdf:Group>
+    <covidRdf:AllPneumoniaDeaths>685</covidRdf:AllPneumoniaDeaths>
+    <covidRdf:PercentofExpectedDeaths>0.65</covidRdf:PercentofExpectedDeaths>
+    <covidRdf:State>Puerto Rico</covidRdf:State>
+    <covidRdf:AllCovidDeaths>51</covidRdf:AllCovidDeaths>
+    <covidRdf:PneumoniaInfluenzaAndCovidDeaths></covidRdf:PneumoniaInfluenzaAndCovidDeaths>
+    <covidRdf:StartWeek>02/01/2020</covidRdf:StartWeek>
+    <covidRdf:EndWeek>04/25/2020</covidRdf:EndWeek>
   </rdf:Description>
   <rdf:Description rdf:about="https://data.edd.ca.gov35">
-    <j.0:PercentofExpectedDeaths>0.87</j.0:PercentofExpectedDeaths>
-    <j.0:Indicator>District of Columbia</j.0:Indicator>
-    <j.0:AllInfluenzaDeaths></j.0:AllInfluenzaDeaths>
-    <j.0:EndWeek>04/25/2020</j.0:EndWeek>
-    <j.0:Group>By state</j.0:Group>
-    <j.0:DataAsOf>04/27/2020</j.0:DataAsOf>
-    <j.0:AllCovidDeaths>48</j.0:AllCovidDeaths>
-    <j.0:StartWeek>02/01/2020</j.0:StartWeek>
-    <j.0:State>District of Columbia</j.0:State>
-    <j.0:Footnote>One or more data cells have counts &lt;10 and have been suppressed in accordance with NCHS confidentiality standards.</j.0:Footnote>
-    <j.0:DeathsFromAllCauses>1369</j.0:DeathsFromAllCauses>
-    <j.0:PneumoniaInfluenzaAndCovidDeaths></j.0:PneumoniaInfluenzaAndCovidDeaths>
-    <j.0:AllPneumoniaDeaths>153</j.0:AllPneumoniaDeaths>
-    <j.0:DeathsWithPneumoniaAndCovid>48</j.0:DeathsWithPneumoniaAndCovid>
+    <covidRdf:PercentofExpectedDeaths>0.87</covidRdf:PercentofExpectedDeaths>
+    <covidRdf:Indicator>District of Columbia</covidRdf:Indicator>
+    <covidRdf:AllInfluenzaDeaths></covidRdf:AllInfluenzaDeaths>
+    <covidRdf:EndWeek>04/25/2020</covidRdf:EndWeek>
+    <covidRdf:Group>By state</covidRdf:Group>
+    <covidRdf:DataAsOf>04/27/2020</covidRdf:DataAsOf>
+    <covidRdf:AllCovidDeaths>48</covidRdf:AllCovidDeaths>
+    <covidRdf:StartWeek>02/01/2020</covidRdf:StartWeek>
+    <covidRdf:State>District of Columbia</covidRdf:State>
+    <covidRdf:Footnote>One or more data cells have counts &lt;10 and have been suppressed in accordance with NCHS confidentiality standards.</covidRdf:Footnote>
+    <covidRdf:DeathsFromAllCauses>1369</covidRdf:DeathsFromAllCauses>
+    <covidRdf:PneumoniaInfluenzaAndCovidDeaths></covidRdf:PneumoniaInfluenzaAndCovidDeaths>
+    <covidRdf:AllPneumoniaDeaths>153</covidRdf:AllPneumoniaDeaths>
+    <covidRdf:DeathsWithPneumoniaAndCovid>48</covidRdf:DeathsWithPneumoniaAndCovid>
   </rdf:Description>
   <rdf:Description rdf:about="https://data.edd.ca.gov67">
-    <j.0:DeathsWithPneumoniaAndCovid>10</j.0:DeathsWithPneumoniaAndCovid>
-    <j.0:AllPneumoniaDeaths>113</j.0:AllPneumoniaDeaths>
-    <j.0:PercentofExpectedDeaths>0.78</j.0:PercentofExpectedDeaths>
-    <j.0:DataAsOf>04/27/2020</j.0:DataAsOf>
-    <j.0:Indicator>Rhode Island</j.0:Indicator>
-    <j.0:Group>By state</j.0:Group>
-    <j.0:Footnote></j.0:Footnote>
-    <j.0:AllInfluenzaDeaths>23</j.0:AllInfluenzaDeaths>
-    <j.0:AllCovidDeaths>46</j.0:AllCovidDeaths>
-    <j.0:State>Rhode Island</j.0:State>
-    <j.0:StartWeek>02/01/2020</j.0:StartWeek>
-    <j.0:DeathsFromAllCauses>2124</j.0:DeathsFromAllCauses>
-    <j.0:PneumoniaInfluenzaAndCovidDeaths></j.0:PneumoniaInfluenzaAndCovidDeaths>
-    <j.0:EndWeek>04/25/2020</j.0:EndWeek>
+    <covidRdf:DeathsWithPneumoniaAndCovid>10</covidRdf:DeathsWithPneumoniaAndCovid>
+    <covidRdf:AllPneumoniaDeaths>113</covidRdf:AllPneumoniaDeaths>
+    <covidRdf:PercentofExpectedDeaths>0.78</covidRdf:PercentofExpectedDeaths>
+    <covidRdf:DataAsOf>04/27/2020</covidRdf:DataAsOf>
+    <covidRdf:Indicator>Rhode Island</covidRdf:Indicator>
+    <covidRdf:Group>By state</covidRdf:Group>
+    <covidRdf:Footnote></covidRdf:Footnote>
+    <covidRdf:AllInfluenzaDeaths>23</covidRdf:AllInfluenzaDeaths>
+    <covidRdf:AllCovidDeaths>46</covidRdf:AllCovidDeaths>
+    <covidRdf:State>Rhode Island</covidRdf:State>
+    <covidRdf:StartWeek>02/01/2020</covidRdf:StartWeek>
+    <covidRdf:DeathsFromAllCauses>2124</covidRdf:DeathsFromAllCauses>
+    <covidRdf:PneumoniaInfluenzaAndCovidDeaths></covidRdf:PneumoniaInfluenzaAndCovidDeaths>
+    <covidRdf:EndWeek>04/25/2020</covidRdf:EndWeek>
   </rdf:Description>
   <rdf:Description rdf:about="https://data.edd.ca.gov23">
-    <j.0:DataAsOf>04/27/2020</j.0:DataAsOf>
-    <j.0:AllPneumoniaDeaths>11951</j.0:AllPneumoniaDeaths>
-    <j.0:AllInfluenzaDeaths>1241</j.0:AllInfluenzaDeaths>
-    <j.0:Group>By age</j.0:Group>
-    <j.0:AllCovidDeaths>6077</j.0:AllCovidDeaths>
-    <j.0:State>United States</j.0:State>
-    <j.0:StartWeek>02/01/2020</j.0:StartWeek>
-    <j.0:DeathsWithPneumoniaAndCovid>2666</j.0:DeathsWithPneumoniaAndCovid>
-    <j.0:DeathsFromAllCauses>132608</j.0:DeathsFromAllCauses>
-    <j.0:Indicator>65â€“74 years</j.0:Indicator>
-    <j.0:Footnote></j.0:Footnote>
-    <j.0:PneumoniaInfluenzaAndCovidDeaths></j.0:PneumoniaInfluenzaAndCovidDeaths>
-    <j.0:EndWeek>04/25/2020</j.0:EndWeek>
-    <j.0:PercentofExpectedDeaths>0.91</j.0:PercentofExpectedDeaths>
+    <covidRdf:DataAsOf>04/27/2020</covidRdf:DataAsOf>
+    <covidRdf:AllPneumoniaDeaths>11951</covidRdf:AllPneumoniaDeaths>
+    <covidRdf:AllInfluenzaDeaths>1241</covidRdf:AllInfluenzaDeaths>
+    <covidRdf:Group>By age</covidRdf:Group>
+    <covidRdf:AllCovidDeaths>6077</covidRdf:AllCovidDeaths>
+    <covidRdf:State>United States</covidRdf:State>
+    <covidRdf:StartWeek>02/01/2020</covidRdf:StartWeek>
+    <covidRdf:DeathsWithPneumoniaAndCovid>2666</covidRdf:DeathsWithPneumoniaAndCovid>
+    <covidRdf:DeathsFromAllCauses>132608</covidRdf:DeathsFromAllCauses>
+    <covidRdf:Indicator>65â€“74 years</covidRdf:Indicator>
+    <covidRdf:Footnote></covidRdf:Footnote>
+    <covidRdf:PneumoniaInfluenzaAndCovidDeaths></covidRdf:PneumoniaInfluenzaAndCovidDeaths>
+    <covidRdf:EndWeek>04/25/2020</covidRdf:EndWeek>
+    <covidRdf:PercentofExpectedDeaths>0.91</covidRdf:PercentofExpectedDeaths>
   </rdf:Description>
   <rdf:Description rdf:about="https://data.edd.ca.gov11">
-    <j.0:DataAsOf>04/27/2020</j.0:DataAsOf>
-    <j.0:Group>By week</j.0:Group>
-    <j.0:AllPneumoniaDeaths>8659</j.0:AllPneumoniaDeaths>
-    <j.0:State>United States</j.0:State>
-    <j.0:PercentofExpectedDeaths>1.1</j.0:PercentofExpectedDeaths>
-    <j.0:StartWeek>04/11/2020</j.0:StartWeek>
-    <j.0:DeathsWithPneumoniaAndCovid>4678</j.0:DeathsWithPneumoniaAndCovid>
-    <j.0:AllCovidDeaths>10610</j.0:AllCovidDeaths>
-    <j.0:DeathsFromAllCauses>60783</j.0:DeathsFromAllCauses>
-    <j.0:Footnote></j.0:Footnote>
-    <j.0:Indicator>Weekending</j.0:Indicator>
-    <j.0:AllInfluenzaDeaths>406</j.0:AllInfluenzaDeaths>
-    <j.0:PneumoniaInfluenzaAndCovidDeaths>14690</j.0:PneumoniaInfluenzaAndCovidDeaths>
-    <j.0:EndWeek>04/11/2020</j.0:EndWeek>
+    <covidRdf:DataAsOf>04/27/2020</covidRdf:DataAsOf>
+    <covidRdf:Group>By week</covidRdf:Group>
+    <covidRdf:AllPneumoniaDeaths>8659</covidRdf:AllPneumoniaDeaths>
+    <covidRdf:State>United States</covidRdf:State>
+    <covidRdf:PercentofExpectedDeaths>1.1</covidRdf:PercentofExpectedDeaths>
+    <covidRdf:StartWeek>04/11/2020</covidRdf:StartWeek>
+    <covidRdf:DeathsWithPneumoniaAndCovid>4678</covidRdf:DeathsWithPneumoniaAndCovid>
+    <covidRdf:AllCovidDeaths>10610</covidRdf:AllCovidDeaths>
+    <covidRdf:DeathsFromAllCauses>60783</covidRdf:DeathsFromAllCauses>
+    <covidRdf:Footnote></covidRdf:Footnote>
+    <covidRdf:Indicator>Weekending</covidRdf:Indicator>
+    <covidRdf:AllInfluenzaDeaths>406</covidRdf:AllInfluenzaDeaths>
+    <covidRdf:PneumoniaInfluenzaAndCovidDeaths>14690</covidRdf:PneumoniaInfluenzaAndCovidDeaths>
+    <covidRdf:EndWeek>04/11/2020</covidRdf:EndWeek>
   </rdf:Description>
   <rdf:Description rdf:about="https://data.edd.ca.gov55">
-    <j.0:DeathsWithPneumoniaAndCovid>84</j.0:DeathsWithPneumoniaAndCovid>
-    <j.0:State>Nevada</j.0:State>
-    <j.0:AllInfluenzaDeaths>35</j.0:AllInfluenzaDeaths>
-    <j.0:PercentofExpectedDeaths>0.91</j.0:PercentofExpectedDeaths>
-    <j.0:PneumoniaInfluenzaAndCovidDeaths></j.0:PneumoniaInfluenzaAndCovidDeaths>
-    <j.0:Footnote></j.0:Footnote>
-    <j.0:EndWeek>04/25/2020</j.0:EndWeek>
-    <j.0:DataAsOf>04/27/2020</j.0:DataAsOf>
-    <j.0:AllPneumoniaDeaths>493</j.0:AllPneumoniaDeaths>
-    <j.0:DeathsFromAllCauses>6121</j.0:DeathsFromAllCauses>
-    <j.0:StartWeek>02/01/2020</j.0:StartWeek>
-    <j.0:AllCovidDeaths>105</j.0:AllCovidDeaths>
-    <j.0:Indicator>Nevada</j.0:Indicator>
-    <j.0:Group>By state</j.0:Group>
+    <covidRdf:DeathsWithPneumoniaAndCovid>84</covidRdf:DeathsWithPneumoniaAndCovid>
+    <covidRdf:State>Nevada</covidRdf:State>
+    <covidRdf:AllInfluenzaDeaths>35</covidRdf:AllInfluenzaDeaths>
+    <covidRdf:PercentofExpectedDeaths>0.91</covidRdf:PercentofExpectedDeaths>
+    <covidRdf:PneumoniaInfluenzaAndCovidDeaths></covidRdf:PneumoniaInfluenzaAndCovidDeaths>
+    <covidRdf:Footnote></covidRdf:Footnote>
+    <covidRdf:EndWeek>04/25/2020</covidRdf:EndWeek>
+    <covidRdf:DataAsOf>04/27/2020</covidRdf:DataAsOf>
+    <covidRdf:AllPneumoniaDeaths>493</covidRdf:AllPneumoniaDeaths>
+    <covidRdf:DeathsFromAllCauses>6121</covidRdf:DeathsFromAllCauses>
+    <covidRdf:StartWeek>02/01/2020</covidRdf:StartWeek>
+    <covidRdf:AllCovidDeaths>105</covidRdf:AllCovidDeaths>
+    <covidRdf:Indicator>Nevada</covidRdf:Indicator>
+    <covidRdf:Group>By state</covidRdf:Group>
   </rdf:Description>
   <rdf:Description rdf:about="https://data.edd.ca.gov87">
-    <j.0:AllCovidDeaths>04/25/2020</j.0:AllCovidDeaths>
-    <j.0:DataAsOf>04/27/2020</j.0:DataAsOf>
-    <j.0:PneumoniaInfluenzaAndCovidDeaths>11</j.0:PneumoniaInfluenzaAndCovidDeaths>
-    <j.0:DeathsWithPneumoniaAndCovid>44</j.0:DeathsWithPneumoniaAndCovid>
-    <j.0:EndWeek>02/01/2020</j.0:EndWeek>
-    <j.0:State>United States</j.0:State>
-    <j.0:DeathsFromAllCauses>33</j.0:DeathsFromAllCauses>
-    <j.0:PercentofExpectedDeaths>1767</j.0:PercentofExpectedDeaths>
-    <j.0:AllPneumoniaDeaths>0.91</j.0:AllPneumoniaDeaths>
-    <j.0:Group>By place of death</j.0:Group>
-    <j.0:Footnote></j.0:Footnote>
-    <j.0:Indicator>"Healthcare setting</j.0:Indicator>
-    <j.0:StartWeek> dead on arrival"</j.0:StartWeek>
-    <j.0:AllInfluenzaDeaths>10</j.0:AllInfluenzaDeaths>
+    <covidRdf:AllCovidDeaths>04/25/2020</covidRdf:AllCovidDeaths>
+    <covidRdf:DataAsOf>04/27/2020</covidRdf:DataAsOf>
+    <covidRdf:PneumoniaInfluenzaAndCovidDeaths>11</covidRdf:PneumoniaInfluenzaAndCovidDeaths>
+    <covidRdf:DeathsWithPneumoniaAndCovid>44</covidRdf:DeathsWithPneumoniaAndCovid>
+    <covidRdf:EndWeek>02/01/2020</covidRdf:EndWeek>
+    <covidRdf:State>United States</covidRdf:State>
+    <covidRdf:DeathsFromAllCauses>33</covidRdf:DeathsFromAllCauses>
+    <covidRdf:PercentofExpectedDeaths>1767</covidRdf:PercentofExpectedDeaths>
+    <covidRdf:AllPneumoniaDeaths>0.91</covidRdf:AllPneumoniaDeaths>
+    <covidRdf:Group>By place of death</covidRdf:Group>
+    <covidRdf:Footnote></covidRdf:Footnote>
+    <covidRdf:Indicator>"Healthcare setting</covidRdf:Indicator>
+    <covidRdf:StartWeek> dead on arrival"</covidRdf:StartWeek>
+    <covidRdf:AllInfluenzaDeaths>10</covidRdf:AllInfluenzaDeaths>
   </rdf:Description>
   <rdf:Description rdf:about="https://data.edd.ca.gov43">
-    <j.0:DeathsWithPneumoniaAndCovid>34</j.0:DeathsWithPneumoniaAndCovid>
-    <j.0:Indicator>Kansas</j.0:Indicator>
-    <j.0:AllCovidDeaths>78</j.0:AllCovidDeaths>
-    <j.0:PercentofExpectedDeaths>0.91</j.0:PercentofExpectedDeaths>
-    <j.0:AllPneumoniaDeaths>434</j.0:AllPneumoniaDeaths>
-    <j.0:PneumoniaInfluenzaAndCovidDeaths></j.0:PneumoniaInfluenzaAndCovidDeaths>
-    <j.0:EndWeek>04/25/2020</j.0:EndWeek>
-    <j.0:Footnote></j.0:Footnote>
-    <j.0:DataAsOf>04/27/2020</j.0:DataAsOf>
-    <j.0:State>Kansas</j.0:State>
-    <j.0:DeathsFromAllCauses>6308</j.0:DeathsFromAllCauses>
-    <j.0:AllInfluenzaDeaths>85</j.0:AllInfluenzaDeaths>
-    <j.0:StartWeek>02/01/2020</j.0:StartWeek>
-    <j.0:Group>By state</j.0:Group>
+    <covidRdf:DeathsWithPneumoniaAndCovid>34</covidRdf:DeathsWithPneumoniaAndCovid>
+    <covidRdf:Indicator>Kansas</covidRdf:Indicator>
+    <covidRdf:AllCovidDeaths>78</covidRdf:AllCovidDeaths>
+    <covidRdf:PercentofExpectedDeaths>0.91</covidRdf:PercentofExpectedDeaths>
+    <covidRdf:AllPneumoniaDeaths>434</covidRdf:AllPneumoniaDeaths>
+    <covidRdf:PneumoniaInfluenzaAndCovidDeaths></covidRdf:PneumoniaInfluenzaAndCovidDeaths>
+    <covidRdf:EndWeek>04/25/2020</covidRdf:EndWeek>
+    <covidRdf:Footnote></covidRdf:Footnote>
+    <covidRdf:DataAsOf>04/27/2020</covidRdf:DataAsOf>
+    <covidRdf:State>Kansas</covidRdf:State>
+    <covidRdf:DeathsFromAllCauses>6308</covidRdf:DeathsFromAllCauses>
+    <covidRdf:AllInfluenzaDeaths>85</covidRdf:AllInfluenzaDeaths>
+    <covidRdf:StartWeek>02/01/2020</covidRdf:StartWeek>
+    <covidRdf:Group>By state</covidRdf:Group>
   </rdf:Description>
   <rdf:Description rdf:about="https://data.edd.ca.gov75">
-    <j.0:Indicator>Washington</j.0:Indicator>
-    <j.0:AllInfluenzaDeaths>98</j.0:AllInfluenzaDeaths>
-    <j.0:PercentofExpectedDeaths>0.92</j.0:PercentofExpectedDeaths>
-    <j.0:DeathsWithPneumoniaAndCovid>281</j.0:DeathsWithPneumoniaAndCovid>
-    <j.0:AllPneumoniaDeaths>1159</j.0:AllPneumoniaDeaths>
-    <j.0:StartWeek>02/01/2020</j.0:StartWeek>
-    <j.0:DataAsOf>04/27/2020</j.0:DataAsOf>
-    <j.0:AllCovidDeaths>527</j.0:AllCovidDeaths>
-    <j.0:Footnote></j.0:Footnote>
-    <j.0:PneumoniaInfluenzaAndCovidDeaths></j.0:PneumoniaInfluenzaAndCovidDeaths>
-    <j.0:EndWeek>04/25/2020</j.0:EndWeek>
-    <j.0:DeathsFromAllCauses>13708</j.0:DeathsFromAllCauses>
-    <j.0:State>Washington</j.0:State>
-    <j.0:Group>By state</j.0:Group>
+    <covidRdf:Indicator>Washington</covidRdf:Indicator>
+    <covidRdf:AllInfluenzaDeaths>98</covidRdf:AllInfluenzaDeaths>
+    <covidRdf:PercentofExpectedDeaths>0.92</covidRdf:PercentofExpectedDeaths>
+    <covidRdf:DeathsWithPneumoniaAndCovid>281</covidRdf:DeathsWithPneumoniaAndCovid>
+    <covidRdf:AllPneumoniaDeaths>1159</covidRdf:AllPneumoniaDeaths>
+    <covidRdf:StartWeek>02/01/2020</covidRdf:StartWeek>
+    <covidRdf:DataAsOf>04/27/2020</covidRdf:DataAsOf>
+    <covidRdf:AllCovidDeaths>527</covidRdf:AllCovidDeaths>
+    <covidRdf:Footnote></covidRdf:Footnote>
+    <covidRdf:PneumoniaInfluenzaAndCovidDeaths></covidRdf:PneumoniaInfluenzaAndCovidDeaths>
+    <covidRdf:EndWeek>04/25/2020</covidRdf:EndWeek>
+    <covidRdf:DeathsFromAllCauses>13708</covidRdf:DeathsFromAllCauses>
+    <covidRdf:State>Washington</covidRdf:State>
+    <covidRdf:Group>By state</covidRdf:Group>
   </rdf:Description>
   <rdf:Description rdf:about="https://data.edd.ca.gov31">
-    <j.0:Footnote></j.0:Footnote>
-    <j.0:DataAsOf>04/27/2020</j.0:DataAsOf>
-    <j.0:Group>By state</j.0:Group>
-    <j.0:AllInfluenzaDeaths>543</j.0:AllInfluenzaDeaths>
-    <j.0:State>California</j.0:State>
-    <j.0:Indicator>California</j.0:Indicator>
-    <j.0:DeathsFromAllCauses>65913</j.0:DeathsFromAllCauses>
-    <j.0:PercentofExpectedDeaths>0.93</j.0:PercentofExpectedDeaths>
-    <j.0:StartWeek>02/01/2020</j.0:StartWeek>
-    <j.0:AllCovidDeaths>820</j.0:AllCovidDeaths>
-    <j.0:AllPneumoniaDeaths>5519</j.0:AllPneumoniaDeaths>
-    <j.0:PneumoniaInfluenzaAndCovidDeaths></j.0:PneumoniaInfluenzaAndCovidDeaths>
-    <j.0:DeathsWithPneumoniaAndCovid>456</j.0:DeathsWithPneumoniaAndCovid>
-    <j.0:EndWeek>04/25/2020</j.0:EndWeek>
+    <covidRdf:Footnote></covidRdf:Footnote>
+    <covidRdf:DataAsOf>04/27/2020</covidRdf:DataAsOf>
+    <covidRdf:Group>By state</covidRdf:Group>
+    <covidRdf:AllInfluenzaDeaths>543</covidRdf:AllInfluenzaDeaths>
+    <covidRdf:State>California</covidRdf:State>
+    <covidRdf:Indicator>California</covidRdf:Indicator>
+    <covidRdf:DeathsFromAllCauses>65913</covidRdf:DeathsFromAllCauses>
+    <covidRdf:PercentofExpectedDeaths>0.93</covidRdf:PercentofExpectedDeaths>
+    <covidRdf:StartWeek>02/01/2020</covidRdf:StartWeek>
+    <covidRdf:AllCovidDeaths>820</covidRdf:AllCovidDeaths>
+    <covidRdf:AllPneumoniaDeaths>5519</covidRdf:AllPneumoniaDeaths>
+    <covidRdf:PneumoniaInfluenzaAndCovidDeaths></covidRdf:PneumoniaInfluenzaAndCovidDeaths>
+    <covidRdf:DeathsWithPneumoniaAndCovid>456</covidRdf:DeathsWithPneumoniaAndCovid>
+    <covidRdf:EndWeek>04/25/2020</covidRdf:EndWeek>
   </rdf:Description>
   <rdf:Description rdf:about="https://data.edd.ca.gov6">
-    <j.0:Group>By week</j.0:Group>
-    <j.0:AllPneumoniaDeaths>3681</j.0:AllPneumoniaDeaths>
-    <j.0:StartWeek>03/07/2020</j.0:StartWeek>
-    <j.0:PercentofExpectedDeaths>0.96</j.0:PercentofExpectedDeaths>
-    <j.0:AllInfluenzaDeaths>580</j.0:AllInfluenzaDeaths>
-    <j.0:DeathsFromAllCauses>55562</j.0:DeathsFromAllCauses>
-    <j.0:PneumoniaInfluenzaAndCovidDeaths>4271</j.0:PneumoniaInfluenzaAndCovidDeaths>
-    <j.0:Indicator>Weekending</j.0:Indicator>
-    <j.0:AllCovidDeaths>25</j.0:AllCovidDeaths>
-    <j.0:Footnote></j.0:Footnote>
-    <j.0:EndWeek>03/07/2020</j.0:EndWeek>
-    <j.0:State>United States</j.0:State>
-    <j.0:DeathsWithPneumoniaAndCovid>14</j.0:DeathsWithPneumoniaAndCovid>
-    <j.0:DataAsOf>04/27/2020</j.0:DataAsOf>
+    <covidRdf:Group>By week</covidRdf:Group>
+    <covidRdf:AllPneumoniaDeaths>3681</covidRdf:AllPneumoniaDeaths>
+    <covidRdf:StartWeek>03/07/2020</covidRdf:StartWeek>
+    <covidRdf:PercentofExpectedDeaths>0.96</covidRdf:PercentofExpectedDeaths>
+    <covidRdf:AllInfluenzaDeaths>580</covidRdf:AllInfluenzaDeaths>
+    <covidRdf:DeathsFromAllCauses>55562</covidRdf:DeathsFromAllCauses>
+    <covidRdf:PneumoniaInfluenzaAndCovidDeaths>4271</covidRdf:PneumoniaInfluenzaAndCovidDeaths>
+    <covidRdf:Indicator>Weekending</covidRdf:Indicator>
+    <covidRdf:AllCovidDeaths>25</covidRdf:AllCovidDeaths>
+    <covidRdf:Footnote></covidRdf:Footnote>
+    <covidRdf:EndWeek>03/07/2020</covidRdf:EndWeek>
+    <covidRdf:State>United States</covidRdf:State>
+    <covidRdf:DeathsWithPneumoniaAndCovid>14</covidRdf:DeathsWithPneumoniaAndCovid>
+    <covidRdf:DataAsOf>04/27/2020</covidRdf:DataAsOf>
   </rdf:Description>
   <rdf:Description rdf:about="https://data.edd.ca.gov63">
-    <j.0:Footnote></j.0:Footnote>
-    <j.0:PercentofExpectedDeaths>0.75</j.0:PercentofExpectedDeaths>
-    <j.0:AllCovidDeaths>168</j.0:AllCovidDeaths>
-    <j.0:State>Ohio</j.0:State>
-    <j.0:AllInfluenzaDeaths>217</j.0:AllInfluenzaDeaths>
-    <j.0:DeathsFromAllCauses>24258</j.0:DeathsFromAllCauses>
-    <j.0:AllPneumoniaDeaths>1382</j.0:AllPneumoniaDeaths>
-    <j.0:DataAsOf>04/27/2020</j.0:DataAsOf>
-    <j.0:DeathsWithPneumoniaAndCovid>73</j.0:DeathsWithPneumoniaAndCovid>
-    <j.0:PneumoniaInfluenzaAndCovidDeaths></j.0:PneumoniaInfluenzaAndCovidDeaths>
-    <j.0:Group>By state</j.0:Group>
-    <j.0:Indicator>Ohio</j.0:Indicator>
-    <j.0:StartWeek>02/01/2020</j.0:StartWeek>
-    <j.0:EndWeek>04/25/2020</j.0:EndWeek>
+    <covidRdf:Footnote></covidRdf:Footnote>
+    <covidRdf:PercentofExpectedDeaths>0.75</covidRdf:PercentofExpectedDeaths>
+    <covidRdf:AllCovidDeaths>168</covidRdf:AllCovidDeaths>
+    <covidRdf:State>Ohio</covidRdf:State>
+    <covidRdf:AllInfluenzaDeaths>217</covidRdf:AllInfluenzaDeaths>
+    <covidRdf:DeathsFromAllCauses>24258</covidRdf:DeathsFromAllCauses>
+    <covidRdf:AllPneumoniaDeaths>1382</covidRdf:AllPneumoniaDeaths>
+    <covidRdf:DataAsOf>04/27/2020</covidRdf:DataAsOf>
+    <covidRdf:DeathsWithPneumoniaAndCovid>73</covidRdf:DeathsWithPneumoniaAndCovid>
+    <covidRdf:PneumoniaInfluenzaAndCovidDeaths></covidRdf:PneumoniaInfluenzaAndCovidDeaths>
+    <covidRdf:Group>By state</covidRdf:Group>
+    <covidRdf:Indicator>Ohio</covidRdf:Indicator>
+    <covidRdf:StartWeek>02/01/2020</covidRdf:StartWeek>
+    <covidRdf:EndWeek>04/25/2020</covidRdf:EndWeek>
   </rdf:Description>
 </rdf:RDF>
