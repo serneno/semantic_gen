@@ -1,4 +1,4 @@
-# CECS 571 Project 2 Semantic Generator
+# CECS 571 Project 2 + 3
 
 ## Contributors
 - Haydn Pang
@@ -8,6 +8,14 @@
 - Josue Crandall
 
 ## Run Instructions
+**Project 3**
+To run project 3, simply execute the "do.bat" batch script in the project_3 folder:
+
+```
+cd project_3
+do.bat
+```
+
 **Linux Environment**
 1. Run the bash script "semantic_gen.sh"
 
