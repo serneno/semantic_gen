@@ -34,7 +34,7 @@ public class Sparqler {
         try (QueryExecution queryExecution = QueryExecutionFactory.create(QueryFactory.create(Main.mQueryText), model)) {
             ResultSet results = queryExecution.execSelect();
             StringBuilder sb = new StringBuilder();
-            
+
             while(results.hasNext()) { sb.append(results.nextSolution().toString()).append("\n"); }
 
             Main.mResultText = "Results:\n\n"+sb.toString();

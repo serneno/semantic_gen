@@ -35,7 +35,7 @@ public class Main extends Application {
         mStage = stage;
         
         stage.getIcons().add(new Image(this.getClass().getResourceAsStream("icon.png")));
-        stage.setTitle("Team 4: Database query engine");
+        stage.setTitle("Team 4: Interesting Search Engine");
 
         goToScene(QUERY_SCENE);
     }
