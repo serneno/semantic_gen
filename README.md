@@ -8,6 +8,7 @@
 - Josue Crandall
 
 ## Run Instructions
+
 **Project 3**
 To run project 3, simply execute the "do.bat" batch script in the project_3 folder:
 
