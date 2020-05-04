@@ -1,6 +1,6 @@
 <rdf:RDF
     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-    xmlns:covidRdf="https://data.cdc.gov/d/hc4f-j6nb">
+    xmlns:covidRdf="https://data.cdc.gov/d/hc4f-j6nb&#xD;&#xA;">
   <rdf:Description rdf:about="https://data.edd.ca.gov29">
     <covidRdf:PercentofExpectedDeaths>0.95</covidRdf:PercentofExpectedDeaths>
     <covidRdf:PneumoniaInfluenzaAndCovidDeaths></covidRdf:PneumoniaInfluenzaAndCovidDeaths>
