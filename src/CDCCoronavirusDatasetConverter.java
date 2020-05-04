@@ -43,6 +43,9 @@ public class CDCCoronavirusDatasetConverter extends DatasetToRdfConverter {
 	private void buildRdfModel() {
 		model = ModelFactory.createDefaultModel();
 
+		// Sets the prefix
+		model.setNsPrefix("covidRdf", Constants.CDC_CORONAVIRUS_URI);
+		
 		for (int i = 0; i < getData().size(); i++) {
 			Property dataAsOf = model.createProperty(Constants.CDC_CORONAVIRUS_URI  + "DataAsOf");
 			Property group = model.createProperty(Constants.CDC_CORONAVIRUS_URI  + "Group");

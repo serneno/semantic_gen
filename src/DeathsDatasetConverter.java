@@ -1,6 +1,8 @@
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
+import java.util.Map;
+import java.util.HashMap;
 import java.net.URLEncoder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
@@ -15,6 +17,7 @@ import org.w3c.dom.Node;
 import org.w3c.dom.Element;
 
 import org.apache.jena.rdf.model.*;
+import org.apache.jena.sparql.function.library.substr;
 import org.apache.jena.vocabulary.*;
 
 /*
@@ -25,7 +28,7 @@ it into an RDF format.
 */
 public class DeathsDatasetConverter extends DatasetToRdfConverter {
     private Document doc;  // the document that is getting built for the output
-
+    private Map<String, String> states;
     public void parseInputFile(final String inputFile) {
         try {
             File inp = new File(inputFile);
@@ -44,6 +47,7 @@ public class DeathsDatasetConverter extends DatasetToRdfConverter {
 
     public void run () {
         parseInputFile(Constants.DEATHS_2016_DATASET_INPUT_PATH);
+        stateMap();
         buildRdfModel();
         outputToRdf(Constants.DEATHS_2016_DATASET_OUTPUT_PATH, "deaths");
      }
@@ -65,6 +69,8 @@ public class DeathsDatasetConverter extends DatasetToRdfConverter {
         Property piTot = model.createProperty(Constants.DEATHS_URI + "all_causes_by_age_years_p_i_total");
         Property loc = model.createProperty(Constants.DEATHS_URI + "location_1");
 
+        // Sets the prefix
+        model.setNsPrefix("noncovidDeaths", Constants.DEATHS_URI);
         // Gather each data piece, denoted by the xml attribute "row"
         NodeList dataList = doc.getElementsByTagName("row");
         
@@ -73,8 +79,20 @@ public class DeathsDatasetConverter extends DatasetToRdfConverter {
             
             if (node.getNodeType() == Node.ELEMENT_NODE && node.hasAttributes()) {
                 Element elem = (Element) node;
-                String cityAddr = elem.getAttribute("_address");
+                String cityputr = elem.getAttribute("_address");
                 String reportingArea = elem.getElementsByTagName("reporting_area").item(0).getTextContent();
+                String stateAbbr = reportingArea.substring(reportingArea.length() - 2); // Doesn't work for D.C.
+                if(states.containsKey(stateAbbr)) {
+                    reportingArea = states.get(stateAbbr);
+                }
+                // For D.C.
+                else if(stateAbbr.compareTo("C.") == 0){
+                    reportingArea = states.get("DC");
+                }
+                else {
+                    reportingArea = "";
+                }
+
                 String year = elem.getElementsByTagName("mmwr_year").item(0).getTextContent();
                 String week = elem.getElementsByTagName("mmwr_week").item(0).getTextContent();
                 String allAges = "";
@@ -117,7 +135,7 @@ public class DeathsDatasetConverter extends DatasetToRdfConverter {
                 }
 
                 // Creates the resource for each city along with the associated properties
-                Resource cityURI = model.createResource(cityAddr);
+                Resource cityURI = model.createResource(cityputr);
                 cityURI.addProperty(rArea, reportingArea);
                 cityURI.addProperty(mmwrYear, year);
                 cityURI.addProperty(mmwrWeek, week);
@@ -133,4 +151,59 @@ public class DeathsDatasetConverter extends DatasetToRdfConverter {
            }
     }
 
+    // Maps State Abbreviation to State Name
+    private void stateMap() {
+        states = new HashMap<String, String>();
+        states.put("AL", "Alabama");
+        states.put("AK", "Alaska");
+        states.put("AZ", "Arizona");
+        states.put("AR", "Arkansas");
+        states.put("CA", "California");
+        states.put("CO", "Colorado");
+        states.put("CT", "Connecticut");
+        states.put("DE", "Delaware");
+        states.put("DC", "District Of Columbia");
+        states.put("FL", "Florida");
+        states.put("GA", "Georgia");
+        states.put("HI", "Hawaii");
+        states.put("ID", "Idaho");
+        states.put("IL", "Illinois");
+        states.put("IN", "Indiana");
+        states.put("IA", "Iowa");
+        states.put("KS", "Kansas");
+        states.put("KY", "Kentucky");
+        states.put("LA", "Louisiana");
+        states.put("ME", "Maine");
+        states.put("MD", "Maryland");
+        states.put("MA", "Massachusetts");
+        states.put("MI", "Michigan");
+        states.put("MN", "Minnesota");
+        states.put("MS", "Mississippi");
+        states.put("MO", "Missouri");
+        states.put("MT", "Montana");
+        states.put("NE", "Nebraska");
+        states.put("NV", "Nevada");
+        states.put("NH", "New Hampshire");
+        states.put("NJ", "New Jersey");
+        states.put("NM", "New Mexico");
+        states.put("NY", "New York");
+        states.put("NC", "North Carolina");
+        states.put("ND", "North Dakota");
+        states.put("OH", "Ohio");
+        states.put("OK", "Oklahoma");
+        states.put("OR", "Oregon");
+        states.put("PA", "Pennsylvania");
+        states.put("RI", "Rhode Island");
+        states.put("SC", "South Carolina");
+        states.put("SD", "South Dakota");
+        states.put("TN", "Tennessee");
+        states.put("TX", "Texas");
+        states.put("UT", "Utah");
+        states.put("VT", "Vermont");
+        states.put("VA", "Virginia");
+        states.put("WA", "Washington");
+        states.put("WV", "West Virginia");
+        states.put("WI", "Wisconsin");
+        states.put("WY", "Wyoming");
+    }
 }
