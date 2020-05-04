@@ -48,4 +48,5 @@ java -cp "./jena_lib/*";bin; SemanticGen
 ```
 
 ## Dependencies
-Jena API (For creating RDF/OWL, located in the jena_lib folder)
+- Jena API (For creating RDF/OWL, located in the jena_lib folder)
+- Java 8 (to run the program)
